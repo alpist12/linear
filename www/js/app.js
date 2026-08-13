@@ -13,6 +13,9 @@
 
   var els = {};
 
+  var STAR_SVG =
+    '<svg viewBox="0 0 24 24" class="icon star-icon"><path d="M12 3.5l2.6 5.6 6.1.6-4.6 4.1 1.3 6-5.4-3.1-5.4 3.1 1.3-6-4.6-4.1 6.1-.6z"/></svg>';
+
   document.addEventListener("DOMContentLoaded", init);
 
   function init() {
@@ -37,7 +40,6 @@
     els.favToggleBtn.addEventListener("click", function () {
       state.showFavOnly = !state.showFavOnly;
       els.favToggleBtn.classList.toggle("active", state.showFavOnly);
-      els.favToggleBtn.textContent = state.showFavOnly ? "★" : "☆";
       render();
     });
 
@@ -155,12 +157,11 @@
 
     var favBtn = document.createElement("button");
     favBtn.className = "card-fav" + (isFav(c.id) ? " active" : "");
-    favBtn.textContent = isFav(c.id) ? "★" : "☆";
+    favBtn.innerHTML = STAR_SVG;
     favBtn.addEventListener("click", function (e) {
       e.stopPropagation();
       toggleFav(c.id);
       favBtn.classList.toggle("active");
-      favBtn.textContent = isFav(c.id) ? "★" : "☆";
       if (state.showFavOnly) render();
     });
 
@@ -215,11 +216,10 @@
 
     var favBtn = document.createElement("button");
     favBtn.className = "detail-fav-btn" + (isFav(c.id) ? " active" : "");
-    favBtn.textContent = isFav(c.id) ? "★" : "☆";
+    favBtn.innerHTML = STAR_SVG;
     favBtn.addEventListener("click", function () {
       toggleFav(c.id);
       favBtn.classList.toggle("active");
-      favBtn.textContent = isFav(c.id) ? "★" : "☆";
     });
 
     titleRow.appendChild(titleWrap);
