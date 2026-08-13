@@ -1,0 +1,758 @@
+[
+  {
+    "id": "mojito",
+    "name": "모히또",
+    "nameEn": "Mojito",
+    "category": "하이볼",
+    "base": "럼",
+    "glass": "하이볼 잔",
+    "abv": "10~13%",
+    "difficulty": "쉬움",
+    "emoji": "🍃",
+    "color": "#3fae6b",
+    "tags": ["상큼", "여름", "탄산"],
+    "ingredients": [
+      { "name": "화이트 럼", "amount": "45ml" },
+      { "name": "라임", "amount": "1/2개 (즙+웨지)" },
+      { "name": "설탕(또는 심플시럽)", "amount": "2티스푼" },
+      { "name": "민트 잎", "amount": "8~10장" },
+      { "name": "탄산수", "amount": "채우기" },
+      { "name": "각얼음", "amount": "적당량" }
+    ],
+    "instructions": [
+      "잔에 라임즙과 설탕, 민트 잎을 넣고 가볍게 으깨 향을 낸다.",
+      "각얼음을 채운다.",
+      "화이트 럼을 붓는다.",
+      "탄산수로 잔을 채우고 가볍게 저어준다.",
+      "민트와 라임 웨지로 장식한다."
+    ],
+    "garnish": "민트 스프리그, 라임 웨지"
+  },
+  {
+    "id": "margarita",
+    "name": "마가리타",
+    "nameEn": "Margarita",
+    "category": "사워",
+    "base": "데킬라",
+    "glass": "칵테일 잔",
+    "abv": "20~25%",
+    "difficulty": "쉬움",
+    "emoji": "🍋",
+    "color": "#e0c341",
+    "tags": ["새콤", "클래식"],
+    "ingredients": [
+      { "name": "테킬라", "amount": "45ml" },
+      { "name": "트리플 섹(오렌지 리큐르)", "amount": "20ml" },
+      { "name": "라임즙", "amount": "20ml" },
+      { "name": "소금", "amount": "잔 테두리용" }
+    ],
+    "instructions": [
+      "잔 테두리를 라임으로 적신 후 소금을 묻힌다.",
+      "쉐이커에 모든 재료와 얼음을 넣고 잘 흔든다.",
+      "잔에 얼음과 함께 따른다."
+    ],
+    "garnish": "라임 웨지"
+  },
+  {
+    "id": "old-fashioned",
+    "name": "올드 패션드",
+    "nameEn": "Old Fashioned",
+    "category": "클래식",
+    "base": "위스키",
+    "glass": "락 글라스",
+    "abv": "30~35%",
+    "difficulty": "보통",
+    "emoji": "🥃",
+    "color": "#b3651b",
+    "tags": ["묵직함", "위스키"],
+    "ingredients": [
+      { "name": "버번 위스키", "amount": "45ml" },
+      { "name": "각설탕", "amount": "1개" },
+      { "name": "앙고스투라 비터스", "amount": "2~3대시" },
+      { "name": "오렌지 필", "amount": "1조각" },
+      { "name": "큰 얼음", "amount": "1개" }
+    ],
+    "instructions": [
+      "잔에 각설탕을 넣고 비터스를 뿌려 적신다.",
+      "소량의 물과 함께 설탕을 으깨 녹인다.",
+      "큰 얼음을 넣고 위스키를 붓는다.",
+      "가볍게 저어준다.",
+      "오렌지 필을 짜서 향을 내고 장식한다."
+    ],
+    "garnish": "오렌지 필, 체리(선택)"
+  },
+  {
+    "id": "martini",
+    "name": "드라이 마티니",
+    "nameEn": "Dry Martini",
+    "category": "클래식",
+    "base": "진",
+    "glass": "마티니 잔",
+    "abv": "30% 이상",
+    "difficulty": "보통",
+    "emoji": "🫒",
+    "color": "#8fae5c",
+    "tags": ["드라이", "본드"],
+    "ingredients": [
+      { "name": "진", "amount": "60ml" },
+      { "name": "드라이 베르무트", "amount": "10ml" },
+      { "name": "올리브 또는 레몬 필", "amount": "장식용" }
+    ],
+    "instructions": [
+      "믹싱 글라스에 진, 베르무트, 얼음을 넣는다.",
+      "차가워질 때까지 잘 저어준다(스터).",
+      "칵테일 잔에 걸러 따른다.",
+      "올리브나 레몬 필로 장식한다."
+    ],
+    "garnish": "올리브 또는 레몬 필"
+  },
+  {
+    "id": "negroni",
+    "name": "네그로니",
+    "nameEn": "Negroni",
+    "category": "클래식",
+    "base": "진",
+    "glass": "락 글라스",
+    "abv": "24% 내외",
+    "difficulty": "쉬움",
+    "emoji": "🔴",
+    "color": "#c1382c",
+    "tags": ["쌉싸름", "이탈리안"],
+    "ingredients": [
+      { "name": "진", "amount": "30ml" },
+      { "name": "캄파리", "amount": "30ml" },
+      { "name": "스위트 베르무트", "amount": "30ml" }
+    ],
+    "instructions": [
+      "락 글라스에 얼음을 채운다.",
+      "세 가지 재료를 동량으로 붓는다.",
+      "가볍게 저어준다.",
+      "오렌지 필로 장식한다."
+    ],
+    "garnish": "오렌지 필"
+  },
+  {
+    "id": "daiquiri",
+    "name": "다이키리",
+    "nameEn": "Daiquiri",
+    "category": "사워",
+    "base": "럼",
+    "glass": "칵테일 잔",
+    "abv": "20% 내외",
+    "difficulty": "쉬움",
+    "emoji": "🍈",
+    "color": "#d9e35a",
+    "tags": ["상큼", "클래식"],
+    "ingredients": [
+      { "name": "화이트 럼", "amount": "45ml" },
+      { "name": "라임즙", "amount": "25ml" },
+      { "name": "심플시럽", "amount": "15ml" }
+    ],
+    "instructions": [
+      "쉐이커에 모든 재료와 얼음을 넣는다.",
+      "충분히 흔든다.",
+      "차갑게 칠링된 잔에 걸러 따른다."
+    ],
+    "garnish": "라임 휠(선택)"
+  },
+  {
+    "id": "whiskey-sour",
+    "name": "위스키 사워",
+    "nameEn": "Whiskey Sour",
+    "category": "사워",
+    "base": "위스키",
+    "glass": "락 글라스",
+    "abv": "20% 내외",
+    "difficulty": "보통",
+    "emoji": "🍊",
+    "color": "#e0983c",
+    "tags": ["새콤달콤"],
+    "ingredients": [
+      { "name": "버번 위스키", "amount": "45ml" },
+      { "name": "레몬즙", "amount": "25ml" },
+      { "name": "심플시럽", "amount": "20ml" },
+      { "name": "계란 흰자(선택)", "amount": "1개분" }
+    ],
+    "instructions": [
+      "모든 재료를 얼음 없이 먼저 쉐이커에 넣고 흔든다(드라이 쉐이크, 흰자 사용 시).",
+      "얼음을 넣고 다시 강하게 흔든다.",
+      "얼음과 함께 잔에 따른다.",
+      "비터스를 위에 몇 방울 떨어뜨려 장식(선택)."
+    ],
+    "garnish": "레몬 슬라이스, 체리"
+  },
+  {
+    "id": "cosmopolitan",
+    "name": "코스모폴리탄",
+    "nameEn": "Cosmopolitan",
+    "category": "사워",
+    "base": "보드카",
+    "glass": "칵테일 잔",
+    "abv": "20% 내외",
+    "difficulty": "쉬움",
+    "emoji": "🍓",
+    "color": "#d6417a",
+    "tags": ["핑크", "여성 취향"],
+    "ingredients": [
+      { "name": "보드카", "amount": "40ml" },
+      { "name": "트리플 섹", "amount": "15ml" },
+      { "name": "크랜베리 주스", "amount": "30ml" },
+      { "name": "라임즙", "amount": "15ml" }
+    ],
+    "instructions": [
+      "쉐이커에 모든 재료와 얼음을 넣는다.",
+      "충분히 흔든다.",
+      "칵테일 잔에 걸러 따른다."
+    ],
+    "garnish": "라임 필"
+  },
+  {
+    "id": "mai-tai",
+    "name": "마이타이",
+    "nameEn": "Mai Tai",
+    "category": "트로피컬",
+    "base": "럼",
+    "glass": "락 글라스",
+    "abv": "20% 내외",
+    "difficulty": "보통",
+    "emoji": "🌺",
+    "color": "#e0622a",
+    "tags": ["트로피컬", "여름"],
+    "ingredients": [
+      { "name": "다크 럼", "amount": "30ml" },
+      { "name": "화이트 럼", "amount": "30ml" },
+      { "name": "오렌지 큐라소", "amount": "15ml" },
+      { "name": "라임즙", "amount": "20ml" },
+      { "name": "오르자 시럽(아몬드 시럽)", "amount": "10ml" }
+    ],
+    "instructions": [
+      "쉐이커에 얼음과 모든 재료를 넣는다.",
+      "잘 흔든다.",
+      "크러시드 아이스를 채운 잔에 따른다.",
+      "민트와 라임으로 장식한다."
+    ],
+    "garnish": "민트, 라임 웨지"
+  },
+  {
+    "id": "pina-colada",
+    "name": "피나 콜라다",
+    "nameEn": "Piña Colada",
+    "category": "트로피컬",
+    "base": "럼",
+    "glass": "허리케인 잔",
+    "abv": "10~15%",
+    "difficulty": "보통",
+    "emoji": "🍍",
+    "color": "#e8d98a",
+    "tags": ["트로피컬", "달콤"],
+    "ingredients": [
+      { "name": "화이트 럼", "amount": "45ml" },
+      { "name": "코코넛 크림", "amount": "30ml" },
+      { "name": "파인애플 주스", "amount": "90ml" },
+      { "name": "크러시드 아이스", "amount": "1컵" }
+    ],
+    "instructions": [
+      "블렌더에 모든 재료와 얼음을 넣는다.",
+      "부드러워질 때까지 갈아준다.",
+      "허리케인 잔에 따른다."
+    ],
+    "garnish": "파인애플 조각, 체리"
+  },
+  {
+    "id": "manhattan",
+    "name": "맨해튼",
+    "nameEn": "Manhattan",
+    "category": "클래식",
+    "base": "위스키",
+    "glass": "칵테일 잔",
+    "abv": "30% 내외",
+    "difficulty": "보통",
+    "emoji": "🍒",
+    "color": "#8a2f2f",
+    "tags": ["클래식", "위스키"],
+    "ingredients": [
+      { "name": "라이 위스키", "amount": "50ml" },
+      { "name": "스위트 베르무트", "amount": "20ml" },
+      { "name": "앙고스투라 비터스", "amount": "2대시" }
+    ],
+    "instructions": [
+      "믹싱 글라스에 얼음과 모든 재료를 넣는다.",
+      "차갑게 저어준다.",
+      "칵테일 잔에 걸러 따른다.",
+      "체리로 장식한다."
+    ],
+    "garnish": "마라스키노 체리"
+  },
+  {
+    "id": "moscow-mule",
+    "name": "모스코 뮬",
+    "nameEn": "Moscow Mule",
+    "category": "하이볼",
+    "base": "보드카",
+    "glass": "구리 머그컵",
+    "abv": "10% 내외",
+    "difficulty": "쉬움",
+    "emoji": "🥭",
+    "color": "#c9a13b",
+    "tags": ["상큼", "탄산"],
+    "ingredients": [
+      { "name": "보드카", "amount": "45ml" },
+      { "name": "라임즙", "amount": "15ml" },
+      { "name": "진저비어", "amount": "채우기" }
+    ],
+    "instructions": [
+      "잔에 얼음을 채운다.",
+      "보드카와 라임즙을 넣는다.",
+      "진저비어로 채운다.",
+      "가볍게 저어준다."
+    ],
+    "garnish": "라임 웨지, 민트"
+  },
+  {
+    "id": "bloody-mary",
+    "name": "블러디 메리",
+    "nameEn": "Bloody Mary",
+    "category": "브런치",
+    "base": "보드카",
+    "glass": "하이볼 잔",
+    "abv": "10% 내외",
+    "difficulty": "보통",
+    "emoji": "🍅",
+    "color": "#b5372c",
+    "tags": ["브런치", "매콤"],
+    "ingredients": [
+      { "name": "보드카", "amount": "45ml" },
+      { "name": "토마토 주스", "amount": "90ml" },
+      { "name": "레몬즙", "amount": "10ml" },
+      { "name": "우스터소스", "amount": "2대시" },
+      { "name": "타바스코", "amount": "2대시" },
+      { "name": "소금, 후추", "amount": "약간" }
+    ],
+    "instructions": [
+      "잔에 얼음을 채운다.",
+      "모든 재료를 넣고 스푼으로 젓는다.",
+      "간을 맞춘다."
+    ],
+    "garnish": "셀러리 스틱, 레몬"
+  },
+  {
+    "id": "gin-tonic",
+    "name": "진토닉",
+    "nameEn": "Gin & Tonic",
+    "category": "하이볼",
+    "base": "진",
+    "glass": "하이볼 잔",
+    "abv": "8~10%",
+    "difficulty": "쉬움",
+    "emoji": "🍏",
+    "color": "#7fbf6a",
+    "tags": ["가벼움", "탄산"],
+    "ingredients": [
+      { "name": "진", "amount": "45ml" },
+      { "name": "토닉워터", "amount": "채우기" },
+      { "name": "라임", "amount": "1조각" }
+    ],
+    "instructions": [
+      "잔에 얼음을 가득 채운다.",
+      "진을 붓는다.",
+      "토닉워터로 채우고 가볍게 젓는다.",
+      "라임을 짜서 넣는다."
+    ],
+    "garnish": "라임 웨지"
+  },
+  {
+    "id": "long-island",
+    "name": "롱아일랜드 아이스티",
+    "nameEn": "Long Island Iced Tea",
+    "category": "하이볼",
+    "base": "혼합",
+    "glass": "하이볼 잔",
+    "abv": "22% 내외",
+    "difficulty": "보통",
+    "emoji": "🥤",
+    "color": "#a9782f",
+    "tags": ["도수 높음", "파티"],
+    "ingredients": [
+      { "name": "보드카", "amount": "15ml" },
+      { "name": "진", "amount": "15ml" },
+      { "name": "화이트 럼", "amount": "15ml" },
+      { "name": "테킬라", "amount": "15ml" },
+      { "name": "트리플 섹", "amount": "15ml" },
+      { "name": "레몬즙", "amount": "25ml" },
+      { "name": "콜라", "amount": "채우기" }
+    ],
+    "instructions": [
+      "잔에 얼음을 채운다.",
+      "콜라를 제외한 모든 재료를 넣는다.",
+      "콜라로 채우고 가볍게 젓는다.",
+      "레몬 슬라이스로 장식한다."
+    ],
+    "garnish": "레몬 슬라이스"
+  },
+  {
+    "id": "espresso-martini",
+    "name": "에스프레소 마티니",
+    "nameEn": "Espresso Martini",
+    "category": "애프터디너",
+    "base": "보드카",
+    "glass": "칵테일 잔",
+    "abv": "15% 내외",
+    "difficulty": "보통",
+    "emoji": "☕",
+    "color": "#4a2c1d",
+    "tags": ["커피", "달콤"],
+    "ingredients": [
+      { "name": "보드카", "amount": "40ml" },
+      { "name": "커피 리큐르(칼루아)", "amount": "20ml" },
+      { "name": "에스프레소", "amount": "30ml" },
+      { "name": "심플시럽", "amount": "10ml" }
+    ],
+    "instructions": [
+      "쉐이커에 모든 재료와 얼음을 넣는다.",
+      "거품이 풍성하게 나도록 강하게 흔든다.",
+      "칵테일 잔에 걸러 따른다."
+    ],
+    "garnish": "커피콩 3알"
+  },
+  {
+    "id": "pisco-sour",
+    "name": "피스코 사워",
+    "nameEn": "Pisco Sour",
+    "category": "사워",
+    "base": "브랜디",
+    "glass": "칵테일 잔",
+    "abv": "20% 내외",
+    "difficulty": "보통",
+    "emoji": "🥚",
+    "color": "#e8dca0",
+    "tags": ["새콤", "남미"],
+    "ingredients": [
+      { "name": "피스코", "amount": "45ml" },
+      { "name": "라임즙", "amount": "25ml" },
+      { "name": "심플시럽", "amount": "20ml" },
+      { "name": "계란 흰자", "amount": "1개분" },
+      { "name": "앙고스투라 비터스", "amount": "장식용" }
+    ],
+    "instructions": [
+      "쉐이커에 얼음 없이 모든 재료를 넣고 먼저 흔든다.",
+      "얼음을 넣고 다시 강하게 흔든다.",
+      "잔에 걸러 따른다.",
+      "비터스를 위에 몇 방울 떨어뜨린다."
+    ],
+    "garnish": "비터스 몇 방울"
+  },
+  {
+    "id": "aperol-spritz",
+    "name": "아페롤 스프리츠",
+    "nameEn": "Aperol Spritz",
+    "category": "하이볼",
+    "base": "리큐르",
+    "glass": "와인 잔",
+    "abv": "11% 내외",
+    "difficulty": "쉬움",
+    "emoji": "🍊",
+    "color": "#f08a3c",
+    "tags": ["여름", "가벼움"],
+    "ingredients": [
+      { "name": "아페롤", "amount": "60ml" },
+      { "name": "스파클링 와인(프로세코)", "amount": "90ml" },
+      { "name": "소다수", "amount": "30ml" }
+    ],
+    "instructions": [
+      "와인 잔에 얼음을 채운다.",
+      "아페롤을 붓는다.",
+      "프로세코를 넣는다.",
+      "소다수로 마무리한다.",
+      "가볍게 저어준다."
+    ],
+    "garnish": "오렌지 슬라이스"
+  },
+  {
+    "id": "tequila-sunrise",
+    "name": "테킬라 선라이즈",
+    "nameEn": "Tequila Sunrise",
+    "category": "트로피컬",
+    "base": "데킬라",
+    "glass": "하이볼 잔",
+    "abv": "12% 내외",
+    "difficulty": "쉬움",
+    "emoji": "🌅",
+    "color": "#e0632a",
+    "tags": ["일출", "그라데이션"],
+    "ingredients": [
+      { "name": "테킬라", "amount": "45ml" },
+      { "name": "오렌지 주스", "amount": "채우기" },
+      { "name": "그레나딘 시럽", "amount": "15ml" }
+    ],
+    "instructions": [
+      "잔에 얼음을 채우고 테킬라를 붓는다.",
+      "오렌지 주스로 채운다.",
+      "그레나딘 시럽을 천천히 가라앉히듯 부어 그라데이션을 만든다."
+    ],
+    "garnish": "오렌지 슬라이스, 체리"
+  },
+  {
+    "id": "kir-royale",
+    "name": "키르 로얄",
+    "nameEn": "Kir Royale",
+    "category": "애프터디너",
+    "base": "스파클링 와인",
+    "glass": "샴페인 잔",
+    "abv": "12% 내외",
+    "difficulty": "쉬움",
+    "emoji": "🍇",
+    "color": "#7a2a4a",
+    "tags": ["우아함", "축하"],
+    "ingredients": [
+      { "name": "크렘 드 카시스", "amount": "15ml" },
+      { "name": "스파클링 와인", "amount": "채우기" }
+    ],
+    "instructions": [
+      "샴페인 잔에 크렘 드 카시스를 따른다.",
+      "차가운 스파클링 와인으로 천천히 채운다."
+    ],
+    "garnish": "없음"
+  },
+  {
+    "id": "paloma",
+    "name": "팔로마",
+    "nameEn": "Paloma",
+    "category": "하이볼",
+    "base": "데킬라",
+    "glass": "하이볼 잔",
+    "abv": "10% 내외",
+    "difficulty": "쉬움",
+    "emoji": "🍑",
+    "color": "#e97b7b",
+    "tags": ["상큼", "여름"],
+    "ingredients": [
+      { "name": "테킬라", "amount": "45ml" },
+      { "name": "자몽 소다(또는 자몽주스+탄산수)", "amount": "채우기" },
+      { "name": "라임즙", "amount": "15ml" },
+      { "name": "소금", "amount": "잔 테두리용" }
+    ],
+    "instructions": [
+      "잔 테두리에 소금을 묻힌다.",
+      "얼음을 채우고 테킬라와 라임즙을 넣는다.",
+      "자몽 소다로 채워 가볍게 젓는다."
+    ],
+    "garnish": "라임 웨지"
+  },
+  {
+    "id": "french-75",
+    "name": "프렌치 75",
+    "nameEn": "French 75",
+    "category": "애프터디너",
+    "base": "진",
+    "glass": "샴페인 잔",
+    "abv": "15% 내외",
+    "difficulty": "보통",
+    "emoji": "🥂",
+    "color": "#e8c94a",
+    "tags": ["축하", "우아함"],
+    "ingredients": [
+      { "name": "진", "amount": "30ml" },
+      { "name": "레몬즙", "amount": "15ml" },
+      { "name": "심플시럽", "amount": "10ml" },
+      { "name": "스파클링 와인", "amount": "채우기" }
+    ],
+    "instructions": [
+      "쉐이커에 진, 레몬즙, 시럽, 얼음을 넣고 흔든다.",
+      "샴페인 잔에 걸러 따른다.",
+      "스파클링 와인으로 채운다."
+    ],
+    "garnish": "레몬 트위스트"
+  },
+  {
+    "id": "dark-and-stormy",
+    "name": "다크 앤 스토미",
+    "nameEn": "Dark 'n' Stormy",
+    "category": "하이볼",
+    "base": "럼",
+    "glass": "하이볼 잔",
+    "abv": "10% 내외",
+    "difficulty": "쉬움",
+    "emoji": "⛈️",
+    "color": "#5a3a1f",
+    "tags": ["진저", "탄산"],
+    "ingredients": [
+      { "name": "다크 럼", "amount": "45ml" },
+      { "name": "진저비어", "amount": "채우기" },
+      { "name": "라임즙", "amount": "10ml" }
+    ],
+    "instructions": [
+      "잔에 얼음을 채우고 진저비어와 라임즙을 넣는다.",
+      "다크 럼을 위에 층지게 붓는다.",
+      "가볍게 저어 마무리한다."
+    ],
+    "garnish": "라임 웨지"
+  },
+  {
+    "id": "screwdriver",
+    "name": "스크류드라이버",
+    "nameEn": "Screwdriver",
+    "category": "브런치",
+    "base": "보드카",
+    "glass": "하이볼 잔",
+    "abv": "10% 내외",
+    "difficulty": "쉬움",
+    "emoji": "🍊",
+    "color": "#e8952e",
+    "tags": ["심플", "브런치"],
+    "ingredients": [
+      { "name": "보드카", "amount": "45ml" },
+      { "name": "오렌지 주스", "amount": "채우기" }
+    ],
+    "instructions": [
+      "잔에 얼음을 채운다.",
+      "보드카를 붓는다.",
+      "오렌지 주스로 채우고 젓는다."
+    ],
+    "garnish": "오렌지 슬라이스"
+  },
+  {
+    "id": "caipirinha",
+    "name": "카이피리냐",
+    "nameEn": "Caipirinha",
+    "category": "사워",
+    "base": "카샤사",
+    "glass": "락 글라스",
+    "abv": "20% 내외",
+    "difficulty": "쉬움",
+    "emoji": "🟢",
+    "color": "#a8d13a",
+    "tags": ["브라질", "상큼"],
+    "ingredients": [
+      { "name": "카샤사", "amount": "60ml" },
+      { "name": "라임", "amount": "1개 (조각)" },
+      { "name": "설탕", "amount": "2티스푼" }
+    ],
+    "instructions": [
+      "잔에 라임 조각과 설탕을 넣고 으깬다.",
+      "크러시드 아이스를 채운다.",
+      "카샤사를 붓고 잘 저어준다."
+    ],
+    "garnish": "라임 조각"
+  },
+  {
+    "id": "white-russian",
+    "name": "화이트 러시안",
+    "nameEn": "White Russian",
+    "category": "애프터디너",
+    "base": "보드카",
+    "glass": "락 글라스",
+    "abv": "15% 내외",
+    "difficulty": "쉬움",
+    "emoji": "🥛",
+    "color": "#d8c3a0",
+    "tags": ["크리미", "달콤"],
+    "ingredients": [
+      { "name": "보드카", "amount": "45ml" },
+      { "name": "커피 리큐르(칼루아)", "amount": "20ml" },
+      { "name": "생크림(또는 우유)", "amount": "30ml" }
+    ],
+    "instructions": [
+      "잔에 얼음을 채운다.",
+      "보드카와 커피 리큐르를 넣고 젓는다.",
+      "생크림을 위에 살며시 부어 층을 만든다."
+    ],
+    "garnish": "없음"
+  },
+  {
+    "id": "sidecar",
+    "name": "사이드카",
+    "nameEn": "Sidecar",
+    "category": "클래식",
+    "base": "브랜디",
+    "glass": "칵테일 잔",
+    "abv": "25% 내외",
+    "difficulty": "보통",
+    "emoji": "🟠",
+    "color": "#c46a2a",
+    "tags": ["클래식", "브랜디"],
+    "ingredients": [
+      { "name": "코냑", "amount": "40ml" },
+      { "name": "트리플 섹", "amount": "20ml" },
+      { "name": "레몬즙", "amount": "20ml" }
+    ],
+    "instructions": [
+      "잔 테두리에 설탕을 묻힌다(선택).",
+      "쉐이커에 모든 재료와 얼음을 넣고 흔든다.",
+      "잔에 걸러 따른다."
+    ],
+    "garnish": "레몬 트위스트"
+  },
+  {
+    "id": "bellini",
+    "name": "벨리니",
+    "nameEn": "Bellini",
+    "category": "브런치",
+    "base": "스파클링 와인",
+    "glass": "샴페인 잔",
+    "abv": "10% 내외",
+    "difficulty": "쉬움",
+    "emoji": "🍑",
+    "color": "#f0b98a",
+    "tags": ["브런치", "복숭아"],
+    "ingredients": [
+      { "name": "복숭아 퓨레", "amount": "30ml" },
+      { "name": "프로세코", "amount": "채우기" }
+    ],
+    "instructions": [
+      "샴페인 잔에 복숭아 퓨레를 넣는다.",
+      "차가운 프로세코로 천천히 채운다.",
+      "가볍게 저어준다."
+    ],
+    "garnish": "없음"
+  },
+  {
+    "id": "virgin-mojito",
+    "name": "버진 모히또",
+    "nameEn": "Virgin Mojito",
+    "category": "무알콜",
+    "base": "무알콜",
+    "glass": "하이볼 잔",
+    "abv": "0%",
+    "difficulty": "쉬움",
+    "emoji": "🌿",
+    "color": "#4cae5c",
+    "tags": ["무알콜", "여름"],
+    "ingredients": [
+      { "name": "라임", "amount": "1/2개" },
+      { "name": "설탕(또는 심플시럽)", "amount": "2티스푼" },
+      { "name": "민트 잎", "amount": "8~10장" },
+      { "name": "탄산수", "amount": "채우기" }
+    ],
+    "instructions": [
+      "잔에 라임즙, 설탕, 민트를 넣고 으깬다.",
+      "얼음을 채운다.",
+      "탄산수로 채우고 저어준다."
+    ],
+    "garnish": "민트, 라임 웨지"
+  },
+  {
+    "id": "shirley-temple",
+    "name": "셜리 템플",
+    "nameEn": "Shirley Temple",
+    "category": "무알콜",
+    "base": "무알콜",
+    "glass": "하이볼 잔",
+    "abv": "0%",
+    "difficulty": "쉬움",
+    "emoji": "🍒",
+    "color": "#e0455a",
+    "tags": ["무알콜", "달콤"],
+    "ingredients": [
+      { "name": "진저에일", "amount": "채우기" },
+      { "name": "그레나딘 시럽", "amount": "15ml" },
+      { "name": "체리", "amount": "1~2개" }
+    ],
+    "instructions": [
+      "잔에 얼음을 채운다.",
+      "그레나딘 시럽을 넣는다.",
+      "진저에일로 채우고 가볍게 젓는다.",
+      "체리로 장식한다."
+    ],
+    "garnish": "마라스키노 체리"
+  }
+]

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">칵테일 레시피</string>
+    <string name="title_activity_main">칵테일 레시피</string>
+    <string name="package_name">com.alpist.cocktailrecipes</string>
+    <string name="custom_url_scheme">com.alpist.cocktailrecipes</string>
+</resources>

@@ -1,0 +1,9 @@
+{
+  "appId": "com.alpist.cocktailrecipes",
+  "appName": "칵테일 레시피",
+  "webDir": "www",
+  "backgroundColor": "#121016",
+  "android": {
+    "backgroundColor": "#121016"
+  }
+}
