@@ -14,7 +14,7 @@
   var els = {};
 
   var STAR_SVG =
-    '<svg viewBox="0 0 24 24" class="icon star-icon"><path d="M12 3.5l2.6 5.6 6.1.6-4.6 4.1 1.3 6-5.4-3.1-5.4 3.1 1.3-6-4.6-4.1 6.1-.6z"/></svg>';
+    '<svg viewBox="0 0 24 24" class="icon star-icon"><path d="M12 3.4l2.47 5.32 5.86.57-4.4 3.9 1.24 5.74-5.17-2.98-5.17 2.98 1.24-5.74-4.4-3.9 5.86-.57z"/></svg>';
 
   document.addEventListener("DOMContentLoaded", init);
 
@@ -144,19 +144,38 @@
     els.emptyState.classList.toggle("hidden", list.length > 0);
 
     list.forEach(function (c) {
-      els.cardGrid.appendChild(renderCard(c));
+      els.cardGrid.appendChild(renderRow(c));
     });
   }
 
-  function renderCard(c) {
-    var card = document.createElement("div");
-    card.className = "cocktail-card";
-    card.addEventListener("click", function () {
+  function renderRow(c) {
+    var row = document.createElement("div");
+    row.className = "cocktail-row";
+    row.addEventListener("click", function () {
       showDetail(c);
     });
 
+    var thumb = document.createElement("div");
+    thumb.className = "row-thumb";
+    thumb.style.background = softenColor(c.color);
+    thumb.textContent = c.emoji;
+
+    var info = document.createElement("div");
+    info.className = "row-info";
+
+    var name = document.createElement("div");
+    name.className = "row-name";
+    name.textContent = c.name;
+
+    var sub = document.createElement("div");
+    sub.className = "row-sub";
+    sub.textContent = c.base + " · " + c.category;
+
+    info.appendChild(name);
+    info.appendChild(sub);
+
     var favBtn = document.createElement("button");
-    favBtn.className = "card-fav" + (isFav(c.id) ? " active" : "");
+    favBtn.className = "row-fav" + (isFav(c.id) ? " active" : "");
     favBtn.innerHTML = STAR_SVG;
     favBtn.addEventListener("click", function (e) {
       e.stopPropagation();
@@ -165,28 +184,14 @@
       if (state.showFavOnly) render();
     });
 
-    var emojiWrap = document.createElement("div");
-    emojiWrap.className = "card-emoji-wrap";
-    emojiWrap.style.background = softenColor(c.color);
-    emojiWrap.textContent = c.emoji;
-
-    var name = document.createElement("div");
-    name.className = "card-name";
-    name.textContent = c.name;
-
-    var sub = document.createElement("div");
-    sub.className = "card-sub";
-    sub.textContent = c.base + " · " + c.category;
-
-    card.appendChild(favBtn);
-    card.appendChild(emojiWrap);
-    card.appendChild(name);
-    card.appendChild(sub);
-    return card;
+    row.appendChild(thumb);
+    row.appendChild(info);
+    row.appendChild(favBtn);
+    return row;
   }
 
   function softenColor(hex) {
-    return "linear-gradient(135deg," + hex + "33," + hex + "18)";
+    return "linear-gradient(135deg," + hex + "40," + hex + "10)";
   }
 
   function showDetail(c) {
@@ -199,7 +204,10 @@
     var hero = document.createElement("div");
     hero.className = "detail-hero";
     hero.style.background = softenColor(c.color);
-    hero.textContent = c.emoji;
+    var heroEmoji = document.createElement("span");
+    heroEmoji.className = "hero-emoji";
+    heroEmoji.textContent = c.emoji;
+    hero.appendChild(heroEmoji);
     els.detailContent.appendChild(hero);
 
     var titleRow = document.createElement("div");
@@ -226,17 +234,20 @@
     titleRow.appendChild(favBtn);
     els.detailContent.appendChild(titleRow);
 
-    var badgeRow = document.createElement("div");
-    badgeRow.className = "badge-row";
+    var metaLine = document.createElement("p");
+    metaLine.className = "meta-line";
     [c.category, c.glass, "도수 " + c.abv, "난이도 " + c.difficulty].forEach(
-      function (t) {
-        var b = document.createElement("span");
-        b.className = "badge";
-        b.textContent = t;
-        badgeRow.appendChild(b);
+      function (t, i) {
+        if (i > 0) {
+          var dot = document.createElement("span");
+          dot.className = "dot";
+          dot.textContent = "·";
+          metaLine.appendChild(dot);
+        }
+        metaLine.appendChild(document.createTextNode(t));
       }
     );
-    els.detailContent.appendChild(badgeRow);
+    els.detailContent.appendChild(metaLine);
 
     var ingTitle = document.createElement("div");
     ingTitle.className = "section-title";
@@ -248,10 +259,15 @@
     c.ingredients.forEach(function (ing) {
       var li = document.createElement("li");
       var n = document.createElement("span");
+      n.className = "ing-name";
       n.textContent = ing.name;
+      var leader = document.createElement("span");
+      leader.className = "leader";
       var a = document.createElement("span");
+      a.className = "ing-amount";
       a.textContent = ing.amount;
       li.appendChild(n);
+      li.appendChild(leader);
       li.appendChild(a);
       ingList.appendChild(li);
     });
@@ -264,10 +280,14 @@
 
     var stepList = document.createElement("ol");
     stepList.className = "step-list";
-    c.instructions.forEach(function (step) {
+    c.instructions.forEach(function (step, idx) {
       var li = document.createElement("li");
+      var num = document.createElement("span");
+      num.className = "step-num";
+      num.textContent = toRoman(idx + 1) + ".";
       var span = document.createElement("span");
       span.textContent = step;
+      li.appendChild(num);
       li.appendChild(span);
       stepList.appendChild(li);
     });
@@ -276,11 +296,25 @@
     if (c.garnish) {
       var garnish = document.createElement("div");
       garnish.className = "garnish-box";
-      garnish.innerHTML = "<b>가니시</b> · " + c.garnish;
+      garnish.innerHTML = "<b>가니시</b>" + c.garnish;
       els.detailContent.appendChild(garnish);
     }
 
     els.detailView.scrollTop = 0;
+  }
+
+  function toRoman(num) {
+    var map = [
+      [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"],
+    ];
+    var result = "";
+    map.forEach(function (pair) {
+      while (num >= pair[0]) {
+        result += pair[1];
+        num -= pair[0];
+      }
+    });
+    return result;
   }
 
   function showList() {
