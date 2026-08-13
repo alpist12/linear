@@ -155,10 +155,14 @@
       showDetail(c);
     });
 
+    var tab = document.createElement("span");
+    tab.className = "row-tab";
+    tab.style.background = c.color;
+
     var thumb = document.createElement("div");
     thumb.className = "row-thumb";
-    thumb.style.background = softenColor(c.color);
-    thumb.textContent = c.emoji;
+    thumb.style.background = glowBg(c.color, "38% 32%", "72%");
+    thumb.innerHTML = GlassIcons.build(c.glass, c.color);
 
     var info = document.createElement("div");
     info.className = "row-info";
@@ -184,14 +188,11 @@
       if (state.showFavOnly) render();
     });
 
+    row.appendChild(tab);
     row.appendChild(thumb);
     row.appendChild(info);
     row.appendChild(favBtn);
     return row;
-  }
-
-  function softenColor(hex) {
-    return "linear-gradient(135deg," + hex + "40," + hex + "10)";
   }
 
   function showDetail(c) {
@@ -203,11 +204,11 @@
 
     var hero = document.createElement("div");
     hero.className = "detail-hero";
-    hero.style.background = softenColor(c.color);
-    var heroEmoji = document.createElement("span");
-    heroEmoji.className = "hero-emoji";
-    heroEmoji.textContent = c.emoji;
-    hero.appendChild(heroEmoji);
+    hero.style.background = glowBg(c.color, "50% 40%", "75%");
+    var heroGlass = document.createElement("div");
+    heroGlass.className = "hero-glass";
+    heroGlass.innerHTML = GlassIcons.build(c.glass, c.color);
+    hero.appendChild(heroGlass);
     els.detailContent.appendChild(hero);
 
     var titleRow = document.createElement("div");
@@ -301,6 +302,18 @@
     }
 
     els.detailView.scrollTop = 0;
+  }
+
+  function glowBg(hex, pos, stop) {
+    return (
+      "radial-gradient(circle at " +
+      pos +
+      "," +
+      hex +
+      "45 0%, var(--panel) " +
+      stop +
+      ")"
+    );
   }
 
   function toRoman(num) {
