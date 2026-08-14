@@ -3,39 +3,48 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-  <meta name="theme-color" content="#f2f2f7" />
+  <meta name="theme-color" content="#fbf5ef" />
   <title>칵테일 레시피</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <div id="app">
-    <div class="nav-bar" id="navBar">
-      <span class="nav-compact-title" id="navCompactTitle">칵테일 레시피</span>
-      <button id="favToggleBtn" class="icon-btn" aria-label="즐겨찾기 보기">
-        <svg viewBox="0 0 24 24" class="icon star-icon"><path d="M12 3.4l2.47 5.32 5.86.57-4.4 3.9 1.24 5.74-5.17-2.98-5.17 2.98 1.24-5.74-4.4-3.9 5.86-.57z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
-      </button>
+    <div id="splash" class="splash">
+      <div class="splash-glass">
+        <svg viewBox="0 0 32 46" class="glass-icon"><path d="M6 9 L16 25 L26 9 M16 25 L16 38 M9.5 40.5 L22.5 40.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 9 L26 9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M10.4 13.2 L21.6 13.2 L16 21.5 Z" fill="currentColor" opacity="0.9"/></svg>
+      </div>
+      <p class="splash-title">칵테일 레시피</p>
     </div>
 
-    <main id="listView" class="scroll-area">
-      <div class="large-title-block">
-        <p class="eyebrow">RECIPES</p>
-        <h1>칵테일 레시피</h1>
+    <div id="listScreen" class="view-layer">
+      <div class="nav-bar" id="navBar">
+        <span class="nav-compact-title" id="navCompactTitle">칵테일 레시피</span>
+        <button id="favToggleBtn" class="icon-btn" aria-label="즐겨찾기 보기">
+          <svg viewBox="0 0 24 24" class="icon star-icon"><path d="M12 3.4l2.47 5.32 5.86.57-4.4 3.9 1.24 5.74-5.17-2.98-5.17 2.98 1.24-5.74-4.4-3.9 5.86-.57z"/></svg>
+        </button>
       </div>
 
-      <div class="search-bar" id="searchBar">
-        <svg viewBox="0 0 24 24" class="icon search-icon"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0A4.5 4.5 0 1114 9.5 4.5 4.5 0 019.5 14z"/></svg>
-        <input type="search" id="searchInput" placeholder="칵테일 또는 재료 검색" autocomplete="off" />
-        <button id="cancelSearchBtn" class="cancel-btn">취소</button>
-      </div>
+      <main id="listView" class="scroll-area">
+        <div class="large-title-block">
+          <p class="eyebrow">RECIPES</p>
+          <h1>칵테일 레시피</h1>
+        </div>
 
-      <div class="filter-row" id="baseFilters"></div>
+        <div class="search-bar" id="searchBar">
+          <svg viewBox="0 0 24 24" class="icon search-icon"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0A4.5 4.5 0 1114 9.5 4.5 4.5 0 019.5 14z"/></svg>
+          <input type="search" id="searchInput" placeholder="칵테일 또는 재료 검색" autocomplete="off" />
+          <button id="cancelSearchBtn" class="cancel-btn">취소</button>
+        </div>
 
-      <div class="section-header">모든 레시피</div>
-      <div id="cardGrid" class="grouped-list"></div>
-      <p id="emptyState" class="empty-state hidden">일치하는 레시피가 없습니다</p>
-    </main>
+        <div class="filter-row" id="baseFilters"></div>
 
-    <section id="detailView" class="detail-view hidden">
+        <div class="section-header">모든 레시피</div>
+        <div id="cardGrid" class="grouped-list"></div>
+        <p id="emptyState" class="empty-state hidden">일치하는 레시피가 없습니다</p>
+      </main>
+    </div>
+
+    <section id="detailView" class="view-layer detail-view hidden">
       <div class="nav-bar detail-nav-bar" id="detailNavBar">
         <button id="backBtn" class="back-btn">
           <svg viewBox="0 0 24 24" class="icon chevron-icon"><path d="M15.5 4.5l-7 7.5 7 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -43,7 +52,7 @@
         </button>
         <span class="nav-compact-title" id="detailCompactTitle"></span>
         <button id="detailFavBtn" class="icon-btn" aria-label="즐겨찾기">
-          <svg viewBox="0 0 24 24" class="icon star-icon"><path d="M12 3.4l2.47 5.32 5.86.57-4.4 3.9 1.24 5.74-5.17-2.98-5.17 2.98 1.24-5.74-4.4-3.9 5.86-.57z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+          <svg viewBox="0 0 24 24" class="icon star-icon"><path d="M12 3.4l2.47 5.32 5.86.57-4.4 3.9 1.24 5.74-5.17-2.98-5.17 2.98 1.24-5.74-4.4-3.9 5.86-.57z"/></svg>
         </button>
       </div>
       <div id="detailScroll" class="scroll-area">

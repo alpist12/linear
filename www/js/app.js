@@ -34,15 +34,24 @@
     "브랜디": "#ffd60a",
   };
 
-  var BLUE = "#007aff";
+  var ACCENT = "#ff5a45";
 
   function colorFor(c) {
-    return APPLE_BASE[c.base] || BLUE;
+    return APPLE_BASE[c.base] || ACCENT;
+  }
+
+  function bounce(el) {
+    el.classList.remove("pop");
+    void el.offsetWidth;
+    el.classList.add("pop");
   }
 
   document.addEventListener("DOMContentLoaded", init);
 
   function init() {
+    var startTime = Date.now();
+    els.splash = document.getElementById("splash");
+    els.listScreen = document.getElementById("listScreen");
     els.cardGrid = document.getElementById("cardGrid");
     els.emptyState = document.getElementById("emptyState");
     els.searchInput = document.getElementById("searchInput");
@@ -110,6 +119,13 @@
         els.cardGrid.innerHTML =
           '<p class="empty-state">데이터를 불러오지 못했습니다.</p>';
         console.error(err);
+      })
+      .then(function () {
+        var elapsed = Date.now() - startTime;
+        var wait = Math.max(0, 550 - elapsed);
+        setTimeout(function () {
+          els.splash.classList.add("hide");
+        }, wait);
       });
   }
 
@@ -152,7 +168,7 @@
 
     els.baseFilters.innerHTML = "";
     bases.forEach(function (base) {
-      var color = base === "전체" ? BLUE : APPLE_BASE[base];
+      var color = base === "전체" ? ACCENT : APPLE_BASE[base];
       var chip = document.createElement("button");
       chip.className = "chip" + (base === state.baseFilter ? " active" : "");
       chip.dataset.base = base;
@@ -166,7 +182,7 @@
           function (el) {
             var active = el.dataset.base === base;
             el.classList.toggle("active", active);
-            var c = el.dataset.base === "전체" ? BLUE : APPLE_BASE[el.dataset.base];
+            var c = el.dataset.base === "전체" ? ACCENT : APPLE_BASE[el.dataset.base];
             el.style.background = active ? c : "";
           }
         );
@@ -244,6 +260,7 @@
       e.stopPropagation();
       toggleFav(c.id);
       favBtn.classList.toggle("active");
+      bounce(favBtn);
       if (state.showFavOnly) render();
     });
 
@@ -259,9 +276,6 @@
   }
 
   function showDetail(c) {
-    els.listView.classList.add("hidden");
-    els.navBar.classList.add("hidden");
-    els.detailView.classList.remove("hidden");
     els.detailContent.innerHTML = "";
     els.detailScroll.scrollTop = 0;
     els.detailNavBar.classList.remove("scrolled");
@@ -276,6 +290,7 @@
     els.detailFavBtn.onclick = function () {
       toggleFav(c.id);
       syncFav();
+      bounce(els.detailFavBtn);
     };
 
     var hero = document.createElement("div");
@@ -388,12 +403,25 @@
       garnishList.appendChild(gRow);
       els.detailContent.appendChild(garnishList);
     }
+
+    els.detailView.classList.remove("hidden");
+    void els.detailView.offsetWidth;
+    requestAnimationFrame(function () {
+      els.detailView.classList.add("show");
+      els.listScreen.classList.add("behind");
+    });
   }
 
   function showList() {
-    els.detailView.classList.add("hidden");
-    els.navBar.classList.remove("hidden");
-    els.listView.classList.remove("hidden");
+    els.detailView.classList.remove("show");
+    els.listScreen.classList.remove("behind");
+    var onEnd = function (e) {
+      if (e.target === els.detailView && e.propertyName === "transform") {
+        els.detailView.classList.add("hidden");
+        els.detailView.removeEventListener("transitionend", onEnd);
+      }
+    };
+    els.detailView.addEventListener("transitionend", onEnd);
     render();
   }
 })();
