@@ -16,6 +16,24 @@
   var STAR_SVG =
     '<svg viewBox="0 0 24 24" class="icon star-icon"><path d="M12 3.4l2.47 5.32 5.86.57-4.4 3.9 1.24 5.74-5.17-2.98-5.17 2.98 1.24-5.74-4.4-3.9 5.86-.57z"/></svg>';
 
+  var NEON_BASE = {
+    "보드카": "#ff3366",
+    "데킬라": "#ff7a29",
+    "위스키": "#ffc233",
+    "카샤사": "#a6e022",
+    "진": "#22e07a",
+    "럼": "#14e0c2",
+    "무알콜": "#22c7ff",
+    "스파클링 와인": "#5c9dff",
+    "혼합": "#7a5cff",
+    "리큐르": "#c239ff",
+    "브랜디": "#ff39b4",
+  };
+
+  function neonFor(c) {
+    return NEON_BASE[c.base] || c.color;
+  }
+
   document.addEventListener("DOMContentLoaded", init);
 
   function init() {
@@ -98,15 +116,41 @@
 
     els.baseFilters.innerHTML = "";
     bases.forEach(function (base) {
+      var color = base === "전체" ? null : NEON_BASE[base];
       var chip = document.createElement("button");
       chip.className = "chip" + (base === state.baseFilter ? " active" : "");
-      chip.textContent = base;
+      chip.dataset.base = base;
+      if (color) {
+        chip.style.setProperty("--chip-color", color);
+        if (base === state.baseFilter) chip.style.background = color;
+      } else if (base === state.baseFilter) {
+        chip.style.background =
+          "linear-gradient(90deg,var(--pink),var(--violet))";
+      }
+
+      if (color) {
+        var dot = document.createElement("span");
+        dot.className = "chip-dot";
+        dot.style.background = color;
+        chip.appendChild(dot);
+      }
+      chip.appendChild(document.createTextNode(base));
+
       chip.addEventListener("click", function () {
         state.baseFilter = base;
         Array.prototype.forEach.call(
           els.baseFilters.querySelectorAll(".chip"),
           function (el) {
-            el.classList.toggle("active", el.textContent === base);
+            var active = el.dataset.base === base;
+            el.classList.toggle("active", active);
+            var c = el.dataset.base === "전체" ? null : NEON_BASE[el.dataset.base];
+            if (active) {
+              el.style.background = c
+                ? c
+                : "linear-gradient(90deg,var(--pink),var(--violet))";
+            } else {
+              el.style.background = "";
+            }
           }
         );
         render();
@@ -155,14 +199,14 @@
       showDetail(c);
     });
 
-    var tab = document.createElement("span");
-    tab.className = "row-tab";
-    tab.style.background = c.color;
+    var accent = neonFor(c);
 
     var thumb = document.createElement("div");
     thumb.className = "row-thumb";
-    thumb.style.background = glowBg(c.color, "38% 32%", "72%");
-    thumb.innerHTML = GlassIcons.build(c.glass, c.color);
+    thumb.style.setProperty("--row-color", accent);
+    thumb.style.boxShadow =
+      "0 0 0 4px " + accent + "1f, 0 4px 14px -6px " + accent + "aa";
+    thumb.innerHTML = GlassIcons.build(c.glass, accent);
 
     var info = document.createElement("div");
     info.className = "row-info";
@@ -188,7 +232,6 @@
       if (state.showFavOnly) render();
     });
 
-    row.appendChild(tab);
     row.appendChild(thumb);
     row.appendChild(info);
     row.appendChild(favBtn);
@@ -202,12 +245,15 @@
     els.detailView.classList.remove("hidden");
     els.detailContent.innerHTML = "";
 
+    var accent = neonFor(c);
+
     var hero = document.createElement("div");
     hero.className = "detail-hero";
-    hero.style.background = glowBg(c.color, "50% 40%", "75%");
+    hero.style.background =
+      "radial-gradient(circle at 50% 45%," + accent + "22 0%, var(--surface) 70%)";
     var heroGlass = document.createElement("div");
     heroGlass.className = "hero-glass";
-    heroGlass.innerHTML = GlassIcons.build(c.glass, c.color);
+    heroGlass.innerHTML = GlassIcons.build(c.glass, accent);
     hero.appendChild(heroGlass);
     els.detailContent.appendChild(hero);
 
@@ -285,7 +331,7 @@
       var li = document.createElement("li");
       var num = document.createElement("span");
       num.className = "step-num";
-      num.textContent = toRoman(idx + 1) + ".";
+      num.textContent = String(idx + 1);
       var span = document.createElement("span");
       span.textContent = step;
       li.appendChild(num);
@@ -302,32 +348,6 @@
     }
 
     els.detailView.scrollTop = 0;
-  }
-
-  function glowBg(hex, pos, stop) {
-    return (
-      "radial-gradient(circle at " +
-      pos +
-      "," +
-      hex +
-      "45 0%, var(--panel) " +
-      stop +
-      ")"
-    );
-  }
-
-  function toRoman(num) {
-    var map = [
-      [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"],
-    ];
-    var result = "";
-    map.forEach(function (pair) {
-      while (num >= pair[0]) {
-        result += pair[1];
-        num -= pair[0];
-      }
-    });
-    return result;
   }
 
   function showList() {
