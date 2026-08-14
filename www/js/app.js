@@ -25,25 +25,25 @@
   var INGREDIENT_ICON_SVG =
     '<svg viewBox="0 0 24 24" class="icon"><path d="M6 3h12M9 3v6l-5 9a1 1 0 0 0 1 1.5h14a1 1 0 0 0 1-1.5l-5-9V3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
-  // 스피릿별 뮤트 컬러 (절제된 톤 — 콘텐츠는 컬러풀하게, 크롬은 중립으로)
+  // 실제 술병 색감에서 따온 스피릿별 컬러 (다크 바 무드)
   var BASE_COLOR = {
-    "보드카": "#b5556f",
-    "데킬라": "#c98a4c",
-    "위스키": "#b8933f",
-    "카샤사": "#7f9c50",
-    "진": "#4f8f6f",
-    "럼": "#3f8f89",
-    "무알콜": "#4f8fab",
-    "스파클링 와인": "#6c7fae",
-    "혼합": "#7770a8",
-    "리큐르": "#93547f",
-    "브랜디": "#a5644d",
-    "소주": "#5a9c78",
-    "막걸리": "#b89a63",
-    "기타": "#83879f",
+    "보드카": "#8fa3ad",
+    "데킬라": "#d4a83f",
+    "위스키": "#c17d3a",
+    "카샤사": "#a3b56a",
+    "진": "#6ea37e",
+    "럼": "#a8672f",
+    "무알콜": "#6fa3ab",
+    "스파클링 와인": "#c9b56a",
+    "혼합": "#8a7098",
+    "리큐르": "#9c5a72",
+    "브랜디": "#a85a3f",
+    "소주": "#8fae8a",
+    "막걸리": "#cbb98a",
+    "기타": "#9c9184",
   };
 
-  var ACCENT = "#3d5a4c";
+  var ACCENT = "#d9922e";
 
   function colorFor(c) {
     return BASE_COLOR[c.base] || ACCENT;
@@ -395,6 +395,7 @@
     var badge = document.createElement("div");
     badge.className = "icon-badge";
     badge.style.background = color;
+    badge.style.boxShadow = "0 2px 8px -2px " + color + "88";
     badge.innerHTML = GlassIcons.build(c.glass, "#ffffff");
 
     var info = document.createElement("div");
@@ -510,6 +511,7 @@
     var hero = document.createElement("div");
     hero.className = "detail-hero";
     hero.style.background = color;
+    hero.style.boxShadow = "0 10px 28px -10px " + color + "aa";
     var watermark = document.createElement("span");
     watermark.className = "hero-watermark";
     watermark.textContent = c.base;
