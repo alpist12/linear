@@ -1,17 +1,55 @@
 :root {
-  --bg: #fbf5ef;
+  --bg: #faf8ff;
   --grouped: #ffffff;
-  --label: #241a14;
-  --label-2: rgba(53, 36, 26, 0.6);
-  --label-3: rgba(53, 36, 26, 0.32);
-  --separator: rgba(53, 36, 26, 0.13);
-  --fill-gray: #f1e6da;
-  --accent: #ff5a45;
-  --accent-2: #ff8a3d;
-  --star: #ffb400;
+  --label: #1e1830;
+  --label-2: rgba(30, 24, 48, 0.6);
+  --label-3: rgba(30, 24, 48, 0.32);
+  --separator: rgba(30, 24, 48, 0.1);
+  --fill-gray: #efe9fb;
+  --pink: #ff3366;
+  --violet: #7a5cff;
+  --cyan: #22d3ee;
+  --accent: var(--pink);
+  --accent-2: var(--violet);
+  --star: var(--pink);
+  --grad-brand: linear-gradient(90deg, var(--pink), var(--violet));
   --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Pretendard",
     "Apple SD Gothic Neo", "Segoe UI", Roboto, system-ui, sans-serif;
   color-scheme: light;
+}
+
+.glow-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.38;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.blob-a {
+  width: 230px;
+  height: 230px;
+  top: -70px;
+  right: -60px;
+  background: var(--pink);
+}
+
+.blob-b {
+  width: 200px;
+  height: 200px;
+  bottom: 8%;
+  left: -80px;
+  background: var(--cyan);
+}
+
+.blob-c {
+  width: 220px;
+  height: 220px;
+  top: 42%;
+  right: -100px;
+  background: var(--violet);
+  opacity: 0.3;
 }
 
 * {
@@ -149,7 +187,7 @@ button, input {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(20, 12, 8, 0.16);
+  background: rgba(18, 10, 40, 0.18);
   opacity: 0;
   transition: opacity 0.34s ease;
   pointer-events: none;
@@ -176,7 +214,7 @@ button, input {
 }
 
 .nav-bar.scrolled {
-  background: rgba(251, 245, 239, 0.85);
+  background: rgba(250, 248, 255, 0.85);
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
   border-bottom-color: var(--separator);
@@ -385,12 +423,24 @@ button, input {
 /* ---------- Section header + grouped list ---------- */
 
 .section-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-size: 0.8125rem;
   font-weight: 650;
   letter-spacing: 0.01em;
   text-transform: uppercase;
   color: var(--label-2);
   margin: 4px 16px 8px;
+}
+
+.section-header::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--grad-brand);
+  flex: 0 0 auto;
 }
 
 .grouped-list {
@@ -412,7 +462,7 @@ button, input {
 }
 
 .list-row:active {
-  background: rgba(53, 36, 26, 0.05);
+  background: rgba(30, 24, 48, 0.05);
 }
 
 .list-row:not(:last-child)::after {

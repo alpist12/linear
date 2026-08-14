@@ -19,25 +19,30 @@
   var CHEVRON_SVG =
     '<svg viewBox="0 0 24 24" class="icon chevron"><path d="M9 4.5l7 7.5-7 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
-  // 애플 시스템 컬러 팔레트 (Health 앱 카테고리 배지 스타일)
-  var APPLE_BASE = {
-    "보드카": "#ff2d55",
-    "데킬라": "#ff9500",
-    "위스키": "#a2845e",
-    "카샤사": "#00c7be",
-    "진": "#34c759",
-    "럼": "#30b0c7",
-    "무알콜": "#32ade6",
-    "스파클링 와인": "#5e5ce6",
-    "혼합": "#af52de",
-    "리큐르": "#ff3b30",
-    "브랜디": "#ffd60a",
+  // 스피릿별 네온 스펙트럼 컬러
+  var NEON_BASE = {
+    "보드카": "#ff3366",
+    "데킬라": "#ff7a29",
+    "위스키": "#ffc233",
+    "카샤사": "#a6e022",
+    "진": "#22e07a",
+    "럼": "#14e0c2",
+    "무알콜": "#22c7ff",
+    "스파클링 와인": "#5c9dff",
+    "혼합": "#7a5cff",
+    "리큐르": "#c239ff",
+    "브랜디": "#ff39b4",
   };
 
-  var ACCENT = "#ff5a45";
+  var ACCENT = "#ff3366";
+  var GRAD_BRAND = "linear-gradient(90deg,#ff3366,#7a5cff)";
 
   function colorFor(c) {
-    return APPLE_BASE[c.base] || ACCENT;
+    return NEON_BASE[c.base] || ACCENT;
+  }
+
+  function glowShadow(hex) {
+    return "0 4px 16px -4px " + hex + "aa, 0 0 0 1px " + hex + "22 inset";
   }
 
   function bounce(el) {
@@ -168,7 +173,7 @@
 
     els.baseFilters.innerHTML = "";
     bases.forEach(function (base) {
-      var color = base === "전체" ? ACCENT : APPLE_BASE[base];
+      var color = base === "전체" ? GRAD_BRAND : NEON_BASE[base];
       var chip = document.createElement("button");
       chip.className = "chip" + (base === state.baseFilter ? " active" : "");
       chip.dataset.base = base;
@@ -182,7 +187,7 @@
           function (el) {
             var active = el.dataset.base === base;
             el.classList.toggle("active", active);
-            var c = el.dataset.base === "전체" ? ACCENT : APPLE_BASE[el.dataset.base];
+            var c = el.dataset.base === "전체" ? GRAD_BRAND : NEON_BASE[el.dataset.base];
             el.style.background = active ? c : "";
           }
         );
@@ -237,6 +242,7 @@
     var badge = document.createElement("div");
     badge.className = "icon-badge";
     badge.style.background = color;
+    badge.style.boxShadow = glowShadow(color);
     badge.innerHTML = GlassIcons.build(c.glass, "#ffffff");
 
     var info = document.createElement("div");
@@ -296,6 +302,7 @@
     var hero = document.createElement("div");
     hero.className = "detail-hero";
     hero.style.background = color;
+    hero.style.boxShadow = "0 12px 32px -8px " + color + "aa";
     var heroGlass = document.createElement("div");
     heroGlass.className = "hero-glass";
     heroGlass.innerHTML = GlassIcons.build(c.glass, "#ffffff");
