@@ -32,6 +32,9 @@
     "혼합": "#7a5cff",
     "리큐르": "#c239ff",
     "브랜디": "#ff39b4",
+    "소주": "#3ddc84",
+    "막걸리": "#e0c68a",
+    "기타": "#9aa0ff",
   };
 
   var ACCENT = "#ff3366";
@@ -39,6 +42,27 @@
 
   function colorFor(c) {
     return NEON_BASE[c.base] || ACCENT;
+  }
+
+  function appendNoteBlock(container, label, text) {
+    var header = document.createElement("div");
+    header.className = "section-header";
+    header.textContent = label;
+    container.appendChild(header);
+
+    var list = document.createElement("div");
+    list.className = "grouped-list";
+    var row = document.createElement("div");
+    row.className = "list-row garnish-row";
+    var info = document.createElement("div");
+    info.className = "row-info";
+    var value = document.createElement("div");
+    value.className = "garnish-value";
+    value.textContent = text;
+    info.appendChild(value);
+    row.appendChild(info);
+    list.appendChild(row);
+    container.appendChild(list);
   }
 
   function glowShadow(hex) {
@@ -391,24 +415,11 @@
     els.detailContent.appendChild(stepList);
 
     if (c.garnish) {
-      var garnishHeader = document.createElement("div");
-      garnishHeader.className = "section-header";
-      garnishHeader.textContent = "가니시";
-      els.detailContent.appendChild(garnishHeader);
+      appendNoteBlock(els.detailContent, "가니시", c.garnish);
+    }
 
-      var garnishList = document.createElement("div");
-      garnishList.className = "grouped-list";
-      var gRow = document.createElement("div");
-      gRow.className = "list-row garnish-row";
-      var gInfo = document.createElement("div");
-      gInfo.className = "row-info";
-      var gValue = document.createElement("div");
-      gValue.className = "garnish-value";
-      gValue.textContent = c.garnish;
-      gInfo.appendChild(gValue);
-      gRow.appendChild(gInfo);
-      garnishList.appendChild(gRow);
-      els.detailContent.appendChild(garnishList);
+    if (c.note) {
+      appendNoteBlock(els.detailContent, "TIP", c.note);
     }
 
     els.detailView.classList.remove("hidden");
