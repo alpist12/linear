@@ -16,22 +16,28 @@
   var STAR_SVG =
     '<svg viewBox="0 0 24 24" class="icon star-icon"><path d="M12 3.4l2.47 5.32 5.86.57-4.4 3.9 1.24 5.74-5.17-2.98-5.17 2.98 1.24-5.74-4.4-3.9 5.86-.57z"/></svg>';
 
-  var NEON_BASE = {
-    "보드카": "#ff3366",
-    "데킬라": "#ff7a29",
-    "위스키": "#ffc233",
-    "카샤사": "#a6e022",
-    "진": "#22e07a",
-    "럼": "#14e0c2",
-    "무알콜": "#22c7ff",
-    "스파클링 와인": "#5c9dff",
-    "혼합": "#7a5cff",
-    "리큐르": "#c239ff",
-    "브랜디": "#ff39b4",
+  var CHEVRON_SVG =
+    '<svg viewBox="0 0 24 24" class="icon chevron"><path d="M9 4.5l7 7.5-7 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+  // 애플 시스템 컬러 팔레트 (Health 앱 카테고리 배지 스타일)
+  var APPLE_BASE = {
+    "보드카": "#ff2d55",
+    "데킬라": "#ff9500",
+    "위스키": "#a2845e",
+    "카샤사": "#00c7be",
+    "진": "#34c759",
+    "럼": "#30b0c7",
+    "무알콜": "#32ade6",
+    "스파클링 와인": "#5e5ce6",
+    "혼합": "#af52de",
+    "리큐르": "#ff3b30",
+    "브랜디": "#ffd60a",
   };
 
-  function neonFor(c) {
-    return NEON_BASE[c.base] || c.color;
+  var BLUE = "#007aff";
+
+  function colorFor(c) {
+    return APPLE_BASE[c.base] || BLUE;
   }
 
   document.addEventListener("DOMContentLoaded", init);
@@ -40,17 +46,47 @@
     els.cardGrid = document.getElementById("cardGrid");
     els.emptyState = document.getElementById("emptyState");
     els.searchInput = document.getElementById("searchInput");
+    els.searchBar = document.getElementById("searchBar");
+    els.cancelSearchBtn = document.getElementById("cancelSearchBtn");
     els.baseFilters = document.getElementById("baseFilters");
     els.listView = document.getElementById("listView");
+    els.navBar = document.getElementById("navBar");
+    els.navCompactTitle = document.getElementById("navCompactTitle");
     els.detailView = document.getElementById("detailView");
+    els.detailScroll = document.getElementById("detailScroll");
+    els.detailNavBar = document.getElementById("detailNavBar");
+    els.detailCompactTitle = document.getElementById("detailCompactTitle");
     els.detailContent = document.getElementById("detailContent");
     els.backBtn = document.getElementById("backBtn");
     els.favToggleBtn = document.getElementById("favToggleBtn");
-    els.searchBar = document.getElementById("searchBar");
+    els.detailFavBtn = document.getElementById("detailFavBtn");
 
     els.searchInput.addEventListener("input", function (e) {
       state.query = e.target.value.trim().toLowerCase();
       render();
+    });
+
+    els.searchInput.addEventListener("focus", function () {
+      els.searchBar.classList.add("focused");
+    });
+
+    els.cancelSearchBtn.addEventListener("click", function () {
+      els.searchInput.value = "";
+      state.query = "";
+      els.searchInput.blur();
+      els.searchBar.classList.remove("focused");
+      render();
+    });
+
+    els.listView.addEventListener("scroll", function () {
+      els.navBar.classList.toggle("scrolled", els.listView.scrollTop > 6);
+    });
+
+    els.detailScroll.addEventListener("scroll", function () {
+      els.detailNavBar.classList.toggle(
+        "scrolled",
+        els.detailScroll.scrollTop > 6
+      );
     });
 
     els.backBtn.addEventListener("click", showList);
@@ -116,25 +152,12 @@
 
     els.baseFilters.innerHTML = "";
     bases.forEach(function (base) {
-      var color = base === "전체" ? null : NEON_BASE[base];
+      var color = base === "전체" ? BLUE : APPLE_BASE[base];
       var chip = document.createElement("button");
       chip.className = "chip" + (base === state.baseFilter ? " active" : "");
       chip.dataset.base = base;
-      if (color) {
-        chip.style.setProperty("--chip-color", color);
-        if (base === state.baseFilter) chip.style.background = color;
-      } else if (base === state.baseFilter) {
-        chip.style.background =
-          "linear-gradient(90deg,var(--pink),var(--violet))";
-      }
-
-      if (color) {
-        var dot = document.createElement("span");
-        dot.className = "chip-dot";
-        dot.style.background = color;
-        chip.appendChild(dot);
-      }
-      chip.appendChild(document.createTextNode(base));
+      chip.textContent = base;
+      if (base === state.baseFilter) chip.style.background = color;
 
       chip.addEventListener("click", function () {
         state.baseFilter = base;
@@ -143,14 +166,8 @@
           function (el) {
             var active = el.dataset.base === base;
             el.classList.toggle("active", active);
-            var c = el.dataset.base === "전체" ? null : NEON_BASE[el.dataset.base];
-            if (active) {
-              el.style.background = c
-                ? c
-                : "linear-gradient(90deg,var(--pink),var(--violet))";
-            } else {
-              el.style.background = "";
-            }
+            var c = el.dataset.base === "전체" ? BLUE : APPLE_BASE[el.dataset.base];
+            el.style.background = active ? c : "";
           }
         );
         render();
@@ -193,20 +210,18 @@
   }
 
   function renderRow(c) {
+    var color = colorFor(c);
+
     var row = document.createElement("div");
-    row.className = "cocktail-row";
+    row.className = "list-row";
     row.addEventListener("click", function () {
       showDetail(c);
     });
 
-    var accent = neonFor(c);
-
-    var thumb = document.createElement("div");
-    thumb.className = "row-thumb";
-    thumb.style.setProperty("--row-color", accent);
-    thumb.style.boxShadow =
-      "0 0 0 4px " + accent + "1f, 0 4px 14px -6px " + accent + "aa";
-    thumb.innerHTML = GlassIcons.build(c.glass, accent);
+    var badge = document.createElement("div");
+    badge.className = "icon-badge";
+    badge.style.background = color;
+    badge.innerHTML = GlassIcons.build(c.glass, "#ffffff");
 
     var info = document.createElement("div");
     info.className = "row-info";
@@ -232,79 +247,89 @@
       if (state.showFavOnly) render();
     });
 
-    row.appendChild(thumb);
+    var chevron = document.createElement("span");
+    chevron.className = "chevron";
+    chevron.innerHTML = CHEVRON_SVG;
+
+    row.appendChild(badge);
     row.appendChild(info);
     row.appendChild(favBtn);
+    row.appendChild(chevron);
     return row;
   }
 
   function showDetail(c) {
     els.listView.classList.add("hidden");
-    els.searchBar.classList.add("hidden");
-    els.baseFilters.classList.add("hidden");
+    els.navBar.classList.add("hidden");
     els.detailView.classList.remove("hidden");
     els.detailContent.innerHTML = "";
+    els.detailScroll.scrollTop = 0;
+    els.detailNavBar.classList.remove("scrolled");
+    els.detailCompactTitle.textContent = c.name;
 
-    var accent = neonFor(c);
+    var color = colorFor(c);
+
+    var syncFav = function () {
+      els.detailFavBtn.classList.toggle("active", isFav(c.id));
+    };
+    syncFav();
+    els.detailFavBtn.onclick = function () {
+      toggleFav(c.id);
+      syncFav();
+    };
 
     var hero = document.createElement("div");
     hero.className = "detail-hero";
-    hero.style.background =
-      "radial-gradient(circle at 50% 45%," + accent + "22 0%, var(--surface) 70%)";
+    hero.style.background = color;
     var heroGlass = document.createElement("div");
     heroGlass.className = "hero-glass";
-    heroGlass.innerHTML = GlassIcons.build(c.glass, accent);
+    heroGlass.innerHTML = GlassIcons.build(c.glass, "#ffffff");
     hero.appendChild(heroGlass);
     els.detailContent.appendChild(hero);
 
-    var titleRow = document.createElement("div");
-    titleRow.className = "detail-title-row";
-
-    var titleWrap = document.createElement("div");
+    var titleBlock = document.createElement("div");
+    titleBlock.className = "detail-title-block";
     var h2 = document.createElement("h2");
     h2.textContent = c.name;
     var enP = document.createElement("p");
     enP.className = "detail-en";
     enP.textContent = c.nameEn;
-    titleWrap.appendChild(h2);
-    titleWrap.appendChild(enP);
+    titleBlock.appendChild(h2);
+    titleBlock.appendChild(enP);
+    els.detailContent.appendChild(titleBlock);
 
-    var favBtn = document.createElement("button");
-    favBtn.className = "detail-fav-btn" + (isFav(c.id) ? " active" : "");
-    favBtn.innerHTML = STAR_SVG;
-    favBtn.addEventListener("click", function () {
-      toggleFav(c.id);
-      favBtn.classList.toggle("active");
+    var statGrid = document.createElement("div");
+    statGrid.className = "stat-grid";
+    [
+      ["카테고리", c.category],
+      ["잔", c.glass],
+      ["도수", c.abv],
+      ["난이도", c.difficulty],
+    ].forEach(function (pair) {
+      var tile = document.createElement("div");
+      tile.className = "stat-tile";
+      var label = document.createElement("div");
+      label.className = "stat-label";
+      label.textContent = pair[0];
+      var value = document.createElement("div");
+      value.className = "stat-value";
+      value.textContent = pair[1];
+      tile.appendChild(label);
+      tile.appendChild(value);
+      statGrid.appendChild(tile);
     });
+    els.detailContent.appendChild(statGrid);
 
-    titleRow.appendChild(titleWrap);
-    titleRow.appendChild(favBtn);
-    els.detailContent.appendChild(titleRow);
+    var ingHeader = document.createElement("div");
+    ingHeader.className = "section-header";
+    ingHeader.textContent = "재료";
+    els.detailContent.appendChild(ingHeader);
 
-    var metaLine = document.createElement("p");
-    metaLine.className = "meta-line";
-    [c.category, c.glass, "도수 " + c.abv, "난이도 " + c.difficulty].forEach(
-      function (t, i) {
-        if (i > 0) {
-          var dot = document.createElement("span");
-          dot.className = "dot";
-          dot.textContent = "·";
-          metaLine.appendChild(dot);
-        }
-        metaLine.appendChild(document.createTextNode(t));
-      }
-    );
-    els.detailContent.appendChild(metaLine);
-
-    var ingTitle = document.createElement("div");
-    ingTitle.className = "section-title";
-    ingTitle.textContent = "재료";
-    els.detailContent.appendChild(ingTitle);
-
-    var ingList = document.createElement("ul");
-    ingList.className = "ingredient-list";
+    var ingList = document.createElement("div");
+    ingList.className = "grouped-list";
     c.ingredients.forEach(function (ing) {
-      var li = document.createElement("li");
+      var row = document.createElement("div");
+      row.className = "list-row ingredient-row";
       var n = document.createElement("span");
       n.className = "ing-name";
       n.textContent = ing.name;
@@ -313,47 +338,62 @@
       var a = document.createElement("span");
       a.className = "ing-amount";
       a.textContent = ing.amount;
-      li.appendChild(n);
-      li.appendChild(leader);
-      li.appendChild(a);
-      ingList.appendChild(li);
+      row.appendChild(n);
+      row.appendChild(leader);
+      row.appendChild(a);
+      ingList.appendChild(row);
     });
     els.detailContent.appendChild(ingList);
 
-    var stepTitle = document.createElement("div");
-    stepTitle.className = "section-title";
-    stepTitle.textContent = "만드는 법";
-    els.detailContent.appendChild(stepTitle);
+    var stepHeader = document.createElement("div");
+    stepHeader.className = "section-header";
+    stepHeader.textContent = "만드는 법";
+    els.detailContent.appendChild(stepHeader);
 
-    var stepList = document.createElement("ol");
-    stepList.className = "step-list";
+    var stepList = document.createElement("div");
+    stepList.className = "grouped-list";
     c.instructions.forEach(function (step, idx) {
-      var li = document.createElement("li");
+      var row = document.createElement("div");
+      row.className = "list-row step-row";
       var num = document.createElement("span");
       num.className = "step-num";
+      num.style.background = color;
       num.textContent = String(idx + 1);
-      var span = document.createElement("span");
-      span.textContent = step;
-      li.appendChild(num);
-      li.appendChild(span);
-      stepList.appendChild(li);
+      var text = document.createElement("span");
+      text.className = "step-text";
+      text.textContent = step;
+      row.appendChild(num);
+      row.appendChild(text);
+      stepList.appendChild(row);
     });
     els.detailContent.appendChild(stepList);
 
     if (c.garnish) {
-      var garnish = document.createElement("div");
-      garnish.className = "garnish-box";
-      garnish.innerHTML = "<b>가니시</b>" + c.garnish;
-      els.detailContent.appendChild(garnish);
-    }
+      var garnishHeader = document.createElement("div");
+      garnishHeader.className = "section-header";
+      garnishHeader.textContent = "가니시";
+      els.detailContent.appendChild(garnishHeader);
 
-    els.detailView.scrollTop = 0;
+      var garnishList = document.createElement("div");
+      garnishList.className = "grouped-list";
+      var gRow = document.createElement("div");
+      gRow.className = "list-row garnish-row";
+      var gInfo = document.createElement("div");
+      gInfo.className = "row-info";
+      var gValue = document.createElement("div");
+      gValue.className = "garnish-value";
+      gValue.textContent = c.garnish;
+      gInfo.appendChild(gValue);
+      gRow.appendChild(gInfo);
+      garnishList.appendChild(gRow);
+      els.detailContent.appendChild(garnishList);
+    }
   }
 
   function showList() {
     els.detailView.classList.add("hidden");
+    els.navBar.classList.remove("hidden");
     els.listView.classList.remove("hidden");
-    els.searchBar.classList.remove("hidden");
-    els.baseFilters.classList.remove("hidden");
+    render();
   }
 })();
