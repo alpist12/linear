@@ -1,55 +1,18 @@
 :root {
-  --bg: #faf8ff;
+  --bg: #f7f6f3;
   --grouped: #ffffff;
-  --label: #1e1830;
-  --label-2: rgba(30, 24, 48, 0.6);
-  --label-3: rgba(30, 24, 48, 0.32);
-  --separator: rgba(30, 24, 48, 0.1);
-  --fill-gray: #efe9fb;
-  --pink: #ff3366;
-  --violet: #7a5cff;
-  --cyan: #22d3ee;
-  --accent: var(--pink);
-  --accent-2: var(--violet);
-  --star: var(--pink);
-  --grad-brand: linear-gradient(90deg, var(--pink), var(--violet));
+  --label: #22201c;
+  --label-2: rgba(34, 32, 28, 0.58);
+  --label-3: rgba(34, 32, 28, 0.32);
+  --separator: rgba(34, 32, 28, 0.1);
+  --fill-gray: #ece9e3;
+  --accent: #3d5a4c;
+  --accent-2: #5c7d6c;
+  --star: #c1893f;
+  --grad-brand: var(--accent);
   --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Pretendard",
     "Apple SD Gothic Neo", "Segoe UI", Roboto, system-ui, sans-serif;
   color-scheme: light;
-}
-
-.glow-blob {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(60px);
-  opacity: 0.38;
-  pointer-events: none;
-  z-index: -1;
-}
-
-.blob-a {
-  width: 230px;
-  height: 230px;
-  top: -70px;
-  right: -60px;
-  background: var(--pink);
-}
-
-.blob-b {
-  width: 200px;
-  height: 200px;
-  bottom: 8%;
-  left: -80px;
-  background: var(--cyan);
-}
-
-.blob-c {
-  width: 220px;
-  height: 220px;
-  top: 42%;
-  right: -100px;
-  background: var(--violet);
-  opacity: 0.3;
 }
 
 * {
@@ -214,7 +177,7 @@ button, input {
 }
 
 .nav-bar.scrolled {
-  background: rgba(250, 248, 255, 0.85);
+  background: rgba(247, 246, 243, 0.85);
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
   border-bottom-color: var(--separator);
@@ -322,12 +285,36 @@ button, input {
 
 /* ---------- Search ---------- */
 
+.search-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 16px 10px;
+}
+
+.search-row .icon-btn {
+  position: static;
+  grid-column: auto;
+  justify-self: auto;
+  flex: 0 0 auto;
+  background: var(--fill-gray);
+  color: var(--label-2);
+}
+
+.search-row .icon-btn.active,
+.search-row .icon-btn.has-selection {
+  background: var(--accent);
+  color: #fff;
+}
+
 .search-bar {
   position: relative;
   display: flex;
   align-items: center;
   gap: 6px;
-  margin: 4px 16px 14px;
+  flex: 1;
+  margin: 0;
+  min-width: 0;
 }
 
 .search-bar .search-icon {
@@ -382,6 +369,74 @@ button, input {
 .search-bar.focused .cancel-btn {
   width: 44px;
   opacity: 1;
+}
+
+/* ---------- Ingredient finder ---------- */
+
+.ingredient-panel {
+  margin: 0 16px 12px;
+  padding: 12px;
+  background: var(--grouped);
+  border-radius: 14px;
+}
+
+.ingredient-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  font-weight: 650;
+  color: var(--label-2);
+  padding: 0 2px 8px;
+}
+
+.ingredient-clear {
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 650;
+  padding: 0;
+  cursor: pointer;
+}
+
+.ingredient-panel .filter-row {
+  padding: 0;
+  margin: 0;
+}
+
+.ing-chip.active {
+  color: #fff;
+}
+
+/* ---------- Scope tabs ---------- */
+
+.scope-tabs {
+  display: flex;
+  gap: 4px;
+  margin: 0 16px 14px;
+  padding: 3px;
+  background: var(--fill-gray);
+  border-radius: 11px;
+}
+
+.scope-tab {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: var(--label-2);
+  font-size: 0.85rem;
+  font-weight: 650;
+  padding: 8px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.scope-tab.active {
+  background: var(--grouped);
+  color: var(--label);
+  box-shadow: 0 1px 3px rgba(34, 32, 28, 0.14);
 }
 
 /* ---------- Filters ---------- */
@@ -585,12 +640,26 @@ button, input {
 }
 
 .detail-hero {
+  position: relative;
   height: 220px;
   border-radius: 24px;
   margin: 12px 16px 18px;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+}
+
+.hero-watermark {
+  position: absolute;
+  right: 14px;
+  bottom: 6px;
+  font-size: 3.4rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.14);
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  pointer-events: none;
 }
 
 .hero-glass {
@@ -665,10 +734,55 @@ button, input {
   color: var(--label);
 }
 
+.stat-value-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.diff-dots {
+  display: flex;
+  gap: 3px;
+  flex: 0 0 auto;
+}
+
+.diff-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--label-3);
+}
+
+.diff-dot.filled {
+  background: var(--star);
+}
+
+.abv-gauge {
+  margin-top: 8px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--fill-gray);
+  overflow: hidden;
+}
+
+.abv-gauge-fill {
+  height: 100%;
+  border-radius: 2px;
+}
+
 .ingredient-row {
   display: flex;
   align-items: baseline;
   gap: 8px;
+}
+
+.ing-dot {
+  flex: 0 0 auto;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-bottom: 1px;
 }
 
 .ingredient-row .ing-name {

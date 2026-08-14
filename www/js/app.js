@@ -7,11 +7,14 @@
     cocktails: [],
     query: "",
     baseFilter: "전체",
+    scope: "curated", // 'curated' | 'all'
     showFavOnly: false,
     favorites: loadFavorites(),
+    selectedIngredients: [],
   };
 
   var els = {};
+  var COMMON_INGREDIENTS = [];
 
   var STAR_SVG =
     '<svg viewBox="0 0 24 24" class="icon star-icon"><path d="M12 3.4l2.47 5.32 5.86.57-4.4 3.9 1.24 5.74-5.17-2.98-5.17 2.98 1.24-5.74-4.4-3.9 5.86-.57z"/></svg>';
@@ -19,29 +22,31 @@
   var CHEVRON_SVG =
     '<svg viewBox="0 0 24 24" class="icon chevron"><path d="M9 4.5l7 7.5-7 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
-  // 스피릿별 네온 스펙트럼 컬러
-  var NEON_BASE = {
-    "보드카": "#ff3366",
-    "데킬라": "#ff7a29",
-    "위스키": "#ffc233",
-    "카샤사": "#a6e022",
-    "진": "#22e07a",
-    "럼": "#14e0c2",
-    "무알콜": "#22c7ff",
-    "스파클링 와인": "#5c9dff",
-    "혼합": "#7a5cff",
-    "리큐르": "#c239ff",
-    "브랜디": "#ff39b4",
-    "소주": "#3ddc84",
-    "막걸리": "#e0c68a",
-    "기타": "#9aa0ff",
+  var INGREDIENT_ICON_SVG =
+    '<svg viewBox="0 0 24 24" class="icon"><path d="M6 3h12M9 3v6l-5 9a1 1 0 0 0 1 1.5h14a1 1 0 0 0 1-1.5l-5-9V3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+  // 스피릿별 뮤트 컬러 (절제된 톤 — 콘텐츠는 컬러풀하게, 크롬은 중립으로)
+  var BASE_COLOR = {
+    "보드카": "#b5556f",
+    "데킬라": "#c98a4c",
+    "위스키": "#b8933f",
+    "카샤사": "#7f9c50",
+    "진": "#4f8f6f",
+    "럼": "#3f8f89",
+    "무알콜": "#4f8fab",
+    "스파클링 와인": "#6c7fae",
+    "혼합": "#7770a8",
+    "리큐르": "#93547f",
+    "브랜디": "#a5644d",
+    "소주": "#5a9c78",
+    "막걸리": "#b89a63",
+    "기타": "#83879f",
   };
 
-  var ACCENT = "#ff3366";
-  var GRAD_BRAND = "linear-gradient(90deg,#ff3366,#7a5cff)";
+  var ACCENT = "#3d5a4c";
 
   function colorFor(c) {
-    return NEON_BASE[c.base] || ACCENT;
+    return BASE_COLOR[c.base] || ACCENT;
   }
 
   function appendNoteBlock(container, label, text) {
@@ -63,10 +68,6 @@
     row.appendChild(info);
     list.appendChild(row);
     container.appendChild(list);
-  }
-
-  function glowShadow(hex) {
-    return "0 4px 16px -4px " + hex + "aa, 0 0 0 1px " + hex + "22 inset";
   }
 
   function bounce(el) {
@@ -98,6 +99,12 @@
     els.backBtn = document.getElementById("backBtn");
     els.favToggleBtn = document.getElementById("favToggleBtn");
     els.detailFavBtn = document.getElementById("detailFavBtn");
+    els.scopeTabs = document.getElementById("scopeTabs");
+    els.ingToggleBtn = document.getElementById("ingToggleBtn");
+    els.ingredientPanel = document.getElementById("ingredientPanel");
+    els.ingredientChips = document.getElementById("ingredientChips");
+    els.ingredientClear = document.getElementById("ingredientClear");
+    els.sectionHeaderLabel = document.getElementById("sectionHeaderLabel");
 
     els.searchInput.addEventListener("input", function (e) {
       state.query = e.target.value.trim().toLowerCase();
@@ -135,6 +142,34 @@
       render();
     });
 
+    Array.prototype.forEach.call(
+      els.scopeTabs.querySelectorAll(".scope-tab"),
+      function (tab) {
+        tab.addEventListener("click", function () {
+          state.scope = tab.dataset.scope;
+          Array.prototype.forEach.call(
+            els.scopeTabs.querySelectorAll(".scope-tab"),
+            function (t) {
+              t.classList.toggle("active", t === tab);
+            }
+          );
+          render();
+        });
+      }
+    );
+
+    els.ingToggleBtn.addEventListener("click", function () {
+      var willShow = els.ingredientPanel.classList.contains("hidden");
+      els.ingredientPanel.classList.toggle("hidden", !willShow);
+      els.ingToggleBtn.classList.toggle("active", willShow);
+    });
+
+    els.ingredientClear.addEventListener("click", function () {
+      state.selectedIngredients = [];
+      syncIngredientChips();
+      render();
+    });
+
     fetch("data/cocktails.json")
       .then(function (res) {
         return res.json();
@@ -142,6 +177,7 @@
       .then(function (data) {
         state.cocktails = data;
         buildFilters(data);
+        buildIngredientChips(data);
         render();
       })
       .catch(function (err) {
@@ -197,7 +233,7 @@
 
     els.baseFilters.innerHTML = "";
     bases.forEach(function (base) {
-      var color = base === "전체" ? GRAD_BRAND : NEON_BASE[base];
+      var color = base === "전체" ? ACCENT : BASE_COLOR[base];
       var chip = document.createElement("button");
       chip.className = "chip" + (base === state.baseFilter ? " active" : "");
       chip.dataset.base = base;
@@ -211,7 +247,7 @@
           function (el) {
             var active = el.dataset.base === base;
             el.classList.toggle("active", active);
-            var c = el.dataset.base === "전체" ? GRAD_BRAND : NEON_BASE[el.dataset.base];
+            var c = el.dataset.base === "전체" ? ACCENT : BASE_COLOR[el.dataset.base];
             el.style.background = active ? c : "";
           }
         );
@@ -221,9 +257,79 @@
     });
   }
 
+  function buildIngredientChips(data) {
+    var freq = {};
+    data.forEach(function (c) {
+      c.ingredients.forEach(function (ing) {
+        var name = ing.name.trim();
+        if (!name || name.length > 8) return;
+        freq[name] = (freq[name] || 0) + 1;
+      });
+    });
+    COMMON_INGREDIENTS = Object.keys(freq)
+      .sort(function (a, b) {
+        return freq[b] - freq[a];
+      })
+      .slice(0, 28);
+
+    els.ingredientChips.innerHTML = "";
+    COMMON_INGREDIENTS.forEach(function (name) {
+      var chip = document.createElement("button");
+      chip.className = "chip ing-chip";
+      chip.textContent = name;
+      chip.dataset.ing = name;
+      chip.addEventListener("click", function () {
+        var idx = state.selectedIngredients.indexOf(name);
+        if (idx === -1) {
+          state.selectedIngredients.push(name);
+        } else {
+          state.selectedIngredients.splice(idx, 1);
+        }
+        syncIngredientChips();
+        render();
+      });
+      els.ingredientChips.appendChild(chip);
+    });
+  }
+
+  function syncIngredientChips() {
+    var count = state.selectedIngredients.length;
+    els.ingToggleBtn.classList.toggle("has-selection", count > 0);
+    els.ingredientClear.classList.toggle("hidden", count === 0);
+    els.ingredientClear.textContent = count > 0 ? "초기화 (" + count + ")" : "초기화";
+    Array.prototype.forEach.call(
+      els.ingredientChips.querySelectorAll(".ing-chip"),
+      function (chip) {
+        chip.classList.toggle(
+          "active",
+          state.selectedIngredients.indexOf(chip.dataset.ing) !== -1
+        );
+        if (chip.classList.contains("active")) {
+          chip.style.background = ACCENT;
+        } else {
+          chip.style.background = "";
+        }
+      }
+    );
+  }
+
+  function ingredientMatch(c) {
+    var have = 0;
+    c.ingredients.forEach(function (ing) {
+      if (state.selectedIngredients.indexOf(ing.name.trim()) !== -1) have++;
+    });
+    return { have: have, total: c.ingredients.length };
+  }
+
   function getFiltered() {
-    return state.cocktails.filter(function (c) {
+    var byIngredients = state.selectedIngredients.length > 0;
+
+    var list = state.cocktails.filter(function (c) {
       if (state.showFavOnly && !isFav(c.id)) return false;
+      if (byIngredients) {
+        return ingredientMatch(c).have > 0;
+      }
+      if (state.scope === "curated" && !c.curated) return false;
       if (state.baseFilter !== "전체" && c.base !== state.baseFilter)
         return false;
       if (state.query) {
@@ -242,9 +348,31 @@
       }
       return true;
     });
+
+    if (byIngredients) {
+      list.sort(function (a, b) {
+        var ma = ingredientMatch(a);
+        var mb = ingredientMatch(b);
+        var ra = ma.have / ma.total;
+        var rb = mb.have / mb.total;
+        if (rb !== ra) return rb - ra;
+        return mb.have - ma.have;
+      });
+    }
+
+    return list;
   }
 
   function render() {
+    var byIngredients = state.selectedIngredients.length > 0;
+    els.scopeTabs.classList.toggle("hidden", byIngredients);
+    els.baseFilters.classList.toggle("hidden", byIngredients);
+    els.sectionHeaderLabel.textContent = byIngredients
+      ? "재료로 찾은 레시피"
+      : state.scope === "curated"
+      ? "추천 레시피"
+      : "모든 레시피";
+
     var list = getFiltered();
     els.cardGrid.innerHTML = "";
     els.emptyState.classList.toggle("hidden", list.length > 0);
@@ -256,6 +384,7 @@
 
   function renderRow(c) {
     var color = colorFor(c);
+    var byIngredients = state.selectedIngredients.length > 0;
 
     var row = document.createElement("div");
     row.className = "list-row";
@@ -266,7 +395,6 @@
     var badge = document.createElement("div");
     badge.className = "icon-badge";
     badge.style.background = color;
-    badge.style.boxShadow = glowShadow(color);
     badge.innerHTML = GlassIcons.build(c.glass, "#ffffff");
 
     var info = document.createElement("div");
@@ -278,7 +406,13 @@
 
     var sub = document.createElement("div");
     sub.className = "row-sub";
-    sub.textContent = c.base + " · " + c.category;
+    if (byIngredients) {
+      var m = ingredientMatch(c);
+      sub.textContent =
+        "보유 재료 " + m.have + "/" + m.total + " · " + c.base;
+    } else {
+      sub.textContent = c.base + " · " + c.category;
+    }
 
     info.appendChild(name);
     info.appendChild(sub);
@@ -305,6 +439,56 @@
     return row;
   }
 
+  var DIFFICULTY_LEVEL = { "쉬움": 1, "보통": 2, "어려움": 3 };
+  var ING_CATEGORY_COLOR = {
+    citrus: "#c9a83f",
+    sweet: "#c98a4c",
+    mixer: "#4f8fab",
+    dairy: "#a5644d",
+    default: "#9a978f",
+  };
+  var CITRUS_WORDS = ["레몬", "라임", "오렌지", "자몽"];
+  var SWEET_WORDS = ["시럽", "설탕", "꿀", "그레나딘"];
+  var MIXER_WORDS = ["탄산", "토닉", "소다", "주스", "콜라", "에일", "워터", "비어"];
+  var DAIRY_WORDS = ["우유", "크림", "요구르트", "달걀", "계란"];
+
+  function ingredientCategoryColor(name) {
+    if (CITRUS_WORDS.some(function (w) { return name.indexOf(w) !== -1; }))
+      return ING_CATEGORY_COLOR.citrus;
+    if (SWEET_WORDS.some(function (w) { return name.indexOf(w) !== -1; }))
+      return ING_CATEGORY_COLOR.sweet;
+    if (MIXER_WORDS.some(function (w) { return name.indexOf(w) !== -1; }))
+      return ING_CATEGORY_COLOR.mixer;
+    if (DAIRY_WORDS.some(function (w) { return name.indexOf(w) !== -1; }))
+      return ING_CATEGORY_COLOR.dairy;
+    return null;
+  }
+
+  function buildDifficultyDots(level) {
+    var wrap = document.createElement("span");
+    wrap.className = "diff-dots";
+    for (var i = 1; i <= 3; i++) {
+      var dot = document.createElement("span");
+      dot.className = "diff-dot" + (i <= level ? " filled" : "");
+      wrap.appendChild(dot);
+    }
+    return wrap;
+  }
+
+  function buildAbvGauge(abvStr, color) {
+    var m = abvStr && abvStr.match(/(\d+)/);
+    if (!m) return null;
+    var pct = Math.max(2, Math.min(100, (parseInt(m[1], 10) / 45) * 100));
+    var wrap = document.createElement("div");
+    wrap.className = "abv-gauge";
+    var fill = document.createElement("div");
+    fill.className = "abv-gauge-fill";
+    fill.style.width = pct + "%";
+    fill.style.background = color;
+    wrap.appendChild(fill);
+    return wrap;
+  }
+
   function showDetail(c) {
     els.detailContent.innerHTML = "";
     els.detailScroll.scrollTop = 0;
@@ -326,7 +510,10 @@
     var hero = document.createElement("div");
     hero.className = "detail-hero";
     hero.style.background = color;
-    hero.style.boxShadow = "0 12px 32px -8px " + color + "aa";
+    var watermark = document.createElement("span");
+    watermark.className = "hero-watermark";
+    watermark.textContent = c.base;
+    hero.appendChild(watermark);
     var heroGlass = document.createElement("div");
     heroGlass.className = "hero-glass";
     heroGlass.innerHTML = GlassIcons.build(c.glass, "#ffffff");
@@ -347,21 +534,36 @@
     var statGrid = document.createElement("div");
     statGrid.className = "stat-grid";
     [
-      ["카테고리", c.category],
-      ["잔", c.glass],
-      ["도수", c.abv],
-      ["난이도", c.difficulty],
+      ["카테고리", c.category, null],
+      ["잔", c.glass, null],
+      ["도수", c.abv, "abv"],
+      ["난이도", c.difficulty, "difficulty"],
     ].forEach(function (pair) {
       var tile = document.createElement("div");
       tile.className = "stat-tile";
       var label = document.createElement("div");
       label.className = "stat-label";
       label.textContent = pair[0];
-      var value = document.createElement("div");
-      value.className = "stat-value";
-      value.textContent = pair[1];
       tile.appendChild(label);
-      tile.appendChild(value);
+
+      if (pair[2] === "difficulty") {
+        var valueRow = document.createElement("div");
+        valueRow.className = "stat-value stat-value-row";
+        var text = document.createElement("span");
+        text.textContent = pair[1];
+        valueRow.appendChild(text);
+        valueRow.appendChild(buildDifficultyDots(DIFFICULTY_LEVEL[pair[1]] || 1));
+        tile.appendChild(valueRow);
+      } else {
+        var value = document.createElement("div");
+        value.className = "stat-value";
+        value.textContent = pair[1];
+        tile.appendChild(value);
+        if (pair[2] === "abv") {
+          var gauge = buildAbvGauge(pair[1], color);
+          if (gauge) tile.appendChild(gauge);
+        }
+      }
       statGrid.appendChild(tile);
     });
     els.detailContent.appendChild(statGrid);
@@ -376,6 +578,10 @@
     c.ingredients.forEach(function (ing) {
       var row = document.createElement("div");
       row.className = "list-row ingredient-row";
+      var catColor = ingredientCategoryColor(ing.name);
+      var dot = document.createElement("span");
+      dot.className = "ing-dot";
+      dot.style.background = catColor || color;
       var n = document.createElement("span");
       n.className = "ing-name";
       n.textContent = ing.name;
@@ -384,6 +590,7 @@
       var a = document.createElement("span");
       a.className = "ing-amount";
       a.textContent = ing.amount;
+      row.appendChild(dot);
       row.appendChild(n);
       row.appendChild(leader);
       row.appendChild(a);

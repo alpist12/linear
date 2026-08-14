@@ -27,7 +27,8 @@
       "완성된 칵테일을 샷 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "b-55",
@@ -57,7 +58,8 @@
       "완성된 칵테일을 샷 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "june-bug",
@@ -96,7 +98,8 @@
       "파인애플 웨지, 체리로 장식한다."
     ],
     "garnish": "파인애플 웨지, 체리",
-    "source": "조주기능사"
+    "source": "조주기능사",
+    "curated": false
   },
   {
     "id": "sloe-gin-fizz",
@@ -131,7 +134,8 @@
       "레몬 슬라이스로 장식한다."
     ],
     "garnish": "레몬 슬라이스",
-    "source": "조주기능사"
+    "source": "조주기능사",
+    "curated": false
   },
   {
     "id": "garibaldi",
@@ -157,7 +161,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "gochang",
@@ -191,7 +196,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "조주기능사"
+    "source": "조주기능사",
+    "curated": false
   },
   {
     "id": "golden-dream",
@@ -225,7 +231,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "golden-cadillac",
@@ -256,7 +263,8 @@
       "다크 초콜릿 1조각으로 장식한다."
     ],
     "garnish": "다크 초콜릿 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "grasshopper",
@@ -287,7 +295,8 @@
       "민트 잎 (옵션)로 장식한다."
     ],
     "garnish": "민트 잎 (옵션)",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "geumsan",
@@ -321,7 +330,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "조주기능사"
+    "source": "조주기능사",
+    "curated": false
   },
   {
     "id": "dusty-rose",
@@ -351,7 +361,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "raspberry-cream",
@@ -386,7 +397,8 @@
       "라즈베리 2개로 장식한다."
     ],
     "garnish": "라즈베리 2개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "lover-s-kiss",
@@ -421,7 +433,8 @@
       "코코아 파우더로 장식한다."
     ],
     "garnish": "코코아 파우더, 체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "melon-cooler",
@@ -461,7 +474,8 @@
     ],
     "garnish": "라임휠, 체리",
     "note": "메론 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "mauresque-a-l-absinthe",
@@ -491,7 +505,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "moulin-rouge",
@@ -522,7 +537,8 @@
       "레몬 트위스트로 장식한다."
     ],
     "garnish": "레몬 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "mimosa",
@@ -549,7 +565,8 @@
       "오렌지 트위스트(옵션)로 장식한다."
     ],
     "garnish": "오렌지 트위스트(옵션)",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "banana-banshee",
@@ -580,7 +597,8 @@
       "넛멕으로 장식한다."
     ],
     "garnish": "넛멕",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bahamian",
@@ -606,7 +624,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bamboo",
@@ -637,7 +656,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "vin-chaud",
@@ -668,7 +688,8 @@
       "오렌지 1/2개로 장식한다."
     ],
     "garnish": "오렌지 1/2개, 레몬 1/2개, 계피 스틱 2개, 클로브 2작은술",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "veneziano",
@@ -699,7 +720,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "vermouth-cassis",
@@ -726,7 +748,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "berry-sour",
@@ -756,7 +779,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "basic",
@@ -794,7 +818,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "boccie-ball",
@@ -825,7 +850,8 @@
       "오렌지 슬라이스로 장식한다."
     ],
     "garnish": "오렌지 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "brazil",
@@ -856,7 +882,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "snow-cap",
@@ -891,7 +918,8 @@
       "복숭아 웨지,로 장식한다."
     ],
     "garnish": "복숭아 웨지,, 파인애플 웨지",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "scarlett-o-hara",
@@ -921,7 +949,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "strawberry-sunrise",
@@ -957,7 +986,8 @@
     ],
     "garnish": "딸기 한 개",
     "note": "주스 빼고 얼음과 갈아서 깔고 주스 붓기",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "spritzer",
@@ -983,7 +1013,8 @@
       "완성된 칵테일을 와인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "spritz",
@@ -1015,7 +1046,8 @@
     ],
     "garnish": "오렌지 슬라이스",
     "note": "캄파리, 시나 대체 가능",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "speedy-retto",
@@ -1050,7 +1082,8 @@
       "레몬 트위스트로 장식한다."
     ],
     "garnish": "레몬 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "spritfire",
@@ -1084,7 +1117,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "sloe-vanilla",
@@ -1115,7 +1149,8 @@
       "바닐라 조각 5개로 장식한다."
     ],
     "garnish": "바닐라 조각 5개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "sloe-vermouth",
@@ -1145,7 +1180,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "sloe-sisco-bay",
@@ -1180,7 +1216,8 @@
       "체리로 장식한다."
     ],
     "garnish": "체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "sloe-orange",
@@ -1211,7 +1248,8 @@
       "오렌지 껍질로 장식한다."
     ],
     "garnish": "오렌지 껍질",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "sloe-gin-rickey",
@@ -1242,7 +1280,8 @@
       "라임 트위스트로 장식한다."
     ],
     "garnish": "라임 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "something-breezy",
@@ -1277,7 +1316,8 @@
       "라임 웨지 1개로 장식한다."
     ],
     "garnish": "라임 웨지 1개, 크랜베리 3개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "adonis",
@@ -1308,7 +1348,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "amaretto-lime",
@@ -1338,7 +1379,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "amaretto-sour",
@@ -1377,7 +1419,8 @@
       "오렌지 슬라이스로 장식한다."
     ],
     "garnish": "오렌지 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "americano",
@@ -1408,7 +1451,8 @@
       "오렌지 슬라이스 반으로 장식한다."
     ],
     "garnish": "오렌지 슬라이스 반, 레몬 제스트",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "american-lemonade",
@@ -1439,7 +1483,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "amore-ade",
@@ -1470,7 +1515,8 @@
       "오렌지 트위스트로 장식한다."
     ],
     "garnish": "오렌지 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "absinthe-drip",
@@ -1501,7 +1547,8 @@
     ],
     "garnish": "",
     "note": "압생트 먹는 법",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "absinthe-veilleuse",
@@ -1532,7 +1579,8 @@
     ],
     "garnish": "",
     "note": "락잔 1개 칠링 두번째 락잔에 물 위에 압생트 플로팅 불 붙이고 칠링한 잔에 따르기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "apricot-cooler",
@@ -1566,7 +1614,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "apple-spice",
@@ -1594,7 +1643,8 @@
     ],
     "garnish": "사과 슬라이스5조각, 시나몬 스틱",
     "note": "샷잔에 플로팅도 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "yellow-parrot",
@@ -1629,7 +1679,8 @@
     ],
     "garnish": "",
     "note": "락잔에 온더락 서빙 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "orange-squeezer",
@@ -1660,7 +1711,8 @@
       "오렌지 껍질로 장식한다."
     ],
     "garnish": "오렌지 껍질",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "cherry-choc",
@@ -1695,7 +1747,8 @@
       "체리 한 쌍으로 장식한다."
     ],
     "garnish": "체리 한 쌍",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "cherry-cooler",
@@ -1730,7 +1783,8 @@
       "마라스키노 체리 1개로 장식한다."
     ],
     "garnish": "마라스키노 체리 1개, 레몬 슬라이스 1/2조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "chocolate-strawberry",
@@ -1761,7 +1815,8 @@
       "초콜릿 조각으로 장식한다."
     ],
     "garnish": "초콜릿 조각",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "communard",
@@ -1787,7 +1842,8 @@
       "완성된 칵테일을 와인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "klondike-highball",
@@ -1826,7 +1882,8 @@
       "오렌지 1/8조각으로 장식한다."
     ],
     "garnish": "오렌지 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "tiger-tail",
@@ -1852,7 +1909,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "tampico",
@@ -1883,7 +1941,8 @@
       "오렌지 슬라이스 1/2조각으로 장식한다."
     ],
     "garnish": "오렌지 슬라이스 1/2조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "tomate-a-l-absinthe",
@@ -1913,7 +1972,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "toasted-almond",
@@ -1944,7 +2004,8 @@
       "구운 아몬드로 장식한다."
     ],
     "garnish": "구운 아몬드",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "twin-peach",
@@ -1979,7 +2040,8 @@
       "복숭아 슬라이스 2개로 장식한다."
     ],
     "garnish": "복숭아 슬라이스 2개, 캔 리치 2개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "ferrari",
@@ -2005,7 +2067,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "fernandito",
@@ -2032,7 +2095,8 @@
     ],
     "garnish": "",
     "note": "더블 락잔",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "peppermint-cream",
@@ -2063,7 +2127,8 @@
       "코코아 파우더로 장식한다."
     ],
     "garnish": "코코아 파우더",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "peppermint-twist",
@@ -2094,7 +2159,8 @@
       "초콜릿을 입힌으로 장식한다."
     ],
     "garnish": "초콜릿을 입힌, 페퍼민트 캔디 스틱 조각",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "forest-flower",
@@ -2129,7 +2195,8 @@
       "바이올렛 or로 장식한다."
     ],
     "garnish": "바이올렛 or, 금련화 ",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "puppy-love",
@@ -2164,7 +2231,8 @@
       "사과 슬라이스로 장식한다."
     ],
     "garnish": "사과 슬라이스",
-    "source": "조주기능사"
+    "source": "조주기능사",
+    "curated": false
   },
   {
     "id": "french-fantasy",
@@ -2199,7 +2267,8 @@
       "오렌지 슬라이스로 장식한다."
     ],
     "garnish": "오렌지 슬라이스, 체리 1개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "peach-berry",
@@ -2230,7 +2299,8 @@
       "복숭아 슬라이스 3개로 장식한다."
     ],
     "garnish": "복숭아 슬라이스 3개, 라즈베리 1개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "hot-shot",
@@ -2262,7 +2332,8 @@
     ],
     "garnish": "",
     "note": "생크림 플로팅",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "heat-wave",
@@ -2301,7 +2372,8 @@
       "복숭아 슬라이스로 장식한다."
     ],
     "garnish": "복숭아 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "healing",
@@ -2336,7 +2408,8 @@
       "트위스트 레몬 필로 장식한다."
     ],
     "garnish": "트위스트 레몬 필",
-    "source": "조주기능사"
+    "source": "조주기능사",
+    "curated": false
   },
   {
     "id": "gorilla-sweat",
@@ -2370,7 +2443,8 @@
       "완성된 칵테일을 머그 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "naked-and-famous",
@@ -2404,7 +2478,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "desert-glow",
@@ -2434,7 +2509,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "tequini",
@@ -2465,7 +2541,8 @@
       "레몬 트위스트,로 장식한다."
     ],
     "garnish": "레몬 트위스트,, 올리브",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "tequila-matador",
@@ -2497,7 +2574,8 @@
     ],
     "garnish": "파인애플 잎",
     "note": "샴페인 잔에 넣고 샴페인 1dash 추가 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "tequila-manhattan",
@@ -2528,7 +2606,8 @@
       "각얼음 1개, 체리,로 장식한다."
     ],
     "garnish": "각얼음 1개, 체리,, 오렌지 껍질",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "tequila-mockingbird",
@@ -2558,7 +2637,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "tequila-sour",
@@ -2593,7 +2673,8 @@
       "레몬 슬라이스, 체리로 장식한다."
     ],
     "garnish": "레몬 슬라이스, 체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "tequila-sunset",
@@ -2624,7 +2705,8 @@
     ],
     "garnish": "",
     "note": "크러시드 아이스",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "tequila-old-fashioned",
@@ -2660,7 +2742,8 @@
     ],
     "garnish": "파인애플 스틱",
     "note": "오렌지 껍질을 먼저 넣음",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "tequila-canyon",
@@ -2699,7 +2782,8 @@
       "라임 휠로 장식한다."
     ],
     "garnish": "라임 휠",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "tequila-collins",
@@ -2734,7 +2818,8 @@
       "레몬 트위스트,로 장식한다."
     ],
     "garnish": "레몬 트위스트,, 오렌지 트위스트,, 체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "tequila-pink",
@@ -2764,7 +2849,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "tequila-and-sangrita",
@@ -2815,7 +2901,8 @@
     ],
     "garnish": "",
     "note": "샷잔 3개에 데킬라 나눠담고 다른 재료 넣고 섞어서 위에 부어준다",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "la-bomba",
@@ -2854,7 +2941,8 @@
       "라임 휠로 장식한다."
     ],
     "garnish": "라임 휠",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "rosita",
@@ -2889,7 +2977,8 @@
       "레몬 껍질로 장식한다."
     ],
     "garnish": "레몬 껍질",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "rude-cosmopolitan",
@@ -2924,7 +3013,8 @@
       "라임 껍질 1조각으로 장식한다."
     ],
     "garnish": "라임 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "margarita",
@@ -2959,7 +3049,8 @@
       "잔에 얼음과 함께 따른다."
     ],
     "garnish": "라임 웨지",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "matador",
@@ -2993,7 +3084,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "magic-bus",
@@ -3032,7 +3124,8 @@
       "라임 껍질 1조각으로 장식한다."
     ],
     "garnish": "라임 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "muppet",
@@ -3059,7 +3152,8 @@
       "라임 1/8조각으로 장식한다."
     ],
     "garnish": "라임 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "mexicana",
@@ -3094,7 +3188,8 @@
       "라임 휠로 장식한다."
     ],
     "garnish": "라임 휠, 파인애플 잎",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "mexican",
@@ -3124,7 +3219,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "mexican-madras",
@@ -3159,7 +3255,8 @@
       "오렌지 슬라이스로 장식한다."
     ],
     "garnish": "오렌지 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "mexican-mule",
@@ -3190,7 +3287,8 @@
     ],
     "garnish": "",
     "note": "머들링",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "mexican-coffee",
@@ -3224,7 +3322,8 @@
       "완성된 칵테일을 머그 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "mexican-tea",
@@ -3255,7 +3354,8 @@
       "라임 껍질 1조각으로 장식한다."
     ],
     "garnish": "라임 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "mexico-manhattan",
@@ -3286,7 +3386,8 @@
       "마라스키노 체리 1개로 장식한다."
     ],
     "garnish": "마라스키노 체리 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "mexicola",
@@ -3317,7 +3418,8 @@
     ],
     "garnish": "",
     "note": "머들링",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "mockingbird",
@@ -3347,7 +3449,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "banana-boat",
@@ -3377,7 +3480,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "vertigo",
@@ -3408,7 +3512,8 @@
       "오렌지 1/8조각으로 장식한다."
     ],
     "garnish": "오렌지 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bulldog",
@@ -3435,7 +3540,8 @@
       "레몬 트위스트로 장식한다."
     ],
     "garnish": "레몬 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "brave-bull",
@@ -3461,7 +3567,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "broadway-thirst",
@@ -3495,7 +3602,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bloody-maria",
@@ -3545,7 +3653,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "blue-margarita",
@@ -3575,7 +3684,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "viva-villa",
@@ -3605,7 +3715,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "south-of-the-border",
@@ -3636,7 +3747,8 @@
       "라임 슬라이스로 장식한다."
     ],
     "garnish": "라임 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "shady-lady",
@@ -3667,7 +3779,8 @@
       "라임 휠, 체리로 장식한다."
     ],
     "garnish": "라임 휠, 체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "stargarita",
@@ -3706,7 +3819,8 @@
     ],
     "garnish": "",
     "note": "소금 리밍",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "strawberry-marharita",
@@ -3746,7 +3860,8 @@
     ],
     "garnish": "딸기 슬라이스 2개",
     "note": "딸기 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "speedy-gonzales",
@@ -3776,7 +3891,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "sloe-tequila",
@@ -3808,7 +3924,8 @@
     ],
     "garnish": "오이 껍질 트위스트",
     "note": "각얼음 3개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "silk-stockings",
@@ -3843,7 +3960,8 @@
       "시나몬 파우더 or로 장식한다."
     ],
     "garnish": "시나몬 파우더 or, 시나몬 스틱",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "agave-julep",
@@ -3877,7 +3995,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "agave-punch",
@@ -3915,7 +4034,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "aguamiel",
@@ -3945,7 +4065,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "arriba",
@@ -3977,7 +4098,8 @@
     ],
     "garnish": "오렌지 껍질 1조각",
     "note": "위로!",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "ice-breaker",
@@ -4011,7 +4133,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "aztec-stinger",
@@ -4037,7 +4160,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "acapulco",
@@ -4068,7 +4192,8 @@
       "파인애플 잎 1조각으로 장식한다."
     ],
     "garnish": "파인애플 잎 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "alamo-splash",
@@ -4098,7 +4223,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "alice-in-wonderland",
@@ -4124,7 +4250,8 @@
       "완성된 칵테일을 샷 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "ambassador",
@@ -4150,7 +4277,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "el-diablo",
@@ -4185,7 +4313,8 @@
     ],
     "garnish": "",
     "note": "머들링",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "wild-thing",
@@ -4220,7 +4349,8 @@
       "라임 휠로 장식한다."
     ],
     "garnish": "라임 휠",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "japanese-slipper",
@@ -4250,7 +4380,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "chapala",
@@ -4293,7 +4424,8 @@
       "오렌지 슬라이스로 장식한다."
     ],
     "garnish": "오렌지 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "changuirongo",
@@ -4323,7 +4455,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "chimayo",
@@ -4353,7 +4486,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "chihuahua",
@@ -4384,7 +4518,8 @@
     ],
     "garnish": "",
     "note": "소금 리밍",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "catalina-margarita",
@@ -4419,7 +4554,8 @@
       "라임 트위스트로 장식한다."
     ],
     "garnish": "라임 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "cactus-banger",
@@ -4450,7 +4586,8 @@
       "오렌지 1/8조각으로 장식한다."
     ],
     "garnish": "오렌지 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cactus-berry",
@@ -4489,7 +4626,8 @@
       "소금 리밍으로 장식한다."
     ],
     "garnish": "소금 리밍",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "cactus-cooler",
@@ -4519,7 +4657,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cactus-flower",
@@ -4545,7 +4684,8 @@
       "완성된 칵테일을 샷 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "california-dream",
@@ -4576,7 +4716,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "coco-mexico",
@@ -4607,7 +4748,8 @@
       "파인애플 잎 1조각으로 장식한다."
     ],
     "garnish": "파인애플 잎 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "crushing-hazel",
@@ -4642,7 +4784,8 @@
       "잘게 부순 헤이즐넛으로 장식한다."
     ],
     "garnish": "잘게 부순 헤이즐넛",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "tommy-s-margarita",
@@ -4677,7 +4820,8 @@
       "라임 슬라이스로 장식한다."
     ],
     "garnish": "라임 슬라이스",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "tequila-sunrise",
@@ -4708,7 +4852,8 @@
       "그레나딘 시럽을 천천히 가라앉히듯 부어 그라데이션을 만든다."
     ],
     "garnish": "오렌지 슬라이스, 체리",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "tequila-straight",
@@ -4735,7 +4880,8 @@
       "라임 1/8조각으로 장식한다."
     ],
     "garnish": "라임 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "toredor",
@@ -4766,7 +4912,8 @@
       "코코아 파우더로 장식한다."
     ],
     "garnish": "코코아 파우더",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "tomahawk",
@@ -4800,7 +4947,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "teutonic",
@@ -4832,7 +4980,8 @@
     ],
     "garnish": "레몬 슬라이스, , 라임 슬라이스",
     "note": "라임 30 대신 레몬 15도 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "traffic-light-cooler",
@@ -4872,7 +5021,8 @@
     ],
     "garnish": "레몬 휠, 라임 휠, 체리, 스위즐 스틱",
     "note": "미도리-데킬라-사워믹스-오렌지 주스 - 슬로진",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "t-n-t",
@@ -4899,7 +5049,8 @@
       "라임 1/8조각으로 장식한다."
     ],
     "garnish": "라임 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "tijuana-tea",
@@ -4934,7 +5085,8 @@
     ],
     "garnish": "",
     "note": "머들링",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pineapple-margarita",
@@ -4972,7 +5124,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "paloma",
@@ -5007,7 +5160,8 @@
       "자몽 소다로 채워 가볍게 젓는다."
     ],
     "garnish": "라임 웨지",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "pacific-sunshine",
@@ -5038,7 +5192,8 @@
       "소금 리밍, 레몬 휠로 장식한다."
     ],
     "garnish": "소금 리밍, 레몬 휠",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "purple-gecko",
@@ -5077,7 +5232,8 @@
       "소금 리밍으로 장식한다."
     ],
     "garnish": "소금 리밍",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "purple-pancho",
@@ -5116,7 +5272,8 @@
       "라임 휠로 장식한다."
     ],
     "garnish": "라임 휠",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "pom-amore",
@@ -5152,7 +5309,8 @@
     ],
     "garnish": "석류 10~15알, 팬지 꽃잎",
     "note": "석류와 설탕 넣고 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "frostbite",
@@ -5183,7 +5341,8 @@
       "넛멕 가루로 장식한다."
     ],
     "garnish": "넛멕 가루",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "frozen-margarita",
@@ -5213,7 +5372,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "playa-del-mar",
@@ -5251,7 +5411,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pinata",
@@ -5277,7 +5438,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "hot-pants",
@@ -5313,7 +5475,8 @@
     ],
     "garnish": "민트 줄기",
     "note": "리큐르 랜덤 14 (피치 추천)",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "151-proof-passion",
@@ -5352,7 +5515,8 @@
       "패션 프루트 반개로 장식한다."
     ],
     "garnish": "패션 프루트 반개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "night-cap",
@@ -5384,7 +5548,8 @@
     ],
     "garnish": "넛멕",
     "note": "얼음 없이",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "nevada",
@@ -5422,7 +5587,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "national",
@@ -5452,7 +5618,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "new-orleans-buck",
@@ -5487,7 +5654,8 @@
       "오렌지 슬라이스 2조각으로 장식한다."
     ],
     "garnish": "오렌지 슬라이스 2조각, 레몬 슬라이스 2조각",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "knicherbocker-special",
@@ -5526,7 +5694,8 @@
       "라즈베리 2개로 장식한다."
     ],
     "garnish": "라즈베리 2개, 오렌지 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "daiquiri-n-2",
@@ -5564,7 +5733,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "daiquiri",
@@ -5595,7 +5765,8 @@
       "차갑게 칠링된 잔에 걸러 따른다."
     ],
     "garnish": "라임 휠(선택)",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "dark-stormy",
@@ -5629,7 +5800,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "dark-and-stormy",
@@ -5660,7 +5832,8 @@
       "가볍게 저어 마무리한다."
     ],
     "garnish": "라임 웨지",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "doctor-funk",
@@ -5703,7 +5876,8 @@
       "라임 슬라이스 2조각으로 장식한다."
     ],
     "garnish": "라임 슬라이스 2조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "don-pedro",
@@ -5734,7 +5908,8 @@
       "소금 안뿌린 Nut 몇개로 장식한다."
     ],
     "garnish": "소금 안뿌린 Nut 몇개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "raspberry-delight",
@@ -5778,7 +5953,8 @@
     ],
     "garnish": "라즈베리 2~3개",
     "note": "라즈베리 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "rum-daisy",
@@ -5813,7 +5989,8 @@
       "레몬, 라임, 키위로 장식한다."
     ],
     "garnish": "레몬, 라임, 키위 , 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "rum-runner",
@@ -5847,7 +6024,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "rum-swizzle",
@@ -5886,7 +6064,8 @@
       "스위즐 스틱으로 장식한다."
     ],
     "garnish": "스위즐 스틱",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "rum-fix",
@@ -5922,7 +6101,8 @@
     ],
     "garnish": "레몬 슬라이스",
     "note": "라임 30 대신 레몬 15 사용 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "rumble",
@@ -5953,7 +6133,8 @@
       "라임 1/2개로 장식한다."
     ],
     "garnish": "라임 1/2개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "redwood",
@@ -5984,7 +6165,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "rocky-mezzanine",
@@ -6019,7 +6201,8 @@
     ],
     "garnish": "",
     "note": "얼음 채운 상태로 레이어링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "robson",
@@ -6054,7 +6237,8 @@
       "오렌지 휠로 장식한다."
     ],
     "garnish": "오렌지 휠",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "marama-rum-punch",
@@ -6097,7 +6281,8 @@
       "민트 잎 1줄기로 장식한다."
     ],
     "garnish": "민트 잎 1줄기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "mary-pickford",
@@ -6131,7 +6316,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "mai-tai",
@@ -6171,7 +6357,8 @@
       "민트와 라임으로 장식한다."
     ],
     "garnish": "민트, 라임 웨지",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "mackinnon",
@@ -6201,7 +6388,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "melon-man",
@@ -6232,7 +6420,8 @@
       "메론 슬라이스로 장식한다."
     ],
     "garnish": "메론 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "mojito",
@@ -6277,7 +6466,8 @@
       "민트와 라임 웨지로 장식한다."
     ],
     "garnish": "민트 스프리그, 라임 웨지",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "mojito-criollo",
@@ -6320,7 +6510,8 @@
     ],
     "garnish": "",
     "note": "제조법 찾아 볼 것",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "montego-bay",
@@ -6358,7 +6549,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "moon-shake",
@@ -6388,7 +6580,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "mulata",
@@ -6419,7 +6612,8 @@
       "라임 껍질 1조각으로 장식한다."
     ],
     "garnish": "라임 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "midnight-express",
@@ -6457,7 +6651,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "banana-daiquiri",
@@ -6491,7 +6686,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "banana-cow",
@@ -6526,7 +6722,8 @@
       "바나나 슬라이스로 장식한다."
     ],
     "garnish": "바나나 슬라이스, 넛멕",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "barracuda",
@@ -6565,7 +6762,8 @@
       "파인애플, 체리, 민트 잎으로 장식한다."
     ],
     "garnish": "파인애플, 체리, 민트 잎",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "bacardi-cocktail",
@@ -6596,7 +6794,8 @@
       "체리로 장식한다."
     ],
     "garnish": "체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "baccarat",
@@ -6635,7 +6834,8 @@
       "딸기 1개로 장식한다."
     ],
     "garnish": "딸기 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "batida-abaci",
@@ -6669,7 +6869,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bahama-mama",
@@ -6707,7 +6908,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bermuda-triangle",
@@ -6737,7 +6939,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "baby-alexander",
@@ -6767,7 +6970,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "beja-flor",
@@ -6801,7 +7005,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "borinquen",
@@ -6842,7 +7047,8 @@
     ],
     "garnish": "라임 트위스트, 오렌지 트위스트",
     "note": "151럼 플로팅",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "bossa-nova",
@@ -6881,7 +7087,8 @@
       "파인애플 잎 1조각으로 장식한다."
     ],
     "garnish": "파인애플 잎 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "boston-cooler",
@@ -6917,7 +7124,8 @@
     ],
     "garnish": "레몬 슬라이스",
     "note": "탄산수 대체 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "voodoo",
@@ -6955,7 +7163,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bushwacker",
@@ -6994,7 +7203,8 @@
       "코코아 파우더로 장식한다."
     ],
     "garnish": "코코아 파우더",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "black-rose",
@@ -7024,7 +7234,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "black-widow",
@@ -7050,7 +7261,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "blue-hawaiian",
@@ -7085,7 +7297,8 @@
       "파인애플 슬라이스로 장식한다."
     ],
     "garnish": "파인애플 슬라이스, 체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "beachcomber",
@@ -7120,7 +7333,8 @@
       "설탕 리밍으로 장식한다."
     ],
     "garnish": "설탕 리밍, 라임 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "between-the-sheets",
@@ -7154,7 +7368,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "shanghai-noon",
@@ -7189,7 +7404,8 @@
       "레몬 껍질로 장식한다."
     ],
     "garnish": "레몬 껍질",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "centenario",
@@ -7227,7 +7443,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "suzie-taylor",
@@ -7258,7 +7475,8 @@
       "레몬 슬라이스 1/2조각으로 장식한다."
     ],
     "garnish": "레몬 슬라이스 1/2조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "scorpion",
@@ -7296,7 +7514,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "sterling",
@@ -7326,7 +7545,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "strawberry-daiquiri",
@@ -7365,7 +7585,8 @@
     ],
     "garnish": "",
     "note": "딸기 머들링 블렌딩 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "splash-and-crush",
@@ -7402,7 +7623,8 @@
     ],
     "garnish": "크랜베리 3개, 스트로",
     "note": "럼 플로팅",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "citrus-cooler",
@@ -7440,7 +7662,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "sir-walter",
@@ -7478,7 +7701,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "anejo-highball",
@@ -7517,7 +7741,8 @@
       "레몬 슬라이스 1/2조각으로 장식한다."
     ],
     "garnish": "레몬 슬라이스 1/2조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "aristo",
@@ -7560,7 +7785,8 @@
       "레몬 슬라이스 1/2조각으로 장식한다."
     ],
     "garnish": "레몬 슬라이스 1/2조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "american-grog",
@@ -7596,7 +7822,8 @@
     ],
     "garnish": "레몬 1/8조각, 계피 스틱 1개, 클로브 2~3개",
     "note": "따뜻한 칵테일",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "havana-beach",
@@ -7626,7 +7853,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "isle-of-pines",
@@ -7656,7 +7884,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "island-in-the-sun",
@@ -7699,7 +7928,8 @@
       "1cm두께의 파인애플로 장식한다."
     ],
     "garnish": "1cm두께의 파인애플, 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "atomic-dog",
@@ -7737,7 +7967,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "apple-strudel",
@@ -7784,7 +8015,8 @@
       "시나몬 가루로 장식한다."
     ],
     "garnish": "시나몬 가루, 시나몬 스틱 2개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "apple-pie-no-1",
@@ -7823,7 +8055,8 @@
       "사과 슬라이스 3개로 장식한다."
     ],
     "garnish": "사과 슬라이스 3개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "x-y-z",
@@ -7853,7 +8086,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "yellow-bird",
@@ -7887,7 +8121,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "old-cuban",
@@ -7934,7 +8169,8 @@
       "민트 줄기로 장식한다."
     ],
     "garnish": "민트 줄기",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "illegal",
@@ -7989,7 +8225,8 @@
     ],
     "garnish": "",
     "note": "도기나 테라코타 머그잔에 서빙 가능",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "jamaican-mule",
@@ -8028,7 +8265,8 @@
     ],
     "garnish": "",
     "note": "머들링",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "jackie-daiquiri",
@@ -8068,7 +8306,8 @@
     ],
     "garnish": "오렌지 껍질",
     "note": "일반 다이키리에 오렌지 향이 추가된 것으로, 재클린 케네디가 남편 존 F. 케네디를 위해 만든 게 많은 사람들의 사랑을 받게 됐다. 코인트로를 쓸 때는 생오렌지를 뺀다.",
-    "source": "셀럽의 칵테일 · 남편 존 F. 케네디를 위한"
+    "source": "셀럽의 칵테일 · 남편 존 F. 케네디를 위한",
+    "curated": true
   },
   {
     "id": "jam-daiquiri",
@@ -8102,7 +8341,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "joe-kanoo",
@@ -8133,7 +8373,8 @@
       "오렌지 1/8조각으로 장식한다."
     ],
     "garnish": "오렌지 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "zombie",
@@ -8197,7 +8438,8 @@
     ],
     "garnish": "민트 잎",
     "note": "170g의 크러시드 아이스와 블렌딩",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "castro-cooler",
@@ -8236,7 +8478,8 @@
       "라임 1/8조각으로 장식한다."
     ],
     "garnish": "라임 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "caipirissima",
@@ -8267,7 +8510,8 @@
     ],
     "garnish": "",
     "note": "머들링, 크러시드 아이스",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "canchanchara",
@@ -8307,7 +8551,8 @@
     ],
     "garnish": "라임 웻지",
     "note": "꿀, 물, 라임 넣고 잘 섞어서 잔 바닥과 측면에 돌돌돌 돌려주고 얼음, 술 넣기",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "caribbean-romance",
@@ -8346,7 +8591,8 @@
       "오렌지 슬라이스,로 장식한다."
     ],
     "garnish": "오렌지 슬라이스, , 레몬 or 라임 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "caribean-breeze",
@@ -8385,7 +8631,8 @@
       "라임 1/8조각으로 장식한다."
     ],
     "garnish": "라임 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cable-car",
@@ -8420,7 +8667,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cosmo-ron",
@@ -8455,7 +8703,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cocomacoque",
@@ -8502,7 +8751,8 @@
       "파인애플 스틱으로 장식한다."
     ],
     "garnish": "파인애플 스틱, 코코넛 조각",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "cuba-libre",
@@ -8533,7 +8783,8 @@
       "라임 웻지로 장식한다."
     ],
     "garnish": "라임 웻지",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "cubanita",
@@ -8580,7 +8831,8 @@
     ],
     "garnish": "",
     "note": "얼음 없이 서빙...?",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cuban-manhattan",
@@ -8611,7 +8863,8 @@
       "마라스키노 체리 1개로 장식한다."
     ],
     "garnish": "마라스키노 체리 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cuban-special",
@@ -8645,7 +8898,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "cool-blue",
@@ -8686,7 +8940,8 @@
     ],
     "garnish": "파인애플 슬라이스 2조각, 오렌지 슬라이스 2조각, 체리",
     "note": "블루 큐라소 띄우기",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "quarter-deck",
@@ -8716,7 +8971,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "quaker-s-deck",
@@ -8751,7 +9007,8 @@
     ],
     "garnish": "",
     "note": "라즈베리 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "tahiti-club",
@@ -8790,7 +9047,8 @@
       "레몬 슬라이스로 장식한다."
     ],
     "garnish": "레몬 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "torridora",
@@ -8827,7 +9085,8 @@
     ],
     "garnish": "커피 원두 3개",
     "note": "151 럼 플로팅",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "tom-jerry",
@@ -8866,7 +9125,8 @@
     ],
     "garnish": "",
     "note": "노른자를 풀고 설탕, 계피가루 클로브가루 섞어서 갠다 술과 섞어 잔에 붓는다 끓인 물 넣는다 흰자 머랭쳐서 올린다",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "tropicana",
@@ -8908,7 +9168,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "trinidad",
@@ -8943,7 +9204,8 @@
     ],
     "garnish": "",
     "note": "라임 머들링",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "treacle",
@@ -8978,7 +9240,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "ti-punch",
@@ -9009,7 +9272,8 @@
     ],
     "garnish": "",
     "note": "머들링, 얼음 없이 서빙 Ti Craze(티 크라제)라는 냉수 한 잔 같이 서빙",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pineapple-fizz",
@@ -9044,7 +9308,8 @@
       "파인애플 큐브 10개로 장식한다."
     ],
     "garnish": "파인애플 큐브 10개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "palmetto",
@@ -9075,7 +9340,8 @@
       "오렌지 트위스트로 장식한다."
     ],
     "garnish": "오렌지 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "passion-daiquiri",
@@ -9110,7 +9376,8 @@
       "패션 프루트 반개로 장식한다."
     ],
     "garnish": "패션 프루트 반개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "pearl-diver",
@@ -9156,7 +9423,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "periodista",
@@ -9190,7 +9458,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pain-killer",
@@ -9224,7 +9493,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "presidente",
@@ -9255,7 +9525,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각, 마라스키노 체리 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "french-jam",
@@ -9294,7 +9565,8 @@
       "파인애플 스틱으로 장식한다."
     ],
     "garnish": "파인애플 스틱",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "frozen-daiquiri",
@@ -9334,7 +9606,8 @@
     ],
     "garnish": "라임 껍질",
     "note": "헤밍웨이의 다이키리라고 불린다. 그가 10년간의 슬럼프 뒤에 <노인과 바다>를 낼 수 있었던 건 휴식시간에 즐긴 이 프로즌 다이키리 덕분이었다는 이야기가 전해진다.",
-    "source": "셀럽의 칵테일 · 헤밍웨이가 사랑한"
+    "source": "셀럽의 칵테일 · 헤밍웨이가 사랑한",
+    "curated": true
   },
   {
     "id": "panter",
@@ -9365,7 +9638,8 @@
       "오렌지 1/8조각으로 장식한다."
     ],
     "garnish": "오렌지 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "planter-s-punch",
@@ -9397,7 +9671,8 @@
     ],
     "garnish": "오렌지 제스트",
     "note": "작은 텀블러나 전통 테라코타 잔에 서빙",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "planter-s-punch-no-2",
@@ -9440,7 +9715,8 @@
       "민트 줄기, 체리로 장식한다."
     ],
     "garnish": "민트 줄기, 체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "floridita-daiquiri",
@@ -9478,7 +9754,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pina-colada",
@@ -9513,7 +9790,8 @@
       "허리케인 잔에 따른다."
     ],
     "garnish": "파인애플 조각, 체리",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "pina-colada-2",
@@ -9544,7 +9822,8 @@
       "슬라이스 파인애플, 체리로 장식한다."
     ],
     "garnish": "슬라이스 파인애플, 체리",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "pinerito",
@@ -9574,7 +9853,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "fish-house-punch",
@@ -9617,7 +9897,8 @@
     ],
     "garnish": "",
     "note": "따뜻한 칵테일",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "peach-daiquiri",
@@ -9651,7 +9932,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pink-daiquiri",
@@ -9689,7 +9971,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pink-paradise",
@@ -9729,7 +10012,8 @@
     ],
     "garnish": "파인애플 웨지, 체리",
     "note": "쉐이킹하여 하이볼 잔 서빙 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "hot-buttered-rum",
@@ -9768,7 +10052,8 @@
     ],
     "garnish": "",
     "note": "잔에 버터를 펴바르고 설탕, 넛멕, 계피, 클로브 가루를  잘 개어준다",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "hot-buttered-rum-cow",
@@ -9807,7 +10092,8 @@
     ],
     "garnish": "",
     "note": "잔에 버터를 펴바르고 설탕, 넛멕, 계피, 클로브 가루를  잘 개어준다",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "honeysuckle",
@@ -9837,7 +10123,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "hurricane",
@@ -9891,7 +10178,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "hurricane-leah",
@@ -9938,7 +10226,8 @@
       "체리, 오렌지 휠로 장식한다."
     ],
     "garnish": "체리, 오렌지 휠, 라임 웨지",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "hemingway-special",
@@ -9972,7 +10261,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "aperol-spritz",
@@ -10005,7 +10295,8 @@
       "가볍게 저어준다."
     ],
     "garnish": "오렌지 슬라이스",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "absinthe",
@@ -10033,7 +10324,8 @@
     ],
     "garnish": "",
     "note": "너무 독한 술이라 술이 약한 사람은 물을 조금 섞어 마신다. 반 고흐가 사랑했던 술로 유명하며, 환각성분인 향쑥을 제거하고 아니스로 재료를 교체한 지금의 압생트는 비교적 순한 편이다.",
-    "source": "셀럽의 칵테일 · 고흐의 술"
+    "source": "셀럽의 칵테일 · 고흐의 술",
+    "curated": true
   },
   {
     "id": "blueberry-makgeolli",
@@ -10076,7 +10368,8 @@
       "잔에 담아 블루베리로 장식한다."
     ],
     "garnish": "블루베리",
-    "source": "셀럽의 칵테일 · 막걸리 칵테일"
+    "source": "셀럽의 칵테일 · 막걸리 칵테일",
+    "curated": true
   },
   {
     "id": "green-grape-makgeolli",
@@ -10119,7 +10412,8 @@
     ],
     "garnish": "청포도",
     "note": "청포도가 없을 때는 청포도 주스만 20ml 넣고 갈아준다.",
-    "source": "셀럽의 칵테일 · 막걸리 칵테일"
+    "source": "셀럽의 칵테일 · 막걸리 칵테일",
+    "curated": true
   },
   {
     "id": "golden-scream",
@@ -10149,7 +10443,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "grapefruit-cooler",
@@ -10179,7 +10474,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "green-frappe",
@@ -10218,7 +10514,8 @@
       "사과 슬라이스로 장식한다."
     ],
     "garnish": "사과 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "daily-burst",
@@ -10265,7 +10562,8 @@
       "스트로로 장식한다."
     ],
     "garnish": "스트로",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "strawberry-milkshake",
@@ -10295,7 +10593,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "raspberry-lemonade",
@@ -10331,7 +10630,8 @@
     ],
     "garnish": "레몬 슬라이스 2개",
     "note": "라즈베리, 사워 믹스, 설탕 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "raspberry-squash",
@@ -10362,7 +10662,8 @@
       "레몬 슬라이스 1조각으로 장식한다."
     ],
     "garnish": "레몬 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "rabbit-sunrise",
@@ -10397,7 +10698,8 @@
       "레몬 슬라이스 1조각으로 장식한다."
     ],
     "garnish": "레몬 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "rabbit-cooler",
@@ -10428,7 +10730,8 @@
       "라임 껍질 1조각으로 장식한다."
     ],
     "garnish": "라임 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "lemonade",
@@ -10459,7 +10762,8 @@
       "레몬 슬라이스 1/2조각으로 장식한다."
     ],
     "garnish": "레몬 슬라이스 1/2조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "lemon-squash",
@@ -10490,7 +10794,8 @@
       "레몬 슬라이스 1조각으로 장식한다."
     ],
     "garnish": "레몬 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "madras-special",
@@ -10521,7 +10826,8 @@
       "오렌지 슬라이스 1조각으로 장식한다."
     ],
     "garnish": "오렌지 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "my-sky",
@@ -10552,7 +10858,8 @@
       "사과 2조각으로 장식한다."
     ],
     "garnish": "사과 2조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "mango-breeze",
@@ -10582,7 +10889,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "mango-sparkle",
@@ -10613,7 +10921,8 @@
       "라임 슬라이스 1조각으로 장식한다."
     ],
     "garnish": "라임 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "muesli-brunch",
@@ -10653,7 +10962,8 @@
     ],
     "garnish": "뮤즐리, 벌꿀 조금, 딸기 슬라이스 2개",
     "note": "뮤즐리 제외 1/4컵 분쇄된 얼음과 블렌딩 후 가니쉬 장식",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "milky-mango",
@@ -10683,7 +10993,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "banana-juicer",
@@ -10713,7 +11024,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "vanilla-milkshake",
@@ -10743,7 +11055,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bunny-shame",
@@ -10785,7 +11098,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "virgin-mojito",
@@ -10820,7 +11134,8 @@
       "탄산수로 채우고 저어준다."
     ],
     "garnish": "민트, 라임 웨지",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "virgin-colada",
@@ -10847,7 +11162,8 @@
       "0.5cm 두께의 파인애플로 장식한다."
     ],
     "garnish": "0.5cm 두께의 파인애플, 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "baby-breeze",
@@ -10878,7 +11194,8 @@
       "1cm 두께의 파인애플로 장식한다."
     ],
     "garnish": "1cm 두께의 파인애플, 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bora-bora-brew",
@@ -10909,7 +11226,8 @@
       "1cm 두께의 파인애플로 장식한다."
     ],
     "garnish": "1cm 두께의 파인애플, 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bull-s-eye",
@@ -10940,7 +11258,8 @@
       "오렌지 슬라이스 1조각으로 장식한다."
     ],
     "garnish": "오렌지 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bloody-orange",
@@ -10979,7 +11298,8 @@
       "오렌지 껍질로 장식한다."
     ],
     "garnish": "오렌지 껍질",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "southside-cooler",
@@ -11014,7 +11334,8 @@
       "라임 슬라이스 1/2조각으로 장식한다."
     ],
     "garnish": "라임 슬라이스 1/2조각, 민트 잎 1줄기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "shirley-temple",
@@ -11046,7 +11367,8 @@
       "체리로 장식한다."
     ],
     "garnish": "마라스키노 체리",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "strawberry-cooler",
@@ -11082,7 +11404,8 @@
     ],
     "garnish": "딸기 1개",
     "note": "딸기 머들링",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cinderella",
@@ -11112,7 +11435,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "asian-passion",
@@ -11142,7 +11466,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "iced-tea",
@@ -11173,7 +11498,8 @@
       "레몬 슬라이스 1조각으로 장식한다."
     ],
     "garnish": "레몬 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "apple-sparkle",
@@ -11203,7 +11529,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "apple-pilar",
@@ -11238,7 +11565,8 @@
     ],
     "garnish": "",
     "note": "민트 잎 머들링",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "yellow-bear",
@@ -11268,7 +11596,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cucumber-cooler",
@@ -11302,7 +11631,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "gentle-breeze",
@@ -11333,7 +11663,8 @@
       "라임 슬라이스 1조각으로 장식한다."
     ],
     "garnish": "라임 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "california-smoothie",
@@ -11363,7 +11694,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cranberry-colada",
@@ -11389,7 +11721,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "crazy-navel",
@@ -11420,7 +11753,8 @@
       "오렌지 1/8조각으로 장식한다."
     ],
     "garnish": "오렌지 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "tomato-cucumber-sparkle",
@@ -11454,7 +11788,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "tall-spice",
@@ -11502,7 +11837,8 @@
     ],
     "garnish": "레몬 슬라이스 2개",
     "note": "데우고 - 걸러서 식히고 얼음 채운 잔에 따르기",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "tropical-orange",
@@ -11541,7 +11877,8 @@
       "코코넛 조각으로 장식한다."
     ],
     "garnish": "코코넛 조각, 라즈베리 3개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "parisette",
@@ -11567,7 +11904,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "parson-s-special",
@@ -11606,7 +11944,8 @@
       "오렌지, 레몬 슬라이스로 장식한다."
     ],
     "garnish": "오렌지, 레몬 슬라이스, 각 1조각씩",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "passion-breeze",
@@ -11636,7 +11975,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "passion-cooler",
@@ -11666,7 +12006,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "purple-pash",
@@ -11697,7 +12038,8 @@
       "라임 슬라이스 1조각으로 장식한다."
     ],
     "garnish": "라임 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pain-cutter",
@@ -11728,7 +12070,8 @@
       "0.5cm 두께의 파인애플로 장식한다."
     ],
     "garnish": "0.5cm 두께의 파인애플, 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pussy-foot",
@@ -11766,7 +12109,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "prairie-oyster",
@@ -11808,7 +12152,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "fresh-fraise",
@@ -11855,7 +12200,8 @@
       "민트 잎, 딸기로 장식한다."
     ],
     "garnish": "민트 잎, 딸기",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "forsted-berry",
@@ -11894,7 +12240,8 @@
       "딸기 슬라이스 4개로 장식한다."
     ],
     "garnish": "딸기 슬라이스 4개, 민트 줄기",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "planter-s-punchless",
@@ -11929,7 +12276,8 @@
       "라임 1/8조각으로 장식한다."
     ],
     "garnish": "라임 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "florida",
@@ -11967,7 +12315,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pink-lemonade",
@@ -12002,7 +12351,8 @@
       "레몬 슬라이스 2개로 장식한다."
     ],
     "garnish": "레몬 슬라이스 2개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "pink-banana",
@@ -12032,7 +12382,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pink-pineapple",
@@ -12070,7 +12421,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "holy-mary",
@@ -12112,7 +12464,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "caiprioska",
@@ -12143,7 +12496,8 @@
     ],
     "garnish": "",
     "note": "라임, 설탕 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "kiss-of-fire",
@@ -12178,7 +12532,8 @@
       "설탕 리밍으로 장식한다."
     ],
     "garnish": "설탕 리밍",
-    "source": "조주기능사"
+    "source": "조주기능사",
+    "curated": false
   },
   {
     "id": "l-a-sunrise",
@@ -12219,7 +12574,8 @@
     ],
     "garnish": "오렌지 휠, 체리",
     "note": "럼을 마지막에 띄운다",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "seabreeze",
@@ -12250,7 +12606,8 @@
       "라임 or 레몬 웨지로 장식한다."
     ],
     "garnish": "라임 or 레몬 웨지",
-    "source": "조주기능사"
+    "source": "조주기능사",
+    "curated": false
   },
   {
     "id": "god-mother",
@@ -12276,7 +12633,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "goober",
@@ -12323,7 +12681,8 @@
       "키위 2조각으로 장식한다."
     ],
     "garnish": "키위 2조각, 라즈베리 2조각",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "green-russian",
@@ -12349,7 +12708,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "napoli",
@@ -12380,7 +12740,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "naked-pretzel",
@@ -12414,7 +12775,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "knock-out",
@@ -12449,7 +12811,8 @@
       "체리로 장식한다."
     ],
     "garnish": "체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "double-vision",
@@ -12491,7 +12854,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "raspberry-mule",
@@ -12523,7 +12887,8 @@
     ],
     "garnish": "라임 슬라이스 1조각",
     "note": "머들링 후 걸러주기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "raspberry-mint-martini",
@@ -12558,7 +12923,8 @@
     ],
     "garnish": "",
     "note": "머들링, 쉐이킹 후 걸러주기 민트 잎은 쉐이킹 때 넣기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "russian-ballet",
@@ -12588,7 +12954,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "russian-spring-punch",
@@ -12627,7 +12994,8 @@
       "블랙베리로 장식한다."
     ],
     "garnish": "블랙베리, 레몬 슬라이스(옵션)",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "red-russian",
@@ -12654,7 +13022,8 @@
       "마라스키노 체리 1개로 장식한다."
     ],
     "garnish": "마라스키노 체리 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "lemon-drop",
@@ -12685,7 +13054,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "lemon-drop-martini",
@@ -12716,7 +13086,8 @@
       "설탕 리밍으로 장식한다."
     ],
     "garnish": "설탕 리밍",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "road-runner",
@@ -12747,7 +13118,8 @@
       "설탕, 넛멕 리밍으로 장식한다."
     ],
     "garnish": "설탕, 넛멕 리밍, 넛멕",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "long-grape",
@@ -12783,7 +13155,8 @@
     ],
     "garnish": "반 가른 포도 3개",
     "note": "포도 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "long-island-lemonade",
@@ -12828,7 +13201,8 @@
     ],
     "garnish": "레몬 슬라이스 1/2조각",
     "note": "콜라를 바닥에 깔고 층짓기 데킬라 넣기도 함",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "long-island-ice-tea",
@@ -12879,7 +13253,8 @@
       "레몬 슬라이스 (옵션)로 장식한다."
     ],
     "garnish": "레몬 슬라이스 (옵션)",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "lychee-martini",
@@ -12909,7 +13284,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "mani-masi",
@@ -12949,7 +13325,8 @@
     ],
     "garnish": "딸기 슬라이스 3조각",
     "note": "딸기 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "madras",
@@ -12980,7 +13357,8 @@
       "오렌지 1/8 조각으로 장식한다."
     ],
     "garnish": "오렌지 1/8 조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "madraski",
@@ -13016,7 +13394,8 @@
     ],
     "garnish": "껍질 벗긴 키위 슬라이스",
     "note": "키위 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "melon-martini",
@@ -13047,7 +13426,8 @@
     ],
     "garnish": "",
     "note": "머들링, 쉐이킹 후 걸러주기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "metropolitan",
@@ -13082,7 +13462,8 @@
       "라임 껍질 1조각으로 장식한다."
     ],
     "garnish": "라임 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "vodka-lime-sour",
@@ -13112,7 +13493,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "moscow-mule",
@@ -13144,7 +13526,8 @@
       "가볍게 저어준다."
     ],
     "garnish": "라임 웨지, 민트",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "banana-extravaganza",
@@ -13187,7 +13570,8 @@
       "파인애플, 라임 한 조각씩으로 장식한다."
     ],
     "garnish": "파인애플, 라임 한 조각씩",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "balalaika",
@@ -13217,7 +13601,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "burgundy-juicer",
@@ -13251,7 +13636,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "berry-blush",
@@ -13294,7 +13680,8 @@
     ],
     "garnish": "",
     "note": "머들링 후 걸러주기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "vesper",
@@ -13325,7 +13712,8 @@
       "레몬 제스트로 장식한다."
     ],
     "garnish": "레몬 제스트",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "bay-breeze",
@@ -13356,7 +13744,8 @@
       "라임 1/8조각으로 장식한다."
     ],
     "garnish": "라임 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "betty-blue",
@@ -13391,7 +13780,8 @@
       "체리 1개로 장식한다."
     ],
     "garnish": "체리 1개, 오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "velvet-peach-hammer",
@@ -13423,7 +13813,8 @@
     ],
     "garnish": "복숭아 슬라이스",
     "note": "샷잔에 쉐이킹으로 서빙 가능 (보드카 28 추가)",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "velvet-hammer",
@@ -13454,7 +13845,8 @@
       "다크 초콜릿 1조각으로 장식한다."
     ],
     "garnish": "다크 초콜릿 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "vodka-grasshopper",
@@ -13485,7 +13877,8 @@
       "민트 줄기로 장식한다."
     ],
     "garnish": "민트 줄기",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "vodka-gimlet",
@@ -13517,7 +13910,8 @@
     ],
     "garnish": "촘촘하게 꼰, 라임 트위스트",
     "note": "온더락잔에 얼음과 함께 서빙 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "celeb-vodka-martini",
@@ -13548,7 +13942,8 @@
     ],
     "garnish": "레몬 껍질",
     "note": "영화 007시리즈 제임스 본드의 \"Vodka martini, shaken not stirred(젓지 말고 흔들어서)\"라는 대사로 유명하다. 1964년 007 골든핑거에 처음 등장했다.",
-    "source": "셀럽의 칵테일 · 제임스 본드의 술"
+    "source": "셀럽의 칵테일 · 제임스 본드의 술",
+    "curated": true
   },
   {
     "id": "vodka-martini-dry",
@@ -13575,7 +13970,8 @@
       "그린 올리브 1개로 장식한다."
     ],
     "garnish": "그린 올리브 1개, 혹은 레몬 2조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "vodka-martini-extra-dry",
@@ -13602,7 +13998,8 @@
       "그린 올리브 1개로 장식한다."
     ],
     "garnish": "그린 올리브 1개, 혹은 레몬 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "vodka-sour",
@@ -13641,7 +14038,8 @@
       "레몬 슬라이스 or로 장식한다."
     ],
     "garnish": "레몬 슬라이스 or, 체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "vodka-stinger",
@@ -13667,7 +14065,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "vodka-sling",
@@ -13702,7 +14101,8 @@
       "레몬 슬라이스로 장식한다."
     ],
     "garnish": "레몬 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "vodka-collins",
@@ -13737,7 +14137,8 @@
       "레몬 슬라이스로 장식한다."
     ],
     "garnish": "레몬 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "bull-frog",
@@ -13765,7 +14166,8 @@
     ],
     "garnish": "라임 1/8개",
     "note": "레몬 즙 짜넣고 넣기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "black-russian",
@@ -13791,7 +14193,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "bloody-mary",
@@ -13834,7 +14237,8 @@
       "간을 맞춘다."
     ],
     "garnish": "셀러리 스틱, 레몬",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "bloody-mary-no-2",
@@ -13890,7 +14294,8 @@
     ],
     "garnish": "레몬 슬라이스, 샐러리 스틱, , 바질 or 월계수 잎 2장, 방울토마토, 후춧가루",
     "note": "셰리 마지막에 붓기",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "bloody-bull",
@@ -13924,7 +14329,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "blue-lagoon",
@@ -13955,7 +14361,8 @@
       "체리로 장식한다."
     ],
     "garnish": "체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "blue-lagoon-highball",
@@ -13989,7 +14396,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "san-francisco",
@@ -14032,7 +14440,8 @@
       "파인애플 1조각으로 장식한다."
     ],
     "garnish": "파인애플 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "sex-on-the-beach",
@@ -14067,7 +14476,8 @@
       "오렌지 슬라이스로 장식한다."
     ],
     "garnish": "오렌지 슬라이스",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "sex-on-the-beach-2",
@@ -14105,7 +14515,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "salty-dog",
@@ -14133,7 +14544,8 @@
     ],
     "garnish": "소금",
     "note": "소금 리밍",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "sheer-elegance",
@@ -14164,7 +14576,8 @@
       "라즈베리 2개로 장식한다."
     ],
     "garnish": "라즈베리 2개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "screwdriver",
@@ -14191,7 +14604,8 @@
       "오렌지 주스로 채우고 젓는다."
     ],
     "garnish": "오렌지 슬라이스",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "spicy-fifty",
@@ -14231,7 +14645,8 @@
     ],
     "garnish": "레드 칠리 페퍼",
     "note": "더블 스트레인",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "sino-soviet-split",
@@ -14266,7 +14681,8 @@
     ],
     "garnish": "",
     "note": "우유 대신 바닐라 아이스크림 1스쿱 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "sea-breeze",
@@ -14297,7 +14713,8 @@
       "오렌지 제스트, 체리로 장식한다."
     ],
     "garnish": "오렌지 제스트, 체리",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "sisco-bay",
@@ -14337,7 +14754,8 @@
     ],
     "garnish": "레몬 슬라이스",
     "note": "오렌지 주스, 레모네이드 빌드",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "citronella-cooler",
@@ -14372,7 +14790,8 @@
       "라임 웨지로 장식한다."
     ],
     "garnish": "라임 웨지",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "thunder-and-lightning",
@@ -14415,7 +14834,8 @@
       "라임, 오렌지 트위스트로 장식한다."
     ],
     "garnish": "라임, 오렌지 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "aquamarine",
@@ -14449,7 +14869,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "alexander-the-great",
@@ -14484,7 +14905,8 @@
       "다크 초콜릿 1조각으로 장식한다."
     ],
     "garnish": "다크 초콜릿 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "apple-martini",
@@ -14514,7 +14936,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "uncle-vanya",
@@ -14544,7 +14967,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "espresso-martini",
@@ -14579,7 +15003,8 @@
       "칵테일 잔에 걸러 따른다."
     ],
     "garnish": "커피콩 3알",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "cucumber-martini",
@@ -14610,7 +15035,8 @@
     ],
     "garnish": "",
     "note": "머들링, 쉐이킹 후 걸러주기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "woo-woo",
@@ -14640,7 +15066,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "watermelon-martini",
@@ -14668,7 +15095,8 @@
     ],
     "garnish": "수박 웨지",
     "note": "샷잔에 서빙 가능 수박 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "english-tea",
@@ -14707,7 +15135,8 @@
       "레몬 트위스트,로 장식한다."
     ],
     "garnish": "레몬 트위스트,, 민트 줄기",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "jungle-joe",
@@ -14737,7 +15166,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "jungle-juice",
@@ -14783,7 +15213,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "jericho-s-breeze",
@@ -14830,7 +15261,8 @@
       "파인애플 슬라이스로 장식한다."
     ],
     "garnish": "파인애플 슬라이스, or 체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "georgia-peach",
@@ -14865,7 +15297,8 @@
       "복숭아 슬라이스로 장식한다."
     ],
     "garnish": "복숭아 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "gid-barnett",
@@ -14909,7 +15342,8 @@
     ],
     "garnish": "오렌지 트위스트",
     "note": "크러시드 아이스 잔에 서빙",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "gipsy-queen",
@@ -14939,7 +15373,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "chocolate-martini",
@@ -14971,7 +15406,8 @@
     ],
     "garnish": "",
     "note": "브라운을 마지막에 넣어 가라앉게 한다",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "chocolate-mint-martini",
@@ -15003,7 +15439,8 @@
     ],
     "garnish": "",
     "note": "민트 그린을 마지막에 넣어 가라앉게 한다",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "chi-chi",
@@ -15034,7 +15471,8 @@
       "1cm 두께의 파인애플 1조각으로 장식한다."
     ],
     "garnish": "1cm 두께의 파인애플 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "kamikaze",
@@ -15064,7 +15502,8 @@
       "완성된 칵테일을 샷 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cassisina",
@@ -15092,7 +15531,8 @@
     ],
     "garnish": "라임 1/8조각",
     "note": "라임 즙 짜고 넣고 다른 재료 넣기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "caipirovska",
@@ -15123,7 +15563,8 @@
     ],
     "garnish": "",
     "note": "머들링 후 그대로 두기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "caipiroska",
@@ -15154,7 +15595,8 @@
     ],
     "garnish": "",
     "note": "라임 머들링, 크러시드 아이스",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "cappuccino-cocktail",
@@ -15198,7 +15640,8 @@
     ],
     "garnish": "코코아 파우더 or, 초콜릿 조각",
     "note": "샷잔에 서빙 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "caribbean-cruise",
@@ -15238,7 +15681,8 @@
     ],
     "garnish": "체리",
     "note": "파인애플 주스 빌드",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "cape-codder",
@@ -15265,7 +15709,8 @@
       "라임 슬라이스 1/2조각으로 장식한다."
     ],
     "garnish": "라임 슬라이스 1/2조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cape-codder-cooler",
@@ -15296,7 +15741,8 @@
       "라임 슬라이스 1/2조각으로 장식한다."
     ],
     "garnish": "라임 슬라이스 1/2조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cosmopolitan",
@@ -15331,7 +15777,8 @@
       "칵테일 잔에 걸러 따른다."
     ],
     "garnish": "라임 필",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "koolaid",
@@ -15369,7 +15816,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "kremlin-cooler",
@@ -15404,7 +15852,8 @@
       "라임 슬라이스 1조각으로 장식한다."
     ],
     "garnish": "라임 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "crocodile-cooler",
@@ -15448,7 +15897,8 @@
     ],
     "garnish": "파인애플 웨지, 체리, 라임 휠",
     "note": "일부러 레모네이드 층을 내주는 듯? 밑에 가라 앉은 악어처럼 보이게?",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "clockwork-orange",
@@ -15479,7 +15929,8 @@
     ],
     "garnish": "",
     "note": "오렌지 머들링 후 그대로 두기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "killer-punch",
@@ -15513,7 +15964,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "testa-rossa",
@@ -15544,7 +15996,8 @@
       "오렌지 슬라이스 1/4조각으로 장식한다."
     ],
     "garnish": "오렌지 슬라이스 1/4조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "tetanka",
@@ -15570,7 +16023,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "paradise-martini",
@@ -15609,7 +16063,8 @@
       "딸기 1개로 장식한다."
     ],
     "garnish": "딸기 1개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "pineapple-ginger-martini",
@@ -15645,7 +16100,8 @@
     ],
     "garnish": "파인애플 잎 1장",
     "note": "머들링, 쉐이킹 후 걸러주기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "fuzzy-navel",
@@ -15680,7 +16136,8 @@
       "오렌지 슬라이스로 장식한다."
     ],
     "garnish": "오렌지 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "purple-passion-tea",
@@ -15727,7 +16184,8 @@
     ],
     "garnish": "",
     "note": "패션 프루트 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "purple-haze",
@@ -15761,7 +16219,8 @@
       "완성된 칵테일을 샷 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "purple-hooter",
@@ -15795,7 +16254,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "polynesian",
@@ -15826,7 +16286,8 @@
       "설탕 리밍으로 장식한다."
     ],
     "garnish": "설탕 리밍, 라임 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "polish-martini",
@@ -15861,7 +16322,8 @@
       "사과 슬라이스 2~3조각으로 장식한다."
     ],
     "garnish": "사과 슬라이스 2~3조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "french-martini",
@@ -15892,7 +16354,8 @@
       "레몬 껍질 향으로 장식한다."
     ],
     "garnish": "레몬 껍질 향",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "french-canadian",
@@ -15927,7 +16390,8 @@
       "크랜베리 3개로 장식한다."
     ],
     "garnish": "크랜베리 3개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "frisky-bison",
@@ -15971,7 +16435,8 @@
     ],
     "garnish": "없음",
     "note": "모든 재료 넣고 쉐이킹",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "fiesta",
@@ -16005,7 +16470,8 @@
       "완성된 칵테일을 샷 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "harvey-wallbanger",
@@ -16038,7 +16504,8 @@
     ],
     "garnish": "오렌지 슬라이스",
     "note": "갈리아노 마지막에 띄우기",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "headless-horseman",
@@ -16069,7 +16536,8 @@
       "오렌지 슬라이스로 장식한다."
     ],
     "garnish": "오렌지 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "hairy-sunrise",
@@ -16108,7 +16576,8 @@
       "라임 슬라이스,로 장식한다."
     ],
     "garnish": "라임 슬라이스,, 민트 줄기",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "hazel-cream",
@@ -16143,7 +16612,8 @@
       "과립형 커피 or로 장식한다."
     ],
     "garnish": "과립형 커피 or, 헤이즐 넛",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "henrietta-wallbanger",
@@ -16173,7 +16643,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "white-russian",
@@ -16204,7 +16675,8 @@
       "생크림을 위에 살며시 부어 층을 만든다."
     ],
     "garnish": "없음",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "honeymoon-cocktail",
@@ -16238,7 +16710,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "조주기능사"
+    "source": "조주기능사",
+    "curated": false
   },
   {
     "id": "pousse-cafe",
@@ -16268,7 +16741,8 @@
       "완성된 칵테일을 리큐르 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "조주기능사"
+    "source": "조주기능사",
+    "curated": false
   },
   {
     "id": "ve-n-to",
@@ -16312,7 +16786,8 @@
     ],
     "garnish": "레몬 제스트, 청포도",
     "note": "스몰 텀블러 잔",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "gotham",
@@ -16342,7 +16817,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "grape-escape",
@@ -16378,7 +16854,8 @@
     ],
     "garnish": "바닥에 가지달린 적포도 3알, 위에 청포도 3알",
     "note": "제조법 특이함 찾아볼 것 청포도 머들링 쉐이킹",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "grape-cooler",
@@ -16418,7 +16895,8 @@
     ],
     "garnish": "청포도 2개, 적포도 2개",
     "note": "청포도 적포도 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "gimp",
@@ -16448,7 +16926,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "normandy-cooler",
@@ -16483,7 +16962,8 @@
       "라임 1/8조각으로 장식한다."
     ],
     "garnish": "라임 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "nikolaschka",
@@ -16511,7 +16991,8 @@
     ],
     "garnish": "레몬 슬라이스 1조각",
     "note": "잔 위에 올리기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "nicky-finn",
@@ -16545,7 +17026,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "depth-bomb",
@@ -16579,7 +17061,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "dee-light",
@@ -16614,7 +17097,8 @@
     ],
     "garnish": "",
     "note": "머들링",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "rose",
@@ -16645,7 +17129,8 @@
       "마라스키노 체리 1개로 장식한다."
     ],
     "garnish": "마라스키노 체리 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "maxim-s-coffee",
@@ -16679,7 +17164,8 @@
       "완성된 칵테일을 머그 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "morning-glory",
@@ -16722,7 +17208,8 @@
       "체리로 장식한다."
     ],
     "garnish": "체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "mint-iced-coffee",
@@ -16757,7 +17244,8 @@
       "레몬 트위스트로 장식한다."
     ],
     "garnish": "레몬 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "banana-bliss",
@@ -16783,7 +17271,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bounty-boat",
@@ -16813,7 +17302,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "vandervilt",
@@ -16844,7 +17334,8 @@
       "마라스키노 체리 1개로 장식한다."
     ],
     "garnish": "마라스키노 체리 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "burgos",
@@ -16870,7 +17361,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bombei",
@@ -16900,7 +17392,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "brown-bear",
@@ -16926,7 +17419,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "brandy-soda",
@@ -16952,7 +17446,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "brandy-daisy",
@@ -16987,7 +17482,8 @@
       "라즈베리 5개로 장식한다."
     ],
     "garnish": "라즈베리 5개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "brandy-mint-julep",
@@ -17035,7 +17531,8 @@
     ],
     "garnish": "복숭아 슬라이스, 민트 잎 2장",
     "note": "복숭아, 민트, 설탕, 찬 물 넣고 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "brandy-milk-punch",
@@ -17066,7 +17563,8 @@
       "넛멕 가루로 장식한다."
     ],
     "garnish": "넛멕 가루",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "brandy-blazer",
@@ -17097,7 +17595,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "brandy-smash",
@@ -17132,7 +17631,8 @@
     ],
     "garnish": "",
     "note": "민트 설탕 머들링 크러시드 아이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "brandy-alexander",
@@ -17163,7 +17663,8 @@
       "코코아 리밍으로 장식한다."
     ],
     "garnish": "코코아 리밍",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "brandy-alexander-no-2",
@@ -17198,7 +17699,8 @@
       "초콜릿 웨이퍼 스트로로 장식한다."
     ],
     "garnish": "초콜릿 웨이퍼 스트로",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "brandy-cassis",
@@ -17229,7 +17731,8 @@
       "레몬 껍질과 그 오일로 장식한다."
     ],
     "garnish": "레몬 껍질과 그 오일",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "brandy-cobbler",
@@ -17261,7 +17764,8 @@
     ],
     "garnish": "블랙 베리 2개, 크랜 베리 2개",
     "note": "설탕 소다수 젓고 크러시드 아이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "brandy-colonial",
@@ -17300,7 +17804,8 @@
       "오이 스틱, 민트 줄기로 장식한다."
     ],
     "garnish": "오이 스틱, 민트 줄기",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "brandy-collins",
@@ -17335,7 +17840,8 @@
       "레몬 트위스트로 장식한다."
     ],
     "garnish": "레몬 트위스트, 라임 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "brandy-crusta",
@@ -17378,7 +17884,8 @@
       "두꺼운 슈가 리밍으로 장식한다."
     ],
     "garnish": "두꺼운 슈가 리밍, 돌돌만 오렌지 or 레몬 껍질, 잔 안에 넣기",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "brandy-twist",
@@ -17410,7 +17917,8 @@
     ],
     "garnish": "레몬 트위스트",
     "note": "얼음 없이 샴페인 잔에  서빙 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "brandy-highball",
@@ -17436,7 +17944,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "brandied-port",
@@ -17471,7 +17980,8 @@
       "오렌지 슬라이스로 장식한다."
     ],
     "garnish": "오렌지 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "black-stinger",
@@ -17501,7 +18011,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "black-jack",
@@ -17535,7 +18046,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "blackjack",
@@ -17565,7 +18077,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "biarritz",
@@ -17595,7 +18108,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "b-b",
@@ -17622,7 +18136,8 @@
     ],
     "garnish": "",
     "note": "잔 데우기",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "brandy-benedictine",
@@ -17648,7 +18163,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "brandy-port",
@@ -17674,7 +18190,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "saratoga",
@@ -17713,7 +18230,8 @@
       "파인애플 잎으로 장식한다."
     ],
     "garnish": "파인애플 잎",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "side-car",
@@ -17744,7 +18262,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "sidecar",
@@ -17775,7 +18294,8 @@
       "잔에 걸러 따른다."
     ],
     "garnish": "레몬 트위스트",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "sazerac",
@@ -17815,7 +18335,8 @@
     ],
     "garnish": "레몬 제스트",
     "note": "제조방법 찾아볼 것",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "santina-s-pousse-cafe",
@@ -17845,7 +18366,8 @@
       "완성된 칵테일을 샷 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "sangria",
@@ -17904,7 +18426,8 @@
     ],
     "garnish": "",
     "note": "10잔 분량",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "champs-elysees",
@@ -17938,7 +18461,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "sweet-senorita",
@@ -17977,7 +18501,8 @@
       "시나몬 스틱으로 장식한다."
     ],
     "garnish": "시나몬 스틱",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "star",
@@ -18007,7 +18532,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "stirrup-cup",
@@ -18042,7 +18568,8 @@
       "체리로 장식한다."
     ],
     "garnish": "체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "stinger",
@@ -18069,7 +18596,8 @@
       "민트 잎으로 장식한다."
     ],
     "garnish": "민트 잎",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "special-rough",
@@ -18100,7 +18628,8 @@
     ],
     "garnish": "",
     "note": "잔을 데워서 서빙한다",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "american-beauty",
@@ -18138,7 +18667,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "apothecary",
@@ -18168,7 +18698,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "alexander",
@@ -18199,7 +18730,8 @@
       "넛멕으로 장식한다."
     ],
     "garnish": "넛멕",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "april-shower",
@@ -18229,7 +18761,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "apricot-flower",
@@ -18273,7 +18806,8 @@
     ],
     "garnish": "식용 꽃",
     "note": "애프리콧 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "apricot-fizz",
@@ -18316,7 +18850,8 @@
       "애프리콧 5개로 장식한다."
     ],
     "garnish": "애프리콧 5개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "after-dinner-cocktail",
@@ -18351,7 +18886,8 @@
       "짜낸 라임 웨지로 장식한다."
     ],
     "garnish": "짜낸 라임 웨지",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "apple-brandy",
@@ -18383,7 +18919,8 @@
     ],
     "garnish": "애플 트위스트",
     "note": "얼음과 락잔에 서빙 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "apple-brandy-rickey",
@@ -18414,7 +18951,8 @@
       "짜낸 라임으로 장식한다."
     ],
     "garnish": "짜낸 라임",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "apple-brandy-highball",
@@ -18457,7 +18995,8 @@
       "레몬 껍질로 장식한다."
     ],
     "garnish": "레몬 껍질",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "apple-sour",
@@ -18501,7 +19040,8 @@
     ],
     "garnish": "레몬 슬라이스, 애플 슬라이스, 체리",
     "note": "사과 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "apple-sunrise",
@@ -18535,7 +19075,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "apple-cart",
@@ -18566,7 +19107,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "amber-twist",
@@ -18601,7 +19143,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "a-j",
@@ -18640,7 +19183,8 @@
       "애플 슬라이스로 장식한다."
     ],
     "garnish": "애플 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "el-ultimo",
@@ -18670,7 +19214,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "olympic",
@@ -18700,7 +19245,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "widow-s-kiss",
@@ -18735,7 +19281,8 @@
       "체리 반쪽으로 장식한다."
     ],
     "garnish": "체리 반쪽",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "east-india",
@@ -18770,7 +19317,8 @@
       "파인애플 잎 1조각으로 장식한다."
     ],
     "garnish": "파인애플 잎 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "italian-surfer",
@@ -18801,7 +19349,8 @@
       "파인애플 웨지로 장식한다."
     ],
     "garnish": "파인애플 웨지",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "japanese",
@@ -18832,7 +19381,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "jack-rose",
@@ -18862,7 +19412,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "georgia-mint-julep",
@@ -18893,7 +19444,8 @@
     ],
     "garnish": "",
     "note": "크러시드 아이스",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cherry-blossom",
@@ -18936,7 +19488,8 @@
       "설탕 리밍으로 장식한다."
     ],
     "garnish": "설탕 리밍, 체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "chocolate-bliss",
@@ -18966,7 +19519,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "chocolate-stinger",
@@ -18996,7 +19550,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cassisco",
@@ -19026,7 +19581,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "coffee-nudge",
@@ -19060,7 +19616,8 @@
       "완성된 칵테일을 머그 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "corpse-reviver",
@@ -19090,7 +19647,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cuban",
@@ -19120,7 +19678,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "kirsch-cassis",
@@ -19150,7 +19709,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "t-n-t-n-2",
@@ -19184,7 +19744,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pineapple-spice",
@@ -19228,7 +19789,8 @@
     ],
     "garnish": "파인애플 스틱, 시나몬 스틱",
     "note": "레몬 설탕 파인애플 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "punch-and-judy",
@@ -19271,7 +19833,8 @@
       "레몬 슬라이스로 장식한다."
     ],
     "garnish": "레몬 슬라이스, 오렌지 슬라이스, 딸기 2개, 시나몬 스틱",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "porto-flip",
@@ -19302,7 +19865,8 @@
       "넛멕으로 장식한다."
     ],
     "garnish": "넛멕",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "french-connection",
@@ -19328,7 +19892,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "french-coffee",
@@ -19362,7 +19927,8 @@
       "완성된 칵테일을 머그 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pisco-sour",
@@ -19402,7 +19968,8 @@
       "비터스를 위에 몇 방울 떨어뜨린다."
     ],
     "garnish": "비터스 몇 방울",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "pisco-punch",
@@ -19449,7 +20016,8 @@
       "파인애플 잎 1장으로 장식한다."
     ],
     "garnish": "파인애플 잎 1장",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "piscola",
@@ -19483,7 +20051,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "harvard",
@@ -19513,7 +20082,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "harvard-cooler",
@@ -19548,7 +20118,8 @@
       "레몬 슬라이스 1조각으로 장식한다."
     ],
     "garnish": "레몬 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "highbinder",
@@ -19574,7 +20145,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "half-moon",
@@ -19609,7 +20181,8 @@
       "애플 슬라이스로 장식한다."
     ],
     "garnish": "애플 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "honey-moon",
@@ -19644,7 +20217,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "holly-blush",
@@ -19687,7 +20261,8 @@
       "체리로 장식한다."
     ],
     "garnish": "체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "horse-s-neck",
@@ -19719,7 +20294,8 @@
     ],
     "garnish": "레몬 스파이럴",
     "note": "마지막에 비터 뿌리기",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "white-lady-ver-1919",
@@ -19750,7 +20326,8 @@
     ],
     "garnish": "",
     "note": "1919년 해리 매켈론",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "so-tonic",
@@ -19784,7 +20361,8 @@
       "소주를 넣고 토닉워터를 가득 채운 후 잘 저어준다."
     ],
     "garnish": "레몬",
-    "source": "셀럽의 칵테일 · 한국형 소주 칵테일"
+    "source": "셀럽의 칵테일 · 한국형 소주 칵테일",
+    "curated": true
   },
   {
     "id": "iced-tea-soju",
@@ -19822,7 +20400,8 @@
     ],
     "garnish": "",
     "note": "피치 시럽이 없으면 황설탕을 1티스푼 넣는다.",
-    "source": "셀럽의 칵테일 · 한국형 소주 칵테일"
+    "source": "셀럽의 칵테일 · 한국형 소주 칵테일",
+    "curated": true
   },
   {
     "id": "c-c",
@@ -19848,7 +20427,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "golden-screw",
@@ -19882,7 +20462,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "night-day",
@@ -19908,7 +20489,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "nikiski-bellini",
@@ -19943,7 +20525,8 @@
       "복숭아 슬라이스 4조각으로 장식한다."
     ],
     "garnish": "복숭아 슬라이스 4조각",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "diamond-fizz",
@@ -19978,7 +20561,8 @@
       "마라스키노 체리 1개로 장식한다."
     ],
     "garnish": "마라스키노 체리 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "double-luxury",
@@ -20009,7 +20593,8 @@
       "오렌지 트위스트로 장식한다."
     ],
     "garnish": "오렌지 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "rossini",
@@ -20035,7 +20620,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "royal-highball",
@@ -20069,7 +20655,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "ritz-fizz",
@@ -20104,7 +20691,8 @@
       "장미 꽃 잎으로 장식한다."
     ],
     "garnish": "장미 꽃 잎",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "meringue",
@@ -20139,7 +20727,8 @@
     ],
     "garnish": "",
     "note": "생크림 띄우기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "midnight-moon",
@@ -20173,7 +20762,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "mimo-sec",
@@ -20200,7 +20790,8 @@
       "오렌지 트위스트로 장식한다."
     ],
     "garnish": "오렌지 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "barbotage",
@@ -20238,7 +20829,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "vyagra",
@@ -20266,7 +20858,8 @@
     ],
     "garnish": "오렌지 트위스트",
     "note": "Vya바이야 사의 베르뭇 사용",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "valencia",
@@ -20296,7 +20889,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "buck-s-fizz",
@@ -20326,7 +20920,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bellini",
@@ -20353,7 +20948,8 @@
       "가볍게 저어준다."
     ],
     "garnish": "없음",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "black-magic",
@@ -20384,7 +20980,8 @@
       "반으로 자른 적포도 3개로 장식한다."
     ],
     "garnish": "반으로 자른 적포도 3개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "black-velvet",
@@ -20410,7 +21007,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "black-pearl",
@@ -20440,7 +21038,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "blue-champagne",
@@ -20475,7 +21074,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "champagne-sour",
@@ -20505,7 +21105,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "champagne-julep",
@@ -20537,7 +21138,8 @@
     ],
     "garnish": "민트 잎 1줄기",
     "note": "민트 머들링",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "champagne-cocktail",
@@ -20576,7 +21178,8 @@
       "오렌지 제스트와 체리로 장식한다."
     ],
     "garnish": "오렌지 제스트와 체리",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "champagne-classic",
@@ -20612,7 +21215,8 @@
     ],
     "garnish": "오렌지 트위스트",
     "note": "각설탕-비터-브랜디 - 샴페인",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "serendipiti",
@@ -20647,7 +21251,8 @@
     ],
     "garnish": "",
     "note": "민트 머들링",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "sweet-juniper",
@@ -20677,7 +21282,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "stockholm-75",
@@ -20712,7 +21318,8 @@
       "설탕 리밍으로 장식한다."
     ],
     "garnish": "설탕 리밍",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "strawberry-bellini",
@@ -20747,7 +21354,8 @@
       "딸기 1개로 장식한다."
     ],
     "garnish": "딸기 1개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "americana",
@@ -20782,7 +21390,8 @@
     ],
     "garnish": "",
     "note": "비터 뿌린 설탕 잔에 넣고 술 넣기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "american-flyer",
@@ -20817,7 +21426,8 @@
       "라임 껍질 1조각으로 장식한다."
     ],
     "garnish": "라임 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "alfonso",
@@ -20852,7 +21462,8 @@
     ],
     "garnish": "",
     "note": "비터 뿌린 설탕 잔에 넣고 술 넣기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "ambrosia",
@@ -20891,7 +21502,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "oriental-ginger",
@@ -20926,7 +21538,8 @@
       "생강 조각 4개로 장식한다."
     ],
     "garnish": "생강 조각 4개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "ohio",
@@ -20964,7 +21577,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "j-adore",
@@ -21003,7 +21617,8 @@
       "라즈베리 2개로 장식한다."
     ],
     "garnish": "라즈베리 2개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "jacuzzi",
@@ -21037,7 +21652,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "gin-schnapp",
@@ -21072,7 +21688,8 @@
       "복숭아 슬라이스 1개로 장식한다."
     ],
     "garnish": "복숭아 슬라이스 1개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "ginger-champagne",
@@ -21099,7 +21716,8 @@
       "생강 1cm로 장식한다."
     ],
     "garnish": "생강 1cm",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "carol-channing",
@@ -21133,7 +21751,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "corpse-reviver-n-2",
@@ -21163,7 +21782,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "kir-royale",
@@ -21189,7 +21809,8 @@
       "차가운 스파클링 와인으로 천천히 채운다."
     ],
     "garnish": "없음",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "kir-royal",
@@ -21215,7 +21836,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "kir-imperial",
@@ -21241,7 +21863,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "tropical-hibiscus",
@@ -21267,7 +21890,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "french-spring-punch",
@@ -21306,7 +21930,8 @@
       "레몬 슬라이스 1조각으로 장식한다."
     ],
     "garnish": "레몬 슬라이스 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "prince-of-whales",
@@ -21340,7 +21965,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pippo-zoe",
@@ -21375,7 +22001,8 @@
       "반으로 가른 석류로 장식한다."
     ],
     "garnish": "반으로 가른 석류, 짜고 씨 넣기",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "pick-me-up",
@@ -21414,7 +22041,8 @@
       "레몬 트위스트로 장식한다."
     ],
     "garnish": "레몬 트위스트, 오렌지 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "pimm-s-royal",
@@ -21441,7 +22069,8 @@
       "오이 껍질 8cm로 장식한다."
     ],
     "garnish": "오이 껍질 8cm, x 1cm",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "hawaii-breaker",
@@ -21471,7 +22100,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "hawaii-sparkle",
@@ -21497,7 +22127,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "honey-apple",
@@ -21536,7 +22167,8 @@
       "사과 슬라이스 2조각으로 장식한다."
     ],
     "garnish": "사과 슬라이스 2조각",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "hemingway",
@@ -21562,7 +22194,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "new-york",
@@ -21597,7 +22230,8 @@
       "트위스트 레몬 필로 장식한다."
     ],
     "garnish": "트위스트 레몬 필",
-    "source": "조주기능사"
+    "source": "조주기능사",
+    "curated": false
   },
   {
     "id": "god-father",
@@ -21623,7 +22257,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "gaslight",
@@ -21654,7 +22289,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "golden-nail",
@@ -21680,7 +22316,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "new-yorker",
@@ -21710,7 +22347,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "new-york-sour",
@@ -21751,7 +22389,8 @@
     ],
     "garnish": "레몬 or 오렌지 제스트, 체리",
     "note": "와인 플로팅",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "double-standard-sour",
@@ -21791,7 +22430,8 @@
     ],
     "garnish": "레몬 슬라이스, 체리",
     "note": "라임 30 대신 레몬 15 대체 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "double-entendre",
@@ -21831,7 +22471,8 @@
     ],
     "garnish": "애프리콧 6조각 잘라 장식",
     "note": "애프리콧 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "delmarva",
@@ -21865,7 +22506,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "dry-manhattan",
@@ -21900,7 +22542,8 @@
       "레몬 껍질로 장식한다."
     ],
     "garnish": "레몬 껍질",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "dixie",
@@ -21939,7 +22582,8 @@
       "민트 잎으로 장식한다."
     ],
     "garnish": "민트 잎",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "rasping-red",
@@ -21979,7 +22623,8 @@
     ],
     "garnish": "라즈베리 2개",
     "note": "라즈베리 머들링 크러시드 아이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "rusty-nail",
@@ -22006,7 +22651,8 @@
       "레몬 제스트로 장식한다."
     ],
     "garnish": "레몬 제스트",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "red-daisy",
@@ -22045,7 +22691,8 @@
       "레몬 슬라이스로 장식한다."
     ],
     "garnish": "레몬 슬라이스, 오렌지 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "red-hot-passion",
@@ -22096,7 +22743,8 @@
       "오렌지 휠, 체리 2개로 장식한다."
     ],
     "garnish": "오렌지 휠, 체리 2개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "lory-o-more",
@@ -22127,7 +22775,8 @@
       "마라스키노 체리 1개로 장식한다."
     ],
     "garnish": "마라스키노 체리 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "rory-o-more",
@@ -22158,7 +22807,8 @@
       "오렌지 껍질로 장식한다."
     ],
     "garnish": "오렌지 껍질",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "rob-roy",
@@ -22189,7 +22839,8 @@
       "마라스키노 체리 1개로 장식한다."
     ],
     "garnish": "마라스키노 체리 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "lawhill",
@@ -22227,7 +22878,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "lonely-hearts",
@@ -22266,7 +22918,8 @@
       "자몽 슬라이스로 장식한다."
     ],
     "garnish": "자몽 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "louisville-cooler",
@@ -22301,7 +22954,8 @@
       "오렌지 슬라이스로 장식한다."
     ],
     "garnish": "오렌지 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "rickety-lime",
@@ -22336,7 +22990,8 @@
       "라임 트위스트로 장식한다."
     ],
     "garnish": "라임 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "lynchburg-lemonade",
@@ -22371,7 +23026,8 @@
       "레몬 슬라이스 1/2조각으로 장식한다."
     ],
     "garnish": "레몬 슬라이스 1/2조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "mountain",
@@ -22409,7 +23065,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "magnolia",
@@ -22444,7 +23101,8 @@
       "오렌지 트위스티로 장식한다."
     ],
     "garnish": "오렌지 트위스티",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "manhattan",
@@ -22476,7 +23134,8 @@
       "체리로 장식한다."
     ],
     "garnish": "마라스키노 체리",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "morning-glory-fizz",
@@ -22514,7 +23173,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "mocka-martini",
@@ -22548,7 +23208,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "mississippi-planter-s-punch",
@@ -22591,7 +23252,8 @@
       "레몬 슬라이스 3개로 장식한다."
     ],
     "garnish": "레몬 슬라이스 3개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "mint-julep",
@@ -22627,7 +23289,8 @@
     ],
     "garnish": "민트 줄기",
     "note": "민트와 설탕 넣고 머들링 크러시드 아이스",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "mint-julep-southern-style",
@@ -22658,7 +23321,8 @@
       "민트 줄기 5~6개로 장식한다."
     ],
     "garnish": "민트 줄기 5~6개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "million-dollar",
@@ -22696,7 +23360,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bobby-burns",
@@ -22726,7 +23391,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bourbon-cobbler",
@@ -22761,7 +23427,8 @@
       "복숭아 웨지로 장식한다."
     ],
     "garnish": "복숭아 웨지",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "bennett-sour",
@@ -22804,7 +23471,8 @@
       "레몬 슬라이스, 체리로 장식한다."
     ],
     "garnish": "레몬 슬라이스, 체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "boston-sour",
@@ -22839,7 +23507,8 @@
       "레몬 슬라이스 1/2조각으로 장식한다."
     ],
     "garnish": "레몬 슬라이스 1/2조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "boulevardier",
@@ -22870,7 +23539,8 @@
       "오렌지 제스트로 장식한다."
     ],
     "garnish": "오렌지 제스트, 레몬 제스트(옵션)",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "vieux-carre",
@@ -22909,7 +23579,8 @@
       "오렌지 제스트, 체리로 장식한다."
     ],
     "garnish": "오렌지 제스트, 체리",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "brighton-punch",
@@ -22953,7 +23624,8 @@
     ],
     "garnish": "오렌지 슬라이스 2조각, 레몬 슬라이스 2조각",
     "note": "크러시드 아이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "blackthorn",
@@ -22988,7 +23660,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "blood-sand",
@@ -23022,7 +23695,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "blue-blazer",
@@ -23053,7 +23727,8 @@
     ],
     "garnish": "",
     "note": "한 쪽에는 물과 꿀 한 쪽에는 위스키 불",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "beam-me-up-scotty",
@@ -23091,7 +23766,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "sawichi",
@@ -23126,7 +23802,8 @@
       "짜낸 라임으로 장식한다."
     ],
     "garnish": "짜낸 라임",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "shamrock",
@@ -23156,7 +23833,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "sourthern-lady",
@@ -23203,7 +23881,8 @@
       "파인애플 웨지, 체리로 장식한다."
     ],
     "garnish": "파인애플 웨지, 체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "southern-belle",
@@ -23251,7 +23930,8 @@
     ],
     "garnish": "",
     "note": "그레나딘 플로팅 파인애플...?",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "st-patrick-s-day",
@@ -23285,7 +23965,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "scoff-law",
@@ -23323,7 +24004,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "shillelagh",
@@ -23366,7 +24048,8 @@
       "체리2, 라즈베리 2로 장식한다."
     ],
     "garnish": "체리2, 라즈베리 2, 딸기2, 복숭아 슬라이스 2",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "irish-toad",
@@ -23397,7 +24080,8 @@
       "민트 줄기 or 올리브로 장식한다."
     ],
     "garnish": "민트 줄기 or 올리브",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "irish-lemonade",
@@ -23440,7 +24124,8 @@
       "체리로 장식한다."
     ],
     "garnish": "체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "irish-rose",
@@ -23471,7 +24156,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "irish-rickey",
@@ -23502,7 +24188,8 @@
       "라임 슬라이스로 장식한다."
     ],
     "garnish": "라임 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "irish-coffee",
@@ -23537,7 +24224,8 @@
     ],
     "garnish": "",
     "note": "설탕을 잘 녹여주자",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "algonquin",
@@ -23568,7 +24256,8 @@
       "파인애플 잎으로 장식한다."
     ],
     "garnish": "파인애플 잎",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "allegheny",
@@ -23603,7 +24292,8 @@
       "레몬 껍질로 장식한다."
     ],
     "garnish": "레몬 껍질",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "up-to-date",
@@ -23637,7 +24327,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "elk-s-own",
@@ -23675,7 +24366,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "old-pal",
@@ -23706,7 +24398,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "old-fashioned",
@@ -23747,7 +24440,8 @@
       "오렌지 필을 짜서 향을 내고 장식한다."
     ],
     "garnish": "오렌지 필, 체리(선택)",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "ward-eight",
@@ -23783,7 +24477,8 @@
     ],
     "garnish": "오렌지 슬라이스, 레몬 슬라이스, 체리",
     "note": "크러시드 아이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "whiskey-sour",
@@ -23819,7 +24514,8 @@
       "비터스를 위에 몇 방울 떨어뜨려 장식(선택)."
     ],
     "garnish": "레몬 슬라이스, 체리",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "whisky-sour",
@@ -23858,7 +24554,8 @@
       "레몬 슬라이스로 장식한다."
     ],
     "garnish": "레몬 슬라이스, 체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "whiskey-smash",
@@ -23897,7 +24594,8 @@
     ],
     "garnish": "",
     "note": "민트, 설탕, 탄산수 머들링 크러시드 아이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "european-beauty",
@@ -23924,7 +24622,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "ink-street",
@@ -23954,7 +24653,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "jocose-julep",
@@ -23997,7 +24697,8 @@
       "민트 줄기로 장식한다."
     ],
     "garnish": "민트 줄기",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "churchill",
@@ -24031,7 +24732,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "carlton",
@@ -24061,7 +24763,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "canadian-breeze",
@@ -24133,7 +24836,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "coffee-old-fashioned",
@@ -24176,7 +24880,8 @@
       "커피 가루로 장식한다."
     ],
     "garnish": "커피 가루",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "cablegram",
@@ -24207,7 +24912,8 @@
       "레몬 슬라이스로 장식한다."
     ],
     "garnish": "레몬 슬라이스",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "kentucky-colonel",
@@ -24233,7 +24939,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "kentucky-tea",
@@ -24267,7 +24974,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "comodore",
@@ -24301,7 +25009,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "commodore",
@@ -24341,7 +25050,8 @@
     ],
     "garnish": "오렌지 트위스트",
     "note": "라임 15대신 레몬 7로 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "creativity",
@@ -24376,7 +25086,8 @@
       "마라스키노 체리 2개로 장식한다."
     ],
     "garnish": "마라스키노 체리 2개, 라임 슬라이스 2조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "klondike-cooler",
@@ -24407,7 +25118,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "kir",
@@ -24433,7 +25145,8 @@
       "완성된 칵테일을 와인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "tennessee-fizz",
@@ -24468,7 +25181,8 @@
       "복숭아 슬라이스 3개로 장식한다."
     ],
     "garnish": "복숭아 슬라이스 3개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "twistin",
@@ -24503,7 +25217,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각, 마라스키노 체리 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "tipperary",
@@ -24538,7 +25253,8 @@
       "오렌지 슬라이스로 장식한다."
     ],
     "garnish": "오렌지 슬라이스",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "perfect-manhattan",
@@ -24577,7 +25293,8 @@
       "오렌지 껍질, 체리로 장식한다."
     ],
     "garnish": "오렌지 껍질, 체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "penicillin",
@@ -24614,7 +25331,8 @@
     ],
     "garnish": "Candied Ginger",
     "note": "생강 머들링, 싱몰 위스키 빼고 쉐이킹 싱몰 위스키 플로팅",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "paper-plane",
@@ -24648,7 +25366,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "fort-william",
@@ -24683,7 +25402,8 @@
       "레몬 껍질로 장식한다."
     ],
     "garnish": "레몬 껍질",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "polly-special",
@@ -24713,7 +25433,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pulling-bear",
@@ -24748,7 +25469,8 @@
       "오렌지 껍질로 장식한다."
     ],
     "garnish": "오렌지 껍질",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "francis-the-mule",
@@ -24787,7 +25509,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "frisco",
@@ -24817,7 +25540,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "high-voltage",
@@ -24849,7 +25573,8 @@
     ],
     "garnish": "라임 1/4조각",
     "note": "라임 즙 짜넣기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "highland-cooler",
@@ -24883,7 +25608,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "hemingway-sour",
@@ -24913,7 +25639,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "hondarribia",
@@ -24944,7 +25671,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "whiz-bang",
@@ -24982,7 +25710,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "apricot-cocktail",
@@ -25016,7 +25745,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "조주기능사"
+    "source": "조주기능사",
+    "curated": false
   },
   {
     "id": "fdr-martini",
@@ -25048,7 +25778,8 @@
     ],
     "garnish": "올리브",
     "note": "기존 F.D.R 마티니와 다르게 올리브의 향을 더 풍부하게 하기 위해 장식만 하지 않고 으깨서 맛을 냈다. 올리브를 찧은 후 레몬즙을 한두 방울 짜서 넣으면 맛이 진해진다.",
-    "source": "셀럽의 칵테일 · 칵테일 마니아였던 루즈벨트 대통령의 마티니"
+    "source": "셀럽의 칵테일 · 칵테일 마니아였던 루즈벨트 대통령의 마티니",
+    "curated": true
   },
   {
     "id": "grand-royal-fizz",
@@ -25098,7 +25829,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "green-hat",
@@ -25128,7 +25860,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "gilroy",
@@ -25172,7 +25905,8 @@
     ],
     "garnish": "오렌지 껍질",
     "note": "스터해서 데운 브랜디잔에 서빙도 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "gimlet",
@@ -25198,7 +25932,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "gibson",
@@ -25225,7 +25960,8 @@
       "칵테일 어니언 1개로 장식한다."
     ],
     "garnish": "칵테일 어니언 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "negroni",
@@ -25257,7 +25993,8 @@
       "오렌지 필로 장식한다."
     ],
     "garnish": "오렌지 필",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "knickerbocker",
@@ -25287,7 +26024,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "nicky-s-fizz",
@@ -25317,7 +26055,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "dodge",
@@ -25347,7 +26086,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "desert-healer",
@@ -25383,7 +26123,8 @@
     ],
     "garnish": "마라스키노 체리 1개",
     "note": "진저 에일 대체 가능",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "delmonico",
@@ -25418,7 +26159,8 @@
       "체리로 장식한다."
     ],
     "garnish": "체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "dubonnet-cocktail",
@@ -25444,7 +26186,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "martini",
@@ -25476,7 +26219,8 @@
       "올리브나 레몬 필로 장식한다."
     ],
     "garnish": "올리브 또는 레몬 필",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "diabola",
@@ -25506,7 +26250,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "ramos-gin-fizz",
@@ -25552,7 +26297,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "ramos-fizz",
@@ -25607,7 +26353,8 @@
     ],
     "garnish": "",
     "note": "쉐이킹 2분 - 더블 스트레인 드라이 쉐이킹 1분 - 탄산 붓기",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "last-word",
@@ -25641,7 +26388,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "raspberry-collins",
@@ -25677,7 +26425,8 @@
     ],
     "garnish": "레몬 슬라이스 1/2조각",
     "note": "머들링 후 걸러주기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "raffles-sling",
@@ -25728,7 +26477,8 @@
       "파인애플 잎 2장으로 장식한다."
     ],
     "garnish": "파인애플 잎 2장",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "london-fog",
@@ -25759,7 +26509,8 @@
     ],
     "garnish": "",
     "note": "미네랄-페르노-진 순서",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "red-lion",
@@ -25793,7 +26544,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "red-snapper",
@@ -25840,7 +26592,8 @@
       "샐러리 잎 1줄기로 장식한다."
     ],
     "garnish": "샐러리 잎 1줄기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "lemony-snicket",
@@ -25875,7 +26628,8 @@
       "마라스키노 체리 1개로 장식한다."
     ],
     "garnish": "마라스키노 체리 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "resolute",
@@ -25905,7 +26659,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "lady-killer",
@@ -25944,7 +26699,8 @@
       "오렌지 1/8조각으로 장식한다."
     ],
     "garnish": "오렌지 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "remsen-cooler",
@@ -25974,7 +26730,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "royal-smile",
@@ -26017,7 +26774,8 @@
       "레몬 트위스트로 장식한다."
     ],
     "garnish": "레몬 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "lone-tree",
@@ -26048,7 +26806,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "rolls-royce",
@@ -26082,7 +26841,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "ruby-dawn",
@@ -26125,7 +26885,8 @@
       "사과 슬라이스 4~5개로 장식한다."
     ],
     "garnish": "사과 슬라이스 4~5개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "leave-it-to-me",
@@ -26164,7 +26925,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "martinez",
@@ -26199,7 +26961,8 @@
       "레몬 제스트로 장식한다."
     ],
     "garnish": "레몬 제스트",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "marilyn-monroe-martini",
@@ -26235,7 +26998,8 @@
     ],
     "garnish": "각설탕",
     "note": "각설탕 대신 설탕 1스푼이나 심플시럽을 10ml 써도 된다. 1955년 영화 <7년만의 외출>에서 마릴린 먼로가 마티니에 설탕을 넣어 마시며 유행시킨 달콤한 마티니.",
-    "source": "셀럽의 칵테일 · 달콤한 유혹"
+    "source": "셀럽의 칵테일 · 달콤한 유혹",
+    "curated": true
   },
   {
     "id": "miami-beach",
@@ -26266,7 +27030,8 @@
       "파인애플 잎 1장으로 장식한다."
     ],
     "garnish": "파인애플 잎 1장",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "mamy-taylor",
@@ -26297,7 +27062,8 @@
       "레몬 슬라이스 1/2조각으로 장식한다."
     ],
     "garnish": "레몬 슬라이스 1/2조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "macka",
@@ -26336,7 +27102,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "merry-widow",
@@ -26375,7 +27142,8 @@
       "레몬 껍질로 장식한다."
     ],
     "garnish": "레몬 껍질",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "morro",
@@ -26413,7 +27181,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "monte-carlo-imperial-highball",
@@ -26447,7 +27216,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "monkey-gland",
@@ -26481,7 +27251,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "belmont",
@@ -26512,7 +27283,8 @@
       "라즈베리 2개로 장식한다."
     ],
     "garnish": "라즈베리 2개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "bull-dog",
@@ -26543,7 +27315,8 @@
       "라임 1/8조각으로 장식한다."
     ],
     "garnish": "라임 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bramble",
@@ -26579,7 +27352,8 @@
     ],
     "garnish": "레몬 슬라이스, , 블랙 베리 (옵션)",
     "note": "크러시드 아이스에 쉐이킹해서 붓고 블랙 베리 띄워준다",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "breakfast-martini",
@@ -26614,7 +27388,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bronx",
@@ -26649,7 +27424,8 @@
       "마라스키노 체리 1개로 장식한다."
     ],
     "garnish": "마라스키노 체리 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bronx-terrace",
@@ -26680,7 +27456,8 @@
       "라임 껍질 1조각으로 장식한다."
     ],
     "garnish": "라임 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "black-out",
@@ -26710,7 +27487,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bloodhound",
@@ -26745,7 +27523,8 @@
     ],
     "garnish": "",
     "note": "머들링 후 걸러주기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "blue-devil",
@@ -26785,7 +27564,8 @@
     ],
     "garnish": "체리",
     "note": "레몬 대신 라임 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "blue-bird",
@@ -26819,7 +27599,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "bee-s-knees",
@@ -26855,7 +27636,8 @@
     ],
     "garnish": "레몬 혹은 오렌지 제스트",
     "note": "꿀과 주스 넣고 스터로 풀어서 쉐이킹으로 만든다",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "bijou",
@@ -26889,7 +27671,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "southside",
@@ -26929,7 +27712,8 @@
     ],
     "garnish": "민트 줄기",
     "note": "더블스트레인",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "shady-grove",
@@ -26965,7 +27749,8 @@
     ],
     "garnish": "생강 슬라이스 3개",
     "note": "생강과 함께 쉐이킹하여 진저에일 없이 칵테일잔에 서빙 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "suffering-bastard",
@@ -27005,7 +27790,8 @@
     ],
     "garnish": "민트 줄기, 오렌지 슬라이스(옵션)",
     "note": "S. 바스타드 머그",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "star-daisy",
@@ -27044,7 +27830,8 @@
       "레몬 슬라이스 2개,로 장식한다."
     ],
     "garnish": "레몬 슬라이스 2개, , 청사과 슬라이스 2개,, 체리 (옵션)",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "spring-feeling",
@@ -27074,7 +27861,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "silver-fizz",
@@ -27108,7 +27896,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "singapore-sling",
@@ -27159,7 +27948,8 @@
       "파인애플, 체리로 장식한다."
     ],
     "garnish": "파인애플, 체리",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "ideal-cocktail",
@@ -27195,7 +27985,8 @@
     ],
     "garnish": "체리",
     "note": "자몽 대신 레몬 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "acacia",
@@ -27225,7 +28016,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "alaska",
@@ -27251,7 +28043,8 @@
       "완성된 칵테일을 락 글라스에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "abbey",
@@ -27285,7 +28078,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "abbey-cocktail",
@@ -27320,7 +28114,8 @@
       "체리로 장식한다."
     ],
     "garnish": "체리",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "aviation",
@@ -27355,7 +28150,8 @@
       "마라스키노 체리 1개로 장식한다."
     ],
     "garnish": "마라스키노 체리 1개",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "astoria",
@@ -27386,7 +28182,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "attaboy",
@@ -27417,7 +28214,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "apricot-special",
@@ -27456,7 +28254,8 @@
     ],
     "garnish": "",
     "note": "애프리콧 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "alabama-fizz",
@@ -27491,7 +28290,8 @@
       "민트 잎 1줄기로 장식한다."
     ],
     "garnish": "민트 잎 1줄기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "evolution",
@@ -27522,7 +28322,8 @@
     ],
     "garnish": "",
     "note": "민트 잎 머들링 후 걸러내기",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "extrea-dry-martini",
@@ -27549,7 +28350,8 @@
       "그린 올리브 1개로 장식한다."
     ],
     "garnish": "그린 올리브 1개 , 혹은 레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "angel-face",
@@ -27575,7 +28377,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "elegant",
@@ -27606,7 +28409,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "orange-blosson",
@@ -27633,7 +28437,8 @@
       "오렌지 1/8조각으로 장식한다."
     ],
     "garnish": "오렌지 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "orange-oasis",
@@ -27668,7 +28473,8 @@
       "오렌지 슬라이스로 장식한다."
     ],
     "garnish": "오렌지 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "opal",
@@ -27698,7 +28504,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "western-rose",
@@ -27732,7 +28539,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "wembley",
@@ -27766,7 +28574,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "eureka",
@@ -27800,7 +28609,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "english-rose",
@@ -27839,7 +28649,8 @@
       "체리 2개로 장식한다."
     ],
     "garnish": "체리 2개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "jamaica-glow",
@@ -27873,7 +28684,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "jaizkibel",
@@ -27907,7 +28719,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "zaza",
@@ -27938,7 +28751,8 @@
     ],
     "garnish": "",
     "note": "듀보네 대신 로소 가능",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "jockey-club",
@@ -27972,7 +28786,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "journalist",
@@ -28011,7 +28826,8 @@
       "마라스키노 체리 1개로 장식한다."
     ],
     "garnish": "마라스키노 체리 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "just-try",
@@ -28046,7 +28862,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "john-collins",
@@ -28080,7 +28897,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "g-g",
@@ -28115,7 +28933,8 @@
       "레몬 슬라이스 1/2조각으로 장식한다."
     ],
     "garnish": "레몬 슬라이스 1/2조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "gin-rickey",
@@ -28146,7 +28965,8 @@
       "라임 웨지로 장식한다."
     ],
     "garnish": "라임 웨지",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "gin-martini",
@@ -28173,7 +28993,8 @@
       "둥글게 만 레몬 껍질로 장식한다."
     ],
     "garnish": "둥글게 만 레몬 껍질, or 올리브",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "gin-sangaree",
@@ -28217,7 +29038,8 @@
     ],
     "garnish": "넛멕, 시나몬 스틱",
     "note": "물, 설탕 넣고 섞고 진 섞고 얼음-패션프루트, 소다수 넣고 마지막에 포트 띄우기",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "gin-smash",
@@ -28252,7 +29074,8 @@
     ],
     "garnish": "",
     "note": "설탕, 민트 머들링 후 크러시드 아이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "gin-sling",
@@ -28287,7 +29110,8 @@
       "오렌지 트위스트로 장식한다."
     ],
     "garnish": "오렌지 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "gin-alexander",
@@ -28318,7 +29142,8 @@
       "넛멕으로 장식한다."
     ],
     "garnish": "넛멕",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "gin-aloha",
@@ -28353,7 +29178,8 @@
       "파인애플 잎으로 장식한다."
     ],
     "garnish": "파인애플 잎",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "gin-fizz",
@@ -28389,7 +29215,8 @@
     ],
     "garnish": "레몬 슬라이스, 레몬 제스트(옵션)",
     "note": "얼음 없이 서빙",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "jindo",
@@ -28423,7 +29250,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "조주기능사"
+    "source": "조주기능사",
+    "curated": false
   },
   {
     "id": "gin-tonic",
@@ -28455,7 +29283,8 @@
       "라임을 짜서 넣는다."
     ],
     "garnish": "라임 웨지",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "jinx",
@@ -28486,7 +29315,8 @@
       "파인애플 잎 1장으로 장식한다."
     ],
     "garnish": "파인애플 잎 1장",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "churchill-martini",
@@ -28517,7 +29347,8 @@
     ],
     "garnish": "",
     "note": "버무스 향을 맡으며 진을 마셔도 좋다. 세상에서 가장 드라이한 마티니로 불린다.",
-    "source": "셀럽의 칵테일 · 아주 강한 술을 즐겼던 처칠의 마티니"
+    "source": "셀럽의 칵테일 · 아주 강한 술을 즐겼던 처칠의 마티니",
+    "curated": true
   },
   {
     "id": "cherry-slipper",
@@ -28552,7 +29383,8 @@
       "오렌지 껍질 트위스트로 장식한다."
     ],
     "garnish": "오렌지 껍질 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "cardinal",
@@ -28583,7 +29415,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "caruso",
@@ -28613,7 +29446,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "cowboy-45",
@@ -28651,7 +29485,8 @@
       "완성된 칵테일을 샴페인 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "casino",
@@ -28686,7 +29521,8 @@
       "레몬 제스트와 체리로 장식한다."
     ],
     "garnish": "레몬 제스트와 체리",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "colonial",
@@ -28716,7 +29552,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "corpse-reviver-2",
@@ -28755,7 +29592,8 @@
       "오렌지 제스트로 장식한다."
     ],
     "garnish": "오렌지 제스트",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "queen-cocktail",
@@ -28793,7 +29631,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "crystal-slipper",
@@ -28824,7 +29663,8 @@
       "오렌지 트위스트로 장식한다."
     ],
     "garnish": "오렌지 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "cream-fizz",
@@ -28863,7 +29703,8 @@
       "민트 잎으로 장식한다."
     ],
     "garnish": "민트 잎",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "crimson-cocktail",
@@ -28897,7 +29738,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "claridge",
@@ -28931,7 +29773,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "clover-club",
@@ -28966,7 +29809,8 @@
       "라즈베리로 장식한다."
     ],
     "garnish": "라즈베리",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "kiss-in-the-dark",
@@ -28992,7 +29836,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "tamanaco-dry",
@@ -29018,7 +29863,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "typoon",
@@ -29052,7 +29898,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "tom-collins",
@@ -29086,7 +29933,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "texas-fizz",
@@ -29125,7 +29973,8 @@
       "마라스키노 체리 1개로 장식한다."
     ],
     "garnish": "마라스키노 체리 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "turf",
@@ -29164,7 +30013,8 @@
       "레몬 껍질 1조각으로 장식한다."
     ],
     "garnish": "레몬 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "tuxedo",
@@ -29203,7 +30053,8 @@
       "체리, 레몬 제스트로 장식한다."
     ],
     "garnish": "체리, 레몬 제스트",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "tropical-down",
@@ -29234,7 +30085,8 @@
       "오렌지 1/8조각으로 장식한다."
     ],
     "garnish": "오렌지 1/8조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "tropical-special",
@@ -29273,7 +30125,8 @@
       "라임 슬라이스 2개로 장식한다."
     ],
     "garnish": "라임 슬라이스 2개, 오렌지 슬라이스 2개, 체리 1개",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "paradise",
@@ -29303,7 +30156,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "parisian",
@@ -29333,7 +30187,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "park-avenue",
@@ -29363,7 +30218,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "papaya-sling",
@@ -29402,7 +30258,8 @@
       "파인애플 스틱으로 장식한다."
     ],
     "garnish": "파인애플 스틱",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "palm-beach",
@@ -29432,7 +30289,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "polo-cocktail",
@@ -29462,7 +30320,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "fallen-angel",
@@ -29496,7 +30355,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pollyanna",
@@ -29535,7 +30395,8 @@
     ],
     "garnish": "",
     "note": "과일 머들링",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "french-75",
@@ -29570,7 +30431,8 @@
       "스파클링 와인으로 채운다."
     ],
     "garnish": "레몬 트위스트",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "french-kiss",
@@ -29597,7 +30459,8 @@
       "오렌지 껍질 1조각으로 장식한다."
     ],
     "garnish": "오렌지 껍질 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "free-silver",
@@ -29639,7 +30502,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "princeton",
@@ -29669,7 +30533,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "flamingo",
@@ -29704,7 +30569,8 @@
       "라임 트위스트로 장식한다."
     ],
     "garnish": "라임 트위스트",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "floradora-cooler",
@@ -29744,7 +30610,8 @@
     ],
     "garnish": "라임 슬라이스",
     "note": "진저 에일 교체 가능",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "floridita-bronx",
@@ -29779,7 +30646,8 @@
       "마라스키노 체리 1개로 장식한다."
     ],
     "garnish": "마라스키노 체리 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "fino-martini",
@@ -29806,7 +30674,8 @@
       "칵테일 어니언 1개로 장식한다."
     ],
     "garnish": "칵테일 어니언 1개",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pimm-s-cup",
@@ -29841,7 +30710,8 @@
       "민트 잎, 딸기 슬라이스로 장식한다."
     ],
     "garnish": "민트 잎, 딸기 슬라이스, 레몬, 오렌지 슬라이스, 길게 자른 오이 껍질",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "pink-lady",
@@ -29871,7 +30741,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pink-gin",
@@ -29897,7 +30768,8 @@
       "완성된 칵테일을 샷 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "pink-gin-tonic",
@@ -29927,7 +30799,8 @@
       "완성된 칵테일을 하이볼 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "harlem",
@@ -29958,7 +30831,8 @@
       "파인애플 슬라이스로 장식한다."
     ],
     "garnish": "파인애플 슬라이스",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "hanky-panky",
@@ -29989,7 +30863,8 @@
       "오렌지 제스트로 장식한다."
     ],
     "garnish": "오렌지 제스트",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "hudson-bay",
@@ -30027,7 +30902,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "honolulu-no-1",
@@ -30069,7 +30945,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "honolulu-punch",
@@ -30108,7 +30985,8 @@
       "1cm 두께의 파인애플 1조각으로 장식한다."
     ],
     "garnish": "1cm 두께의 파인애플 1조각",
-    "source": "라루스 칵테일 북"
+    "source": "라루스 칵테일 북",
+    "curated": false
   },
   {
     "id": "hokkaido",
@@ -30138,7 +31016,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "white-lady",
@@ -30168,7 +31047,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "IBA"
+    "source": "IBA",
+    "curated": false
   },
   {
     "id": "white-lily",
@@ -30203,7 +31083,8 @@
       "식용 꽃으로 장식한다."
     ],
     "garnish": "식용 꽃",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "hula-hula",
@@ -30233,7 +31114,8 @@
       "완성된 칵테일을 칵테일 잔에 담아낸다."
     ],
     "garnish": "",
-    "source": "365 칵테일"
+    "source": "365 칵테일",
+    "curated": false
   },
   {
     "id": "caipirinha",
@@ -30264,7 +31146,8 @@
       "카샤사를 붓고 잘 저어준다."
     ],
     "garnish": "라임 조각",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   },
   {
     "id": "long-island",
@@ -30312,6 +31195,7 @@
       "레몬 슬라이스로 장식한다."
     ],
     "garnish": "레몬 슬라이스",
-    "source": "큐레이션"
+    "source": "큐레이션",
+    "curated": true
   }
 ]

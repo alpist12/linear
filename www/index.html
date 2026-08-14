@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-  <meta name="theme-color" content="#faf8ff" />
+  <meta name="theme-color" content="#f7f6f3" />
   <title>칵테일 레시피</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -17,9 +17,6 @@
     </div>
 
     <div id="listScreen" class="view-layer">
-      <div class="glow-blob blob-a"></div>
-      <div class="glow-blob blob-b"></div>
-      <div class="glow-blob blob-c"></div>
       <div class="nav-bar" id="navBar">
         <span class="nav-compact-title" id="navCompactTitle">칵테일 레시피</span>
         <button id="favToggleBtn" class="icon-btn" aria-label="즐겨찾기 보기">
@@ -33,23 +30,39 @@
           <h1>칵테일 레시피</h1>
         </div>
 
-        <div class="search-bar" id="searchBar">
-          <svg viewBox="0 0 24 24" class="icon search-icon"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0A4.5 4.5 0 1114 9.5 4.5 4.5 0 019.5 14z"/></svg>
-          <input type="search" id="searchInput" placeholder="칵테일 또는 재료 검색" autocomplete="off" />
-          <button id="cancelSearchBtn" class="cancel-btn">취소</button>
+        <div class="search-row">
+          <div class="search-bar" id="searchBar">
+            <svg viewBox="0 0 24 24" class="icon search-icon"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0A4.5 4.5 0 1114 9.5 4.5 4.5 0 019.5 14z"/></svg>
+            <input type="search" id="searchInput" placeholder="칵테일 또는 재료 검색" autocomplete="off" />
+            <button id="cancelSearchBtn" class="cancel-btn">취소</button>
+          </div>
+          <button id="ingToggleBtn" class="icon-btn ing-toggle-btn" aria-label="재료로 찾기">
+            <svg viewBox="0 0 24 24" class="icon"><path d="M6 3h12M9 3v6l-5 9a1 1 0 0 0 1 1.5h14a1 1 0 0 0 1-1.5l-5-9V3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+
+        <div class="ingredient-panel hidden" id="ingredientPanel">
+          <div class="ingredient-panel-head">
+            <span>가진 재료를 골라보세요</span>
+            <button id="ingredientClear" class="ingredient-clear hidden">초기화</button>
+          </div>
+          <div class="filter-row" id="ingredientChips"></div>
+        </div>
+
+        <div class="scope-tabs" id="scopeTabs">
+          <button class="scope-tab active" data-scope="curated">추천</button>
+          <button class="scope-tab" data-scope="all">전체 레시피</button>
         </div>
 
         <div class="filter-row" id="baseFilters"></div>
 
-        <div class="section-header">모든 레시피</div>
+        <div class="section-header"><span id="sectionHeaderLabel">추천 레시피</span></div>
         <div id="cardGrid" class="grouped-list"></div>
         <p id="emptyState" class="empty-state hidden">일치하는 레시피가 없습니다</p>
       </main>
     </div>
 
     <section id="detailView" class="view-layer detail-view hidden">
-      <div class="glow-blob blob-a"></div>
-      <div class="glow-blob blob-b"></div>
       <div class="nav-bar detail-nav-bar" id="detailNavBar">
         <button id="backBtn" class="back-btn">
           <svg viewBox="0 0 24 24" class="icon chevron-icon"><path d="M15.5 4.5l-7 7.5 7 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
